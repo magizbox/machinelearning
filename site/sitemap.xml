@@ -4,7 +4,39 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-07-01</lastmod>
+     <lastmod>2016-07-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/process/</loc>
+     <lastmod>2016-07-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/problem/</loc>
+     <lastmod>2016-07-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/gathering/</loc>
+     <lastmod>2016-07-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/preparation/</loc>
+     <lastmod>2016-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,94 +44,80 @@
     
         
     <url>
-     <loc>None/101/</loc>
-     <lastmod>2016-07-01</lastmod>
+     <loc>None/models/</loc>
+     <lastmod>2016-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/201/</loc>
-     <lastmod>2016-07-01</lastmod>
+     <loc>None/model_regression/</loc>
+     <lastmod>2016-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None</loc>
-     <lastmod></lastmod>
+     <loc>None/model_classification/</loc>
+     <lastmod>2016-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/oop/</loc>
-     <lastmod>2016-07-01</lastmod>
+     <loc>None/model_clustering/</loc>
+     <lastmod>2016-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/networking/</loc>
-     <lastmod>2016-07-01</lastmod>
+     <loc>None/model_neuralnetwork/</loc>
+     <lastmod>2016-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/io/</loc>
-     <lastmod>2016-07-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>None/event_based/</loc>
-     <lastmod>2016-07-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/logging/</loc>
-     <lastmod>2016-07-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/configuration/</loc>
-     <lastmod>2016-07-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/web/</loc>
-     <lastmod>2016-07-01</lastmod>
+     <loc>None/ensemble/</loc>
+     <lastmod>2016-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     
 
     
+    <url>
+     <loc>None/evaluation/</loc>
+     <lastmod>2016-07-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
         
     <url>
-     <loc>None/ide/</loc>
-     <lastmod>2016-07-01</lastmod>
+     <loc>None/app_recommendation/</loc>
+     <lastmod>2016-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/package_manager/</loc>
-     <lastmod>2016-07-01</lastmod>
+     <loc>None/app_anomaly/</loc>
+     <lastmod>2016-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/make_a_module/</loc>
-     <lastmod>2016-07-01</lastmod>
+     <loc>None/app_nlp/</loc>
+     <lastmod>2016-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/production/</loc>
-     <lastmod>2016-07-01</lastmod>
+     <loc>None/app_vision/</loc>
+     <lastmod>2016-07-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/app_reduction/</loc>
+     <lastmod>2016-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Gathering - DataScience</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">DataScience</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../process/">Process</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../problem/">Problem Definitation</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Gathering</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../preparation/">Preparation</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Models <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../models/">Models</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_regression/">Regression</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_classification/">Classification</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_clustering/">Clustering</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_neuralnetwork/">Neural Network</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ensemble/">Ensemble</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../evaluation/">Evaluation</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Application <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../app_recommendation/">Recommendation System</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_anomaly/">Anomaly Detection</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_nlp/">Natural Language Processing</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_vision/">Computer Vision</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_reduction/">Dimensionality Reduction</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../problem/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../preparation/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#ds-gathering-preparation">DS: Gathering &amp; Preparation</a></li>
+        
+            <li><a href="#ds-collection">DS: Collection</a></li>
+        
+    
+        <li class="main "><a href="#open-data">Open Data</a></li>
+        
+    
+        <li class="main "><a href="#ds-explore-data-analysis">DS: Explore Data Analysis</a></li>
+        
+            <li><a href="#question-1-whats-size-of-your-data-set">Question 1: What's size of your data set?</a></li>
+        
+            <li><a href="#question-2-what-type-of-variables">Question 2: What type of variables?</a></li>
+        
+            <li><a href="#question-3-what-are-missing-value">Question 3: What are missing value?</a></li>
+        
+    
+        <li class="main "><a href="#tooling">Tooling</a></li>
+        
+    
+        <li class="main "><a href="#gathering">Gathering</a></li>
+        
+            <li><a href="#read-and-write-data-in-python">Read and Write Data in python</a></li>
+        
+    
+        <li class="main "><a href="#read-data">read data</a></li>
+        
+    
+        <li class="main "><a href="#write-data">write data</a></li>
+        
+    
+        <li class="main "><a href="#read-data_1">read data</a></li>
+        
+    
+        <li class="main "><a href="#connect-to-sqlite3">connect to sqlite3</a></li>
+        
+    
+        <li class="main "><a href="#excute-query">excute query</a></li>
+        
+    
+        <li class="main "><a href="#return-dataset">return dataset</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="ds-gathering-preparation">DS: Gathering &amp; Preparation</h1>
+<h2 id="ds-collection">DS: Collection</h2>
+<h1 id="open-data">Open Data</h1>
+<p>wikipedia dumps: <a href="https://dumps.wikimedia.org/other/pagecounts-raw/">https://dumps.wikimedia.org/other/pagecounts-raw/</a></p>
+<h1 id="ds-explore-data-analysis">DS: Explore Data Analysis</h1>
+<p>Ok. You've assigned a machine learning task, then you get some data. What's next?</p>
+<p>Explore Data Analysis is step you must do now.</p>
+<h2 id="question-1-whats-size-of-your-data-set">Question 1: What's size of your data set?</h2>
+<p>How many rows? How many columns?</p>
+<h2 id="question-2-what-type-of-variables">Question 2: What type of variables?</h2>
+<p>categorical, continuous or discrete</p>
+<h2 id="question-3-what-are-missing-value">Question 3: What are missing value?</h2>
+<h1 id="tooling">Tooling</h1>
+<ul>
+<li><a href="https://github.com/JosPolfliet/pandas-profiling">pandas-profiling</a>, <a href="http://nbviewer.jupyter.org/github/JosPolfliet/pandas-profiling/blob/master/examples/meteorites.ipynb"><em>demo</em></a></li>
+</ul>
+<blockquote>
+<p>pip install -U pandas-profiling</p>
+</blockquote>
+<p>[code language="python"]
+import pandas as pd
+import pandas_profiling
+df = pd.read_csv("train.csv", parse_dates=True, encoding='UTF-8')
+pandas_profiling.ProfileReport(df)
+[/code]</p>
+<h1 id="gathering">Gathering</h1>
+<p>Python: Read and Write Data</p>
+<h3 id="read-and-write-data-in-python">Read and Write Data in python</h3>
+<p>This post shows how to import data to Python from numerous resources</p>
+<p><strong>CSV File</strong></p>
+<p>Read a csv file from local or from a server</p>
+<p>[sourcecode language="python"]
+import numpy as np
+import pandas as pd</p>
+<h1 id="read-data">read data</h1>
+<p>df = pd.read_csv('data.csv', header = 0)</p>
+<h1 id="write-data">write data</h1>
+<p>df.to_csv('data.csv', header=1, index=False)
+[/sourcecode]</p>
+<p><strong>Excel File</strong> <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
+<p>[code lang="python"]
+import pandas as pd</p>
+<h1 id="read-data_1">read data</h1>
+<p>df = pd.read_excel('data.xls')
+[/code]</p>
+<p><strong>Sqlite File</strong> <sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup> <sup id="fnref:3"><a class="footnote-ref" href="#fn:3" rel="footnote">3</a></sup></p>
+<p>[code lang="python"]
+import sqlite3</p>
+<p>DB_NAME = "db.sqlite3"
+SELECT_QUERY = "SELECT page_id, type FROM service_page"</p>
+<h1 id="connect-to-sqlite3">connect to sqlite3</h1>
+<p>db_connector = sqlite3.connect(DB_NAME)</p>
+<h1 id="excute-query">excute query</h1>
+<p>cursor = db_connector.execute(SELECT_QUERY)</p>
+<h1 id="return-dataset">return dataset</h1>
+<p>data_set = cursor.fetchall()
+[/code]</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_excel.html">pandas.read_excel</a>\&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="http://www.datacarpentry.org/python-ecology/08-working-with-sql">pandas.read_sqlite</a>\&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="http://www.tutorialspoint.com/sqlite/sqlite_python.htm">sqlite3.read_sqlite</a>\&#160;<a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

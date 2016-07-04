@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Classification - DataScience</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">DataScience</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../process/">Process</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../problem/">Problem Definitation</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../gathering/">Gathering</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../preparation/">Preparation</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Models <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../models/">Models</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_regression/">Regression</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Classification</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_clustering/">Clustering</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_neuralnetwork/">Neural Network</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ensemble/">Ensemble</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../evaluation/">Evaluation</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Application <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../app_recommendation/">Recommendation System</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_anomaly/">Anomaly Detection</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_nlp/">Natural Language Processing</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_vision/">Computer Vision</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_reduction/">Dimensionality Reduction</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../model_regression/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../model_clustering/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#classification">Classification</a></li>
+        
+    
+        <li class="main "><a href="#classification-1">Classification 1</a></li>
+        
+    
+        <li class="main "><a href="#binary-classification">Binary Classification</a></li>
+        
+    
+        <li class="main "><a href="#algorithms-1">Algorithms 1</a></li>
+        
+    
+        <li class="main "><a href="#multiclass-classification">Multiclass Classification</a></li>
+        
+    
+        <li class="main "><a href="#introduction-2">Introduction 2</a></li>
+        
+    
+        <li class="main "><a href="#algorithms-1_1">Algorithms 1</a></li>
+        
+    
+        <li class="main "><a href="#confusion-matrix">Confusion Matrix</a></li>
+        
+    
+        <li class="main "><a href="#multilabel-classification">Multilabel Classification</a></li>
+        
+    
+        <li class="main "><a href="#introduction-1">Introduction 1</a></li>
+        
+    
+        <li class="main "><a href="#implements">Implements</a></li>
+        
+    
+        <li class="main "><a href="#svm">SVM</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="classification">Classification</h1>
+<p><img alt="" src="http://www.hact.org.uk/sites/default/files/uploads/Archives/2014/5/Classification1.png" /></p>
+<h1 id="classification-1">Classification <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></h1>
+<p>A very familiar example is the email spam-catching system: given a set of emails marked as spam and not-spam, it learns the characteristics of spam emails and is then able to process future email messages to mark them as spam or not-spam.</p>
+<p>The technique used in the above example of email spam-catching system is one of the most common machine learning techniques: classification (actually, statistical classification). More precisely it is a supervised statistical classification. Supervised because the system needs to be first trained using already classified training data as opposed to an unsupervised system where such training is not done.</p>
+<p>A supervised learning system that performs classification is known as a learner or, more commonly, a classifier.</p>
+<p>The classifier is first fed training data in which each item is already labeled with the correct label or class. This data is used to train the learning algorithm, which creates models that can then be used to label/classify similar data.</p>
+<p>Formally, given a set of input items, <img src="http://s0.wp.com/latex.php?latex=X = \left\{x_1, x_2, ... x_n\right\}&bg=ffffff&fg=000000&s=0"/> and a set of labels/classes, <img src="http://s0.wp.com/latex.php?latex=Y = \left\{ y_1, y_2, ... y_n \right\}&bg=ffffff&fg=000000&s=0"/> and training data <img src="http://s0.wp.com/latex.php?latex=T = \left \{ (x_i, y_i) | y_i \right \}&bg=ffffff&fg=000000&s=0"/>is the label/class for $latex x_i$, a classifier is a mapping from X to Y $latex f(T, x) = y$.</p>
+<h1 id="binary-classification">Binary Classification</h1>
+<h1 id="algorithms-1">Algorithms <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></h1>
+<ul>
+<li>Two-class SVM</li>
+<li>
+<blockquote>
+<p>100 features, linear model</p>
+</blockquote>
+</li>
+<li>Two-class Logistic Regression</li>
+<li>Fast training, linear model</li>
+<li>Two-class Bayes point machine</li>
+<li>Fast training, linear model</li>
+<li>Two-class random forest</li>
+<li>Accuracy, fast training</li>
+<li>Two-class boosted decision tree</li>
+<li>Accuracy, fast training</li>
+<li>Two-class neural network</li>
+<li>Accuracy, long training times</li>
+</ul>
+<h1 id="multiclass-classification">Multiclass Classification</h1>
+<p><img alt="" src="http://img.blog.csdn.net/20130528171815535" /></p>
+<h1 id="introduction-2">Introduction <sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup></h1>
+<p>In machine learning, multiclass or multinomial classification is the problem of classifying instances into one of the more than two classes (classifying instances into one of the two classes is called binary classification).</p>
+<p>While some classification algorithms naturally permit the use of more than two classes, others are by nature binary algorithms; these can, however, be turned into multinomial classifiers by a variety of strategies.</p>
+<p>Multiclass classification should not be confused with multi-label classification, where multiple labels are to be predicted for each instance.</p>
+<h1 id="algorithms-1_1">Algorithms <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></h1>
+<ul>
+<li>Multiclass Logistic Regression</li>
+<li>Multiclass SVM</li>
+<li>Multiclass Neural Network</li>
+<li>Multiclass Decision Forest</li>
+<li>Multiclass Decision Jungle</li>
+</ul>
+<h1 id="confusion-matrix">Confusion Matrix</h1>
+<p>sklearn plot confusion matrix with labels <sup id="fnref:3"><a class="footnote-ref" href="#fn:3" rel="footnote">3</a></sup></p>
+<p>[code lang="python"]
+import matplotlib.pyplot as plt
+def plot_confusion_matrix(cm, title='Confusion matrix', cmap=plt.cm.Blues, labels=None):
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    cax = ax.matshow(cm)
+    plt.title(title)
+    fig.colorbar(cax)
+    if labels:
+        ax.set_xticklabels([''] + labels)
+        ax.set_yticklabels([''] + labels)
+    plt.xlabel('Predicted')
+    plt.ylabel('True')
+    plt.show()
+[/code]</p>
+<p><img alt="" src="http://i.stack.imgur.com/7wlOk.png" /></p>
+<h1 id="multilabel-classification">Multilabel Classification</h1>
+<p><img alt="" src="https://www.cse.msu.edu/~bucakser/fig3.JPG" /></p>
+<h1 id="introduction-1">Introduction <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></h1>
+<p>In machine learning, multi-label classification and the strongly related problem of multi-output classification are variants of the classification problem where multiple target labels must be assigned to each instance. Multi-label classification should not be confused with multiclass classification, which is the problem of categorizing instances into one of more than two classes. Formally, multi-label learning can be phrased as the problem of finding a model that maps inputs x to binary vectors y, rather than scalar outputs as in the ordinary classification problem.</p>
+<p>There are two main methods for tackling the multi-label classification problem:[1] problem transformation methods and algorithm adaptation methods. Problem transformation methods transform the multi-label problem into a set of binary classification problems, which can then be handled using single-class classifiers. Algorithm adaptation methods adapt the algorithms to directly perform multi-label classification. In other words, rather than trying to convert the problem to a simpler problem, they try to address the problem in its full form.</p>
+<h1 id="implements">Implements</h1>
+<ul>
+<li><a href="http://scikit-learn.org/stable/modules/multiclass.html">Multiclass and multilabel algorithms</a></li>
+</ul>
+<h1 id="svm">SVM</h1>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://en.wikipedia.org/wiki/Multi-label_classification">Multi-label classification</a>&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://en.wikipedia.org/wiki/Multiclass_classification">Multiclass classification</a>&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="http://stackoverflow.com/questions/19233771/sklearn-plot-confusion-matrix-with-labels">sklearn plot confusion matrix with labels</a>&#160;<a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

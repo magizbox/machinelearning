@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Natural Language Processing - DataScience</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">DataScience</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../process/">Process</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../problem/">Problem Definitation</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../gathering/">Gathering</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../preparation/">Preparation</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Models <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../models/">Models</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_regression/">Regression</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_classification/">Classification</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_clustering/">Clustering</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_neuralnetwork/">Neural Network</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ensemble/">Ensemble</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../evaluation/">Evaluation</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Application <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../app_recommendation/">Recommendation System</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_anomaly/">Anomaly Detection</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Natural Language Processing</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_vision/">Computer Vision</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_reduction/">Dimensionality Reduction</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../app_anomaly/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../app_vision/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#natural-language-processing-nlp">Natural Language Processing (NLP)</a></li>
+        
+            <li><a href="#nlp-tasks">NLP Tasks</a></li>
+        
+            <li><a href="#nlp-applications">NLP Applications</a></li>
+        
+    
+        <li class="main "><a href="#pos-tagging">POS Tagging</a></li>
+        
+            <li><a href="#methods">Methods</a></li>
+        
+    
+        <li class="main "><a href="#textual-entailment">Textual entailment</a></li>
+        
+    
+        <li class="main "><a href="#language-modeling">Language Modeling</a></li>
+        
+    
+        <li class="main "><a href="#n-gram-model">N-Gram Model</a></li>
+        
+    
+        <li class="main "><a href="#tfidf">Tfidf</a></li>
+        
+            <li><a href="#python-lab">Python Lab</a></li>
+        
+            <li><a href="#tf">Tf</a></li>
+        
+    
+        <li class="main "><a href="#unigram-bigram-model">Unigram Bigram Model</a></li>
+        
+    
+        <li class="main "><a href="#near-duplicates">Near-Duplicates</a></li>
+        
+    
+        <li class="main "><a href="#word2vec">Word2vec</a></li>
+        
+            <li><a href="#installation">Installation</a></li>
+        
+            <li><a href="#lab">Lab</a></li>
+        
+    
+        <li class="main "><a href="#document-classification">Document Classification</a></li>
+        
+    
+        <li class="main "><a href="#process-1">Process 1</a></li>
+        
+    
+        <li class="main "><a href="#document-clustering">Document Clustering</a></li>
+        
+    
+        <li class="main "><a href="#task-related-terms-in-documents">Task: Related terms in documents</a></li>
+        
+    
+        <li class="main "><a href="#topic-models-lda">Topic Models: LDA</a></li>
+        
+    
+        <li class="main "><a href="#sentiment-analysis">Sentiment Analysis</a></li>
+        
+    
+        <li class="main "><a href="#name-entity-recognization">Name Entity Recognization</a></li>
+        
+            <li><a href="#tutorial">Tutorial</a></li>
+        
+    
+        <li class="main "><a href="#relation-extraction">Relation Extraction</a></li>
+        
+    
+        <li class="main "><a href="#sentence-segmentation">Sentence Segmentation</a></li>
+        
+    
+        <li class="main "><a href="#english-nlp">English NLP</a></li>
+        
+    
+        <li class="main "><a href="#tools">Tools</a></li>
+        
+    
+        <li class="main "><a href="#vietnamese-nlp">Vietnamese NLP</a></li>
+        
+            <li><a href="#part-i-core-problems">Part I. Core Problems</a></li>
+        
+            <li><a href="#part-2-vietnamse-nlp-groups">Part 2. Vietnamse NLP Groups</a></li>
+        
+            <li><a href="#part-3-applications">Part 3. Applications</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="natural-language-processing-nlp">Natural Language Processing (NLP)</h1>
+<p><img alt="" src="https://www.ibm.com/developerworks/mydeveloperworks/blogs/nlp/resource/nlp-shakespeare.jpg" /></p>
+<h2 id="nlp-tasks">NLP Tasks</h2>
+<p>Morphological Analysis</p>
+<p>Discourse Analysis</p>
+<h3>Sentiment Analysis</h3>
+
+<p><a href="https://www.metamind.io/about" target="_blank">MetaMind</a>, @RichardSocher</p>
+<h3>Named Entity Recognition</h3>
+
+<p><a href="http://research.microsoft.com/en-us/people/chiw/kdd15tutorial.aspx" target="_blank">KDD 2015 Tutorial: Automatic Entity Recognition and Typing from Massive Text Corpora - A Phrase and Network Mining Approach</a></p>
+<h3>Relationship Extraction</h3>
+
+<p><a href="http://www.alchemyapi.com/api/relation-extraction" target="_blank">AlchemyAPI</a></p>
+<h2 id="nlp-applications">NLP Applications</h2>
+<p><strong>Information Retrieval (IR)</strong></p>
+<p>Information retrieval (IR) is the activity of obtaining information resources relevant to an information need from a collection of information resources. Searches can be based on metadata or on full-text (or other content-based) indexing.</p>
+<p><strong>Information Extraction (IE)</strong></p>
+<p>Information extraction (IE) is the task of automatically extracting structured information from unstructured and/or semi-structured machine-readable documents. In most of the cases this activity concerns processing human language texts by means of natural language processing (NLP).</p>
+<p><strong>Machine Translation</strong></p>
+<p><strong>Question Answering (QA)</strong></p>
+<p>Question answering (QA) is a computer science discipline within the fields of information retrieval and natural language processing (NLP), which is concerned with building systems that automatically answer questions posed by humans in a natural language.</p>
+<blockquote>
+<p>Is paris capital of France?
+YES</p>
+</blockquote>
+<h3 id="deep-learning">Deep Learning</h3>
+<p><a href="http://u.cs.biu.ac.il/~yogo/nnlp.pdf">A Primer on Neural Network Models for Natural Language Processing</a></p>
+<h3 id="courses">Courses</h3>
+<ul>
+<li>CS224n: Natural Language Processing (<a href="http://web.stanford.edu/class/cs224n/index.shtml">website</a>, <a href="https://www.youtube.com/watch?v=GZhhA3DBs9o&amp;list=PLgtM85Maly3n2Fp1gJVvqb0bTC39CPn1N">video</a>)</li>
+<li><a href="http://cs224d.stanford.edu/">CS224d: Deep Learning for Natural Language Processing</a></li>
+</ul>
+<h1 id="pos-tagging">POS Tagging</h1>
+<p><img alt="" src="https://www.safaribooksonline.com/library/view/natural-language-annotation/9781449332693/figs/web/nlml_0106.png" /></p>
+<p>A Part-Of-Speech Tagger (POS Tagger) is a piece of software that reads text in some language and assigns parts of speech to each word (and other token), such as noun, verb, adjective, etc., although generally computational applications use more fine-grained POS tags like 'noun-plural'.</p>
+<h2 id="methods">Methods</h2>
+<ol>
+<li>Sequence Classification <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></li>
+</ol>
+<h1 id="textual-entailment">Textual entailment</h1>
+<p><img alt="" src="http://image.slidesharecdn.com/acl-tutorial-on-textual-entailment2964/95/acl-tutorial-on-textual-entailment-17-728.jpg?cb=1278312611" /></p>
+<p>Textual entailment (TE) in natural language processing is a directional relation between text fragments. The relation holds whenever the truth of one text fragment follows from another text. In the TE framework, the entailing and entailed texts are termed text (t) and hypothesis (h), respectively. Textual entailment is not the same as pure logical entailment- it has a more relaxed definition: "t entails h" (t ⇒ h) if, typically, a human reading t would infer that h is most likely true. The relation is directional because even if "t entails h", the reverse "h entails t" is much less certain. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
+<h1 id="language-modeling">Language Modeling</h1>
+<p>Language Models <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
+<ul>
+<li>N-Gram</li>
+<li><a href="http://magizbox.com/?p=3843">Tfidf</a></li>
+<li><a href="http://magizbox.com/?p=3083">word2vec</a></li>
+</ul>
+<h1 id="n-gram-model">N-Gram Model</h1>
+<h1 id="tfidf">Tfidf</h1>
+<p>tf–idf, short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. It is often used as a weighting factor in information retrieval and text mining. The tf-idf value increases proportionally to the number of times a word appears in the document, but is offset by the frequency of the word in the corpus, which helps to adjust for the fact that some words appear more frequently in general. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
+<p><code>tf</code> (Term Frequence)</p>
+<p><code>idf</code> (Inverse Document Frequency)</p>
+<p>How term is important in corpus?</p>
+<p><code>tf-idf</code> - Term frequency–Inverse document frequency</p>
+<p>How term is important in document?</p>
+<h2 id="python-lab">Python Lab</h2>
+<p>We exam a corpus with 2 documents</p>
+<ul>
+<li>Doc 1: <em>this is a sample</em></li>
+<li>Doc 2: <em>this is another sample</em></li>
+</ul>
+<h2 id="tf">Tf</h2>
+<table>
+<tr>
+<td>Vocab</td>
+<td>$latex tf=f_{t,d}$</td>
+</tr>
+<tr>
+<td>this</td>
+<td></td>
+</tr>
+<tr>
+<td>is</td>
+<td></td>
+</tr>
+<tr>
+<td>a</td>
+<td></td>
+</tr>
+<tr>
+<td>sample</td>
+<td></td>
+</tr>
+<tr>
+<td>another</td>
+<td></td>
+</tr>
+<tr>
+</table>
+
+<p>[code lang="python"]
+from sklearn.feature_extraction.text import TfidfVectorizer
+X = ["this is a sample", "this is another example"]
+vectorizer = TfidfVectorizer()
+vectorizer.fit_transform(X)
+[/code]</p>
+<p>Now we find what are important terms of this corpus:</p>
+<p>[code lang="python"]
+for term in vectorizer.vocabulary_.keys():
+    index = vectorizer.vocabulary_[term]
+    score = vectorizer.<em>tfidf.idf</em>[index]
+    print "%10s: %2.2f" % (term, score)
+[/code]
+[code]
+      this: 1.00
+    sample: 1.41
+        is: 1.00
+   example: 1.41
+   another: 1.41
+[/code]</p>
+<p><code>sample</code>,<code>example</code> and <code>another</code> are important term in this corpus.</p>
+<p>Next, we look at 2 more documents, and find what are import terms in those documents</p>
+<p>[code lang="python"]
+print vectorizer.vocabulary_
+print vectorizer.transform(["another sample", "this example"])
+[/code]</p>
+<p>[code]
+{u'this': 4, u'sample': 3, u'is': 2, u'example': 1, u'another': 0}
+  (0, 3)    0.707106781187
+  (0, 0)    0.707106781187
+  (1, 4)    0.579738671538
+  (1, 1)    0.814802474667
+[/code]</p>
+<p>In document 1, <code>sample</code> (index 3) and <code>another</code> (index 0) are equally, but in document 2, <code>example</code> (index 0) is more important than <code>this</code> (index 4). The reasons is <code>this</code> appears in whole corpus, there for it doesn't tell us any more information.</p>
+<h1 id="unigram-bigram-model">Unigram Bigram Model</h1>
+<h1 id="near-duplicates">Near-Duplicates</h1>
+<p>Simhash</p>
+<p><a href="http://stackoverflow.com/questions/1908330/simhash-implementation-in-java">Detecting Near-Duplicates for Web Crawling</a></p>
+<p><a href="http://aneurone.blogspot.com/2012/09/simhash.html">SimHash</a></p>
+<h1 id="word2vec">Word2vec</h1>
+<h3 id="installation">Installation</h3>
+<p>[code]
+conda install gensim
+[/code]</p>
+<h3 id="lab">Lab</h3>
+<p>Step 1: I download some articles about Hà Nội (the captial of Việt Nam)</p>
+<p>Step 2: I use vnTokenizer to tokenize words</p>
+<p>Step 3: I train Word2Vec model</p>
+<h4 id="resources">Resources</h4>
+<p>Word2vec-pride-vis <small>[code]<a href="https://github.com/arnicas/word2vec-pride-vis">/code</a>, <a href="http://www.ghostweather.com/files/word2vecpride/">interactive visualization</a></small></p>
+<h1 id="document-classification">Document Classification</h1>
+<p>Document classification or document categorization is a problem in library science, information science and computer science. The task is to assign a document to one or more classes or categories. This may be done "manually" (or "intellectually") or algorithmically. The intellectual classification of documents has mostly been the province of library science, while the algorithmic classification of documents is mainly in information science and computer science. The problems are overlapping, however, and there is therefore interdisciplinary research on document classification. <sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup></p>
+<h1 id="process-1">Process <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></h1>
+<ul>
+<li>Step 1: Generate document features: TFidf Model,</li>
+<li>Step 2: Fit features to a classifier: Multinomial Naive Bayes, Maxent Classifier, DecisionTreeClassifier</li>
+<li>Step 3: Evaluating: use F1 score</li>
+</ul>
+<h1 id="document-clustering">Document Clustering</h1>
+<p>Document clustering (or text clustering) is the application of cluster analysis to textual documents. It has applications in automatic document organization, topic extraction and fast information retrieval or filtering. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
+<ul>
+<li>TopicModel &gt; LDA</li>
+</ul>
+<h1 id="task-related-terms-in-documents">Task: Related terms in documents</h1>
+<p><a href="http://stackoverflow.com/questions/7544266/algorithm-to-find-related-words-in-a-text">Algorithm to find related words in a text</a>
+<a href="http://stackoverflow.com/questions/34650672/how-to-find-related-terms-in-documents">How to find related terms in documents</a></p>
+<h1 id="topic-models-lda">Topic Models: LDA</h1>
+<h1 id="sentiment-analysis">Sentiment Analysis</h1>
+<h1 id="name-entity-recognization">Name Entity Recognization</h1>
+<p><img alt="" src="https://researchkb.files.wordpress.com/2014/02/ner.png" /></p>
+<p>Named-entity recognition (NER) (also known as entity identification, entity chunking and entity extraction) is a subtask of information extraction that seeks to locate and classify elements in text into pre-defined categories such as the names of persons, organizations, locations, expressions of times, quantities, monetary values, percentages, etc. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
+<h2 id="tutorial">Tutorial</h2>
+<p><a href="https://www.youtube.com/watch?v=mbMrRT5Osbk">9 - 3 - Sequence Models for Named Entity Recognition-NLP-Professor Dan Jurafsky &amp; Chris Manning</a></p>
+<h1 id="relation-extraction">Relation Extraction</h1>
+<h1 id="sentence-segmentation">Sentence Segmentation</h1>
+<p><img alt="" src="https://s3.amazonaws.com/work-sample-images/blog_segmentation.jpg" /></p>
+<p>Sentence segmentation is the problem of dividing a string of written language into its component sentences. In English and some other languages, using punctuation, particularly the full stop/period character is a reasonable approximation. However even in English this problem is not trivial due to the use of the full stop character for abbreviations, which may or may not also terminate a sentence.</p>
+<p>For example Mr. is not its own sentence in "Mr. Smith went to the shops in Jones Street." When processing plain text, tables of abbreviations that contain periods can help prevent incorrect assignment of sentence boundaries.</p>
+<p>As with word segmentation, not all written languages contain punctuation characters which are useful for approximating sentence boundaries.</p>
+<h1 id="english-nlp">English NLP</h1>
+<p>Dictionary / Wordnet <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
+<p>Corpus</p>
+<ul>
+<li><a href="https://dumps.wikimedia.org/enwiki/">English Wikipedia</a></li>
+</ul>
+<h1 id="tools">Tools</h1>
+<ul>
+<li><a href="">gensims</a></li>
+<li><a href="">wiki</a></li>
+</ul>
+<h1 id="vietnamese-nlp">Vietnamese NLP</h1>
+<p><a href="http://www.jaist.ac.jp/~bao/Writings/VLSPwhitepaper%20-%20Final.pdf">Hồ Tú Bảo, Về xử lý tiếng Việt trong công nghệ thông tin</a></p>
+<h2 id="part-i-core-problems">Part I. Core Problems</h2>
+<h3 id="11-dictionaries">1.1 Dictionaries</h3>
+<ul>
+<li><a href="http://www.informatik.uni-leipzig.de/~duc/Dict/">2004, Hồ Ngọc Đức, The Free Vietnamese Dictionary Project</a></li>
+</ul>
+<h3 id="12-wordnet">1.2 Wordnet</h3>
+<ul>
+<li><a href="http://viet.wordnet.vn/wnms/editor/search/by-word/y%C3%AAu/2%7Cv">viet wordnet</a></li>
+</ul>
+<h3 id="13-corpus">1.3 Corpus</h3>
+<p><strong><a href="http://viet.jnlp.org/download-du-lieu-tu-vung-corpus" target="_blank">VNESEcorpus</a></strong>, 650.000 sentences, 10.000 articles from vietnamnet.vn, dantri.com.vn, nhanhdan.com.vn. Size: 64.59 Mb</p>
+<p><strong><a href="http://viet.jnlp.org/download-du-lieu-tu-vung-corpus" target="_blank">VNTQcorpus(small)</a></strong>, 300.000 sentences, 1.000 articles from vnthuquan.net
+Size: ~35 Mb</p>
+<p><strong><a href="http://viet.jnlp.org/download-du-lieu-tu-vung-corpus" target="_blank">VNTQcorpus(big)</a></strong>, 1.750.000 sentences, 13.000 articles from vnthuquan.net, Size: ~240 Mb</p>
+<h3 id="14-sentence-segmentation">1.4 <a href="http://magizbox.com/index.php/machine-learning/ds-applications/natural-language-processing/sentence-segmentation/">Sentence Segmentation</a></h3>
+<p>Unknown</p>
+<h3 id="15-word-segmentation">1.5 Word Segmentation</h3>
+<p><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/setting-folded-icon.png" /> <strong><a href="https://github.com/phuonglh/vn.vitk">Vitk</a></strong> <code>spark</code></p>
+<p>Authors: <a href="http://mim.hus.vnu.edu.vn/phuonglh">Le Hong Phuong</a>
+Date: May 08, 2016</p>
+<p>This is the first release of a Vietnamese text processing toolkit, which is called "Vitk", developed by Phuong LE-HONG at College of Natural Sciences, Vietnam National University, Hanoi.</p>
+<p><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/setting-folded-icon.png" /> <strong><a href="http://mim.hus.vnu.edu.vn/phuonglh/softwares/vnTokenizer">vnTokenizer</a></strong> <code>java</code></p>
+<p>Authors: <a href="http://mim.hus.vnu.edu.vn/phuonglh">Le Hong Phuong</a>
+Date: September 28, 2009</p>
+<p>vnTokenizer is a software for tokenizing Vietnamese texts. It segments Vietnamese texts into lexical units (words, names, dates, numbers and other regular expressions) with a high accuracy, of about 98% on a test set extracted from the Vietnamese treebank.</p>
+<p><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/setting-folded-icon.png" />  <strong><a href="http://jvnsegmenter.sourceforge.net/" target="_blank">JVnSegmenter</a></strong> <code>java</code></p>
+<p>Authors: Cam-Tu Nguyen (ncamtu@gmail.com), Xuan-Hieu Phan (pxhieu@gmail.com)
+Date: Mar 24, 2007</p>
+<p>A Java-based Vietnamese Word Segmentation Tool</p>
+<p><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/setting-folded-icon.png" /> <strong><a href="https://github.com/rockkhuya/DongDu" target="_blank">DongDu</a></strong> <code>C++</code></p>
+<p>Authors: rockkhuya(<a href="mailto:rockkhuya@gmail.com">rockkhuya@gmail.com</a>)</p>
+<p>A Vietnamese word segmentation tool.</p>
+<p><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/setting-folded-icon.png" /> <strong><a href="https://github.com/roy-a/Roy_VnTokenizer">Roy_VnTokenizer</a></strong> <code>python</code></p>
+<p>Authors: Anindya Roy
+Date: Jan 22, 2014</p>
+<p>Vietnamese tokenization</p>
+<p><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/setting-folded-icon.png" /> <strong><a href="http://vlsp.vietlp.org:8080/demo/?page=seg_pos_chunk" target="_blank">Online Tool from VLSP</a></strong> <code>online</code></p>
+<p>Not Available</p>
+<h3 id="16-part-of-speech-tagging-pos-tagging">1.6 Part-of-speech tagging (POS Tagging)</h3>
+<p>VCCorp 2016: 94.5% <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>
+Vitk 2016: accurary 95% (Vietnamese Tree Bank)</p>
+<p><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/setting-folded-icon.png" /> <strong><a href="https://github.com/phuonglh/vn.vitk">Vitk</a></strong> <code>spark</code></p>
+<p>Authors: <a href="http://mim.hus.vnu.edu.vn/phuonglh">Le Hong Phuong</a>
+Date: May 08, 2016</p>
+<p>The part-of-speech tagger of Vitk can tag about 1,105,000 tokens per second, on a single machine, giving an accuracy of about 95% on the Vietnamese treebank.</p>
+<p><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/setting-folded-icon.png" /> <strong><a href="http://mim.hus.vnu.edu.vn/phuonglh/softwares/vnTagger" target="_blank">vnTagger</a></strong> <code>java</code></p>
+<p>Vietnamese part-of-speech tagging</p>
+<p>Authors: <a href="http://mim.hus.vnu.edu.vn/phuonglh">Le Hong Phuong</a>
+Date: Aug 05, 2010</p>
+<p><strong>Paper</strong></p>
+<ul>
+<li><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/doc-page-folded-icon.png" /> <a href="http://mim.hus.vnu.edu.vn/phuonglh/node/40">Le Hong Phuong, 2010, An empirical study of maximum entropy approach for part-of-speech tagging of Vietnamese texts</a></li>
+</ul>
+<h3 id="17-coreference">1.7 Coreference</h3>
+<p>VCCorp 2016: 57% <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
+<p><strong>Thesis &amp; Papers</strong>:</p>
+<ul>
+<li><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/doc-page-folded-icon.png" /> <a href="http://www.coltech.vnu.edu.vn/~thuyhq/Student_Thesis/K52_Le_Duc_Trong_Thesis.pdf">2011, Giải quyết bài toán đồng tham chiếu trong văn bản tiếng việt dựa vào phương pháp máy vector hỗ trợ SVM</a></li>
+</ul>
+<h3 id="18-dependency-grammar">1.8 Dependency Grammar</h3>
+<p>VCCorp 2016: 73% <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
+<p><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/doc-page-folded-icon.png" /> <a href="https://bitbucket.org/epilab/vnlp/downloads/DependencyGrammarForVNese.doc">2013, Nguyễn Vi Dương, Nguyễn Thị Đảm, Bộ chuyển đổi từ văn phạm thành phần sang văn phạm phụ thuộc cho tiếng Việt</a></p>
+<h3 id="19-chunking">1.9 Chunking</h3>
+<p>VCCorp 2016: 83% <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
+<h3 id="110-named-entity-recognition-ner"><a href="http://magizbox.com/index.php/machine-learning/ds-applications/natural-language-processing/name-entity-recognization/">1.10 Named Entity Recognition (NER)</a></h3>
+<p>VCCorp 2016: 84.8% <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
+<p><strong>Papers</strong>:</p>
+<ul>
+<li><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/doc-page-folded-icon.png" /> <a href="https://www.nii.ac.jp/pi/n4/4_5.pdf">2007, Named Entity Recognition in Vietnamese documents</a></li>
+<li><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/doc-page-folded-icon.png" /> <a href="http://lamda.nju.edu.cn/nguyenct/files/papers/ncamtu-09-paper_ner.pdf">2005, Named Entity Recognition in Vietnamese Free-Text and Web Documents Using Conditional Random Fields</a></li>
+</ul>
+<h3 id="111-relations-extraction-systems">1.11 Relations Extraction Systems</h3>
+<p>Unknown</p>
+<h3 id="112-sentiment-analysis">1.12 Sentiment Analysis</h3>
+<p><img alt="" src="http://icons.iconarchive.com/icons/graphicloads/folded/24/setting-folded-icon.png" /> <strong><a href="https://bitbucket.org/epilab/vnlp/downloads/sentiment-analysis.zip">Sentiment Analysis</a></strong> <code>java</code></p>
+<p>Authors: <a href="https://bitbucket.org/epilab/">Epi Lab</a>
+Date: Aug 01, 2013</p>
+<h3 id="113-language-identification">1.13 Language Identification</h3>
+<p>Unknown</p>
+<h2 id="part-2-vietnamse-nlp-groups">Part 2. Vietnamse NLP Groups</h2>
+<p><strong>Groups</strong></p>
+<ul>
+<li><a href="http://vnlp.net/">vnlp.net, (2010-now)</a></li>
+<li><a href="http://kde.soict.hust.edu.vn/">kde lab, (2014-now)</a></li>
+</ul>
+<p><strong>People</strong></p>
+<ul>
+<li><a href="http://www.coltech.vnu.edu.vn/~thuyhq/">Assoc. Prof. Ha Quang Thuy</a></li>
+<li><a href="http://www.jaist.ac.jp/~bao/">Prof. Tu-Bao Ho</a></li>
+<li><a href="http://is.hust.edu.vn/~khoattq/">Khoat Than</a></li>
+<li><a href="http://www.dais.is.tohoku.ac.jp/~ncamtu/index.htm">Cam Tu Nguyen</a></li>
+<li><a href="http://lamda.nju.edu.cn/nguyenct/?AspxAutoDetectCookieSupport=1">CAM-TU NGUYEN</a></li>
+<li><a href="http://mim.hus.vnu.edu.vn/phuonglh/">Le Hong Phuong</a></li>
+<li><a href="https://sites.google.com/site/pxhieu/">Phan Xuan Hieu</a></li>
+<li><a href="http://fit.uet.vnu.edu.vn/gioi-thieu/giang-vien/vutm/">Trần Mai Vũ</a></li>
+<li><a href="http://soict.hust.edu.vn/index.php/bo-mon-trung-tam/he-thong-thong-tin/can-bo/227-ts-nguyen-kiem-hieu">Nguyễn Kiêm Hiếu</a></li>
+</ul>
+<h2 id="part-3-applications">Part 3. Applications</h2>
+<h3 id="vav-tro-ly-ao-cho-nguoi-viet"><a href="https://play.google.com/store/apps/details?id=com.mdnteam.vav">VAV - Trợ lý ảo cho người Việt</a></h3>
+<p>Date: Nov 2015 - now</p>
+<p><img src="https://lh3.googleusercontent.com/TOdXdeSwJ6qQy4gYqWJbPbep8Sb82h9oZPsor3WWXyi72HafO3xttiBlD-dpnKAahyY=h900-rw" style="height:80px"/></p>
+<p><strong>MDN-Team, Khoa CNTT, Trường ĐH Công nghệ, ĐHQG HN Tools</strong></p>
+<blockquote>
+<p>Bạn đang nghĩ đến một ứng dụng thông minh trên di động cho phép bạn tương tác bằng giọng nói để hẹn chuông báo thức, đặt lịch cho một cuộc họp, bật định vị, gọi điện cho ai đó, truy cập một trang web bất kỳ, tìm đường trên bản đồ, định vị cây ATM của một ngân hàng nào đó gần với bạn, hay thưởng thức một bản nhạc mình yêu thích … Ứng dụng Trợ lý ảo VAV chính là câu trả lời cho bạn.
+Được thiết kế và phát triển dựa trên các kỹ thuật trí tuệ nhân tạo (học máy, phân tích và hiểu ngôn ngữ tự nhiên), VAV có thể hiểu được ý định của bạn dù bạn diễn đạt câu lệnh của mình theo nhiều cách khác nhau mà không cần tuân theo bất kỳ khuôn mẫu nào cho trước. Những gì VAV hướng tới là trở thành một trợ lý ảo thông minh giúp bạn thực hiện những điều mình muốn và là một người đồng hành thân thiện, dí dỏm bên bạn.</p>
+</blockquote>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://drive.google.com/file/d/0B6LYda0EhWbSelc2VTlZVFZia1E/view?usp=sharing">2016, Big Challenges for Data Scientists at VCCORP</a>&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://en.wikipedia.org/wiki/Document_classification">Document classification</a>&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

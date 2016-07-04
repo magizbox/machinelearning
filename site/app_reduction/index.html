@@ -7,14 +7,14 @@
         
         
         
-        <link rel="shortcut icon" href="./img/favicon.ico">
+        <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>DataScience</title>
+	<title>Dimensionality Reduction - DataScience</title>
 
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.5.0.css" rel="stylesheet">
-        <link href="./css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -43,7 +43,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">DataScience</a>
+            <a class="navbar-brand" href="..">DataScience</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -54,31 +54,31 @@
                 
                 
                     <li >
-                        <a href=".">Home</a>
+                        <a href="..">Home</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="process/">Process</a>
+                        <a href="../process/">Process</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="problem/">Problem Definitation</a>
+                        <a href="../problem/">Problem Definitation</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="gathering/">Gathering</a>
+                        <a href="../gathering/">Gathering</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="preparation/">Preparation</a>
+                        <a href="../preparation/">Preparation</a>
                     </li>
                 
                 
@@ -89,37 +89,37 @@
                         
                             
 <li >
-    <a href="models/">Models</a>
+    <a href="../models/">Models</a>
 </li>
 
                         
                             
 <li >
-    <a href="model_regression/">Regression</a>
+    <a href="../model_regression/">Regression</a>
 </li>
 
                         
                             
 <li >
-    <a href="model_classification/">Classification</a>
+    <a href="../model_classification/">Classification</a>
 </li>
 
                         
                             
 <li >
-    <a href="model_clustering/">Clustering</a>
+    <a href="../model_clustering/">Clustering</a>
 </li>
 
                         
                             
 <li >
-    <a href="model_neuralnetwork/">Neural Network</a>
+    <a href="../model_neuralnetwork/">Neural Network</a>
 </li>
 
                         
                             
 <li >
-    <a href="ensemble/">Ensemble</a>
+    <a href="../ensemble/">Ensemble</a>
 </li>
 
                         
@@ -129,42 +129,42 @@
                 
                 
                     <li >
-                        <a href="evaluation/">Evaluation</a>
+                        <a href="../evaluation/">Evaluation</a>
                     </li>
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Application <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="app_recommendation/">Recommendation System</a>
+    <a href="../app_recommendation/">Recommendation System</a>
 </li>
 
                         
                             
 <li >
-    <a href="app_anomaly/">Anomaly Detection</a>
+    <a href="../app_anomaly/">Anomaly Detection</a>
 </li>
 
                         
                             
 <li >
-    <a href="app_nlp/">Natural Language Processing</a>
+    <a href="../app_nlp/">Natural Language Processing</a>
 </li>
 
                         
                             
 <li >
-    <a href="app_vision/">Computer Vision</a>
+    <a href="../app_vision/">Computer Vision</a>
 </li>
 
                         
                             
-<li >
-    <a href="app_reduction/">Dimensionality Reduction</a>
+<li class="active">
+    <a href="./">Dimensionality Reduction</a>
 </li>
 
                         
@@ -182,8 +182,8 @@
                     </a>
                 </li>
                 
-                    <li class="disabled">
-                        <a rel="next" >
+                    <li >
+                        <a rel="next" href="../app_vision/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
@@ -201,15 +201,56 @@
 
         <div class="container">
             
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#dimensionality-reduction">Dimensionality Reduction</a></li>
+        
+            <li><a href="#dimensionality-reduction-algorithms">Dimensionality Reduction Algorithms</a></li>
+        
+    
+        <li class="main "><a href="#t-sne">t-SNE</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
-    </div>
-
-
+<h1 id="dimensionality-reduction">Dimensionality Reduction</h1>
+<p><img alt="" src="http://3qeqpr26caki16dnhd19sv6by6v.wpengine.netdna-cdn.com/wp-content/uploads/2013/11/Dimensional-Reduction-Algorithms.png" /></p>
+<h3 id="dimensionality-reduction-algorithms">Dimensionality Reduction Algorithms</h3>
+<p>Like clustering methods, dimensionality reduction seek and exploit the inherent structure in the data, but in this case in an unsupervised manner or order to summarise or describe data using less information.</p>
+<p>This can be useful to visualize dimensional data or to simplify data which can then be used in a supervized learning method. Many of these methods can be adapted for use in classification and regression.</p>
+<ul>
+<li>Principal Component Analysis (PCA)</li>
+<li>Principal Component Regression (PCR)</li>
+<li>Partial Least Squares Regression (PLSR)</li>
+<li>Sammon Mapping</li>
+<li>Multidimensional Scaling (MDS)</li>
+<li>Projection Pursuit</li>
+<li>Linear Discriminant Analysis (LDA)</li>
+<li>Mixture Discriminant Analysis (MDA)</li>
+<li>Quadratic Discriminant Analysis (QDA)</li>
+<li>Flexible Discriminant Analysis (FDA)</li>
+</ul>
+<h1 id="t-sne">t-SNE</h1>
+<p><img alt="" src="http://www.mcmayer.net/content/images/2015/04/tsne-alldata-final.png" /></p>
+<p>t-Distributed Stochastic Neighbor Embedding (t-SNE) <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup> is a (prize-winning) technique for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets. The technique can be implemented via Barnes-Hut approximations, allowing it to be applied on large real-world datasets. We applied it on data sets with up to 30 million examples. The technique and its variants are introduced in the following papers:</p>
+<ul>
+<li>L.J.P. van der Maaten. Accelerating t-SNE using Tree-Based Algorithms. Journal of Machine Learning Research 15(Oct):3221-3245, 2014.  PDF [Supplemental material]</li>
+<li>L.J.P. van der Maaten and G.E. Hinton. Visualizing Non-Metric Similarities in Multiple Maps. Machine Learning 87(1):33-55, 2012.  PDF</li>
+<li>L.J.P. van der Maaten. Learning a Parametric Embedding by Preserving Local Structure. In Proceedings of the Twelfth International Conference on Artificial Intelligence &amp; Statistics (AI-STATS), JMLR W&amp;CP 5:384-391, 2009.  PDF</li>
+<li>L.J.P. van der Maaten and G.E. Hinton. Visualizing High-Dimensional Data Using t-SNE. Journal of Machine Learning Research 9(Nov):2579-2605, 2008.  PDF [Supplemental material] [Talk]</li>
+</ul>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="http://lvdmaaten.github.io/tsne/">t-SNE</a>&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></div>
+            
         </div>
 
         <footer class="col-md-12">
@@ -218,12 +259,12 @@
             <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
 
-        <script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script>var base_url = '.';</script>
-        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-        <script src="./js/base.js"></script>
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Recommendation System - DataScience</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">DataScience</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../process/">Process</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../problem/">Problem Definitation</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../gathering/">Gathering</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../preparation/">Preparation</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Models <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../models/">Models</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_regression/">Regression</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_classification/">Classification</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_clustering/">Clustering</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_neuralnetwork/">Neural Network</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ensemble/">Ensemble</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../evaluation/">Evaluation</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Application <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="./">Recommendation System</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_anomaly/">Anomaly Detection</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_nlp/">Natural Language Processing</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_vision/">Computer Vision</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_reduction/">Dimensionality Reduction</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../evaluation/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../app_anomaly/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#recommendation-system">Recommendation System</a></li>
+        
+    
+        <li class="main "><a href="#introduction-2">Introduction 2</a></li>
+        
+            <li><a href="#example-predict-movie-ratings">Example - predict movie ratings</a></li>
+        
+            <li><a href="#1-approaches-1">1. Approaches 1</a></li>
+        
+            <li><a href="#2-challenges">2. Challenges</a></li>
+        
+            <li><a href="#3-articles">3. Articles</a></li>
+        
+            <li><a href="#4-recommendation-interface">4. Recommendation Interface</a></li>
+        
+    
+        <li class="main "><a href="#apriori">Apriori</a></li>
+        
+    
+        <li class="main "><a href="#item-item-collaborative-filtering">Item item collaborative filtering</a></li>
+        
+    
+        <li class="main "><a href="#rs-examples">RS: Examples</a></li>
+        
+    
+        <li class="main "><a href="#rs-association-rules">RS: Association Rules</a></li>
+        
+    
+        <li class="main "><a href="#content-based-recommendation">Content Based Recommendation</a></li>
+        
+    
+        <li class="main "><a href="#useruser-collaborative-filtering">User–User Collaborative Filtering</a></li>
+        
+    
+        <li class="main "><a href="#user-user-1">User - User 1</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="recommendation-system">Recommendation System</h1>
+<h1 id="introduction-2">Introduction <sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup></h1>
+<p>Two motivations for talking about recommender systems</p>
+<ul>
+<li>Important application of ML systems<ul>
+<li>Many technology companies find recommender systems to be absolutely key</li>
+<li>Think about websites (amazon, Ebay, iTunes genius)<ul>
+<li>Try and recommend new content for you based on passed purchase</li>
+<li>Substantial part of Amazon's revenue generation</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Improvement in recommender system performance can bring in more income</li>
+<li>Kind of a funny problem<ul>
+<li>In academic learning, recommender systems receives a small amount of attention</li>
+<li>But in industry it's an absolutely crucial tool</li>
+</ul>
+</li>
+<li>Talk about the big ideas in machine learning<ul>
+<li>Not so much a technique, but an idea</li>
+<li>As soon, features are really important<ul>
+<li>There's a big idea in machine learning that for some problems you can learn what a good set of features are</li>
+<li>So not select those features but learn them</li>
+</ul>
+</li>
+<li>Recommender systems do this - try and identify the crucial and relevant features</li>
+</ul>
+</li>
+</ul>
+<h3 id="example-predict-movie-ratings">Example - predict movie ratings</h3>
+<ul>
+<li>You're a company who sells movies<ul>
+<li>You let users rate movies using a 1-5 star rating<ul>
+<li>To make the example nicer, allow 0-5 (makes math easier)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>You have five movies</li>
+<li>And you have four users</li>
+<li>
+<p>Admittedly, business isn't going well, but you're optimistic about the future as a result of your truly outstanding (if limited) inventory
+<img alt="" src="http://www.holehouse.org/mlclass/16_Recommender_Systems_files/Image.png" /></p>
+</li>
+<li>
+<p>To introduce some notation</p>
+<ul>
+<li>$latex n_u$ - Number of users (called $?^{nu}$ occasionally as we can't subscript in superscript)</li>
+<li>$latex n_m$ - Number of movies</li>
+<li>$latex r(i, j)$ - 1 if user j has rated movie i (i.e. bitmap)</li>
+<li>$latex y(i,j)$ - rating given by user j to move i (defined only if $latex r(i,j) = 1$)</li>
+</ul>
+</li>
+<li>So for this example<ul>
+<li>$latex n_u = 4$</li>
+<li>$latex n_m = 5$</li>
+<li>Summary of scoring<ul>
+<li>Alice and Bob gave good ratings to rom coms, but low scores to action films</li>
+<li>Carol and Dave game good ratings for action films but low ratings for rom coms</li>
+</ul>
+</li>
+<li>We have the data given above</li>
+<li>The problem is as follows<ul>
+<li>Given $latex r(i,j)$ and $latex y^{(i,j)}$ - go through and try and predict missing values (?s)</li>
+<li>Come up with a learning algorithm that can fill in these missing values</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>KDD 2015 Tutorial: <a href="http://www.kdd.org/kdd2015/slides/KDD-tut.pdf" target="_blank">Shlomo Berkovsky and Jill Freyne, Web Personalisation and Recommender Systems</a></p>
+<h3 id="1-approaches-1">1. Approaches <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></h3>
+<p><img alt="" src="http://image.slidesharecdn.com/recommendersystemnavisroanalytics-120818125400-phpapp02/95/collaborative-filtering-and-recommender-systems-by-navisro-analytics-3-728.jpg?cb=1345294669" /></p>
+<p><strong>Attribute-based Recommendations</strong></p>
+<blockquote>
+<p>You like action movies, starring Clint Eastwood, you might like "Good, Bad and the Ugly" (Netflix)</p>
+</blockquote>
+<p><strong>Item Hierachy</strong></p>
+<blockquote>
+<p>You bought Printer you will also need ink (Bestbuy)</p>
+</blockquote>
+<p><a href="http://magizbox.com/index.php/machine-learning/ds-applications/recommender-system/rs-association-rules/">Association Rules</a></p>
+<p><strong>Content-Based Recommender Collaborative Filtering - Item-Item Similarity</strong></p>
+<blockquote>
+<p>You like Godfather so you will like Scarface (Netflix)</p>
+</blockquote>
+<p><strong>Collaborative Filtering - User-User Similarity</strong></p>
+<blockquote>
+<p>People like you who bought beer also bought diapers (Target)</p>
+</blockquote>
+<p><strong>Social+Interest Graph Based</strong></p>
+<blockquote>
+<p>Your friends like Lady Gaga so you will like Lady Gaga (Facebook, Linkedin)</p>
+</blockquote>
+<p><strong>Model Based</strong></p>
+<blockquote>
+<p>Training SVM, LDA, SVD for implicit features.</p>
+</blockquote>
+<h3 id="2-challenges">2. Challenges</h3>
+<p>Kaggle Challenge:<a href="https://www.kaggle.com/c/msdchallenge" target="_blank"> Million Song Dataset Challenge</a></p>
+<h3 id="3-articles">3. Articles</h3>
+<ul>
+<li><a href="http://www.kdnuggets.com/2015/10/big-data-recommendation-systems-change-lives.html">How Big Data is used in Recommendation Systems to change our lives</a></li>
+</ul>
+<h3 id="4-recommendation-interface">4. Recommendation Interface</h3>
+<h4 id="41-type-of-input">4.1 Type of Input</h4>
+<ul>
+<li>predictions</li>
+<li>recommendations</li>
+<li>filtering</li>
+<li>organic vs explicit presentation</li>
+</ul>
+<h4 id="42-type-of-output">4.2 Type of Output</h4>
+<ul>
+<li>explicit</li>
+<li>implicit</li>
+</ul>
+<h1 id="apriori">Apriori</h1>
+<p>https://en.wikipedia.org/wiki/Apriori_algorithm</p>
+<p>https://github.com/asaini/Apriori</p>
+<h1 id="item-item-collaborative-filtering">Item item collaborative filtering</h1>
+<p>Works when |U| &gt;&gt; |I|</p>
+<ul>
+<li>items dont change much</li>
+</ul>
+<h1 id="rs-examples">RS: Examples</h1>
+<p>Google News</p>
+<p><img alt="http://1.bp.blogspot.com/_7ZYqYi4xigk/TCuWLmXhdjI/AAAAAAAAGVI/umfi5tHpBr0/s1600/Google+News+Redesign+June+30+2010+AM+PT.jpg" src="http://1.bp.blogspot.com/_7ZYqYi4xigk/TCuWLmXhdjI/AAAAAAAAGVI/umfi5tHpBr0/s1600/Google+News+Redesign+June+30+2010+AM+PT.jpg" /></p>
+<h1 id="rs-association-rules">RS: Association Rules</h1>
+<p><img alt="" src="http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/42541/versions/3/screenshot.jpg" /></p>
+<h1 id="content-based-recommendation">Content Based Recommendation</h1>
+<h1 id="useruser-collaborative-filtering">User–User Collaborative Filtering</h1>
+<h1 id="user-user-1">User - User <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></h1>
+<p>User user look simular in row space</p>
+<p>$p_{u, i} = \overline{r_u} + \frac{\sum_{u' \in N} s(u, u') (r_{u', i} - \overline{r_u'})}{\sum_{u' \in N}|s(u, u')|}&amp;s=2$</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="../Collaborative Filtering Recommender Systems">http://files.grouplens.org/papers/FnT%20CF%20Recsys%20Survey.pdf</a>&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="http://www.holehouse.org/mlclass/16_Recommender_Systems.html">mlclass lecture notes, Recommender Systems</a>&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

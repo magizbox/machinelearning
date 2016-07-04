@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Clustering - DataScience</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">DataScience</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../process/">Process</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../problem/">Problem Definitation</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../gathering/">Gathering</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../preparation/">Preparation</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Models <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../models/">Models</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_regression/">Regression</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_classification/">Classification</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Clustering</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../model_neuralnetwork/">Neural Network</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ensemble/">Ensemble</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../evaluation/">Evaluation</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Application <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../app_recommendation/">Recommendation System</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_anomaly/">Anomaly Detection</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_nlp/">Natural Language Processing</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_vision/">Computer Vision</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../app_reduction/">Dimensionality Reduction</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../model_classification/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../model_neuralnetwork/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#clustering">Clustering</a></li>
+        
+    
+        <li class="main "><a href="#using-k-means-to-cluster-wine-dataset">Using K-Means to cluster wine dataset</a></li>
+        
+    
+        <li class="main "><a href="#type-alcohol-malic-ash-alcalinity-magnesium-phenols">&gt;   Type Alcohol Malic  Ash Alcalinity Magnesium Phenols</a></li>
+        
+    
+        <li class="main "><a href="#1-1-1423-171-243-156-127-280">&gt; 1    1   14.23  1.71 2.43       15.6       127    2.80</a></li>
+        
+    
+        <li class="main "><a href="#2-1-1320-178-214-112-100-265">&gt; 2    1   13.20  1.78 2.14       11.2       100    2.65</a></li>
+        
+    
+        <li class="main "><a href="#3-1-1316-236-267-186-101-280">&gt; 3    1   13.16  2.36 2.67       18.6       101    2.80</a></li>
+        
+    
+        <li class="main "><a href="#4-1-1437-195-250-168-113-385">&gt; 4    1   14.37  1.95 2.50       16.8       113    3.85</a></li>
+        
+    
+        <li class="main "><a href="#5-1-1324-259-287-210-118-280">&gt; 5    1   13.24  2.59 2.87       21.0       118    2.80</a></li>
+        
+    
+        <li class="main "><a href="#6-1-1420-176-245-152-112-327">&gt; 6    1   14.20  1.76 2.45       15.2       112    3.27</a></li>
+        
+    
+        <li class="main "><a href="#flavanoids-nonflavanoids-proanthocyanins-color-hue">&gt;   Flavanoids Nonflavanoids Proanthocyanins Color  Hue</a></li>
+        
+    
+        <li class="main "><a href="#1-306-028-229-564-104">&gt; 1       3.06          0.28            2.29  5.64 1.04</a></li>
+        
+    
+        <li class="main "><a href="#2-276-026-128-438-105">&gt; 2       2.76          0.26            1.28  4.38 1.05</a></li>
+        
+    
+        <li class="main "><a href="#3-324-030-281-568-103">&gt; 3       3.24          0.30            2.81  5.68 1.03</a></li>
+        
+    
+        <li class="main "><a href="#4-349-024-218-780-086">&gt; 4       3.49          0.24            2.18  7.80 0.86</a></li>
+        
+    
+        <li class="main "><a href="#5-269-039-182-432-104">&gt; 5       2.69          0.39            1.82  4.32 1.04</a></li>
+        
+    
+        <li class="main "><a href="#6-339-034-197-675-105">&gt; 6       3.39          0.34            1.97  6.75 1.05</a></li>
+        
+    
+        <li class="main "><a href="#dilution-proline">&gt;   Dilution Proline</a></li>
+        
+    
+        <li class="main "><a href="#1-392-1065">&gt; 1     3.92    1065</a></li>
+        
+    
+        <li class="main "><a href="#2-340-1050">&gt; 2     3.40    1050</a></li>
+        
+    
+        <li class="main "><a href="#3-317-1185">&gt; 3     3.17    1185</a></li>
+        
+    
+        <li class="main "><a href="#4-345-1480">&gt; 4     3.45    1480</a></li>
+        
+    
+        <li class="main "><a href="#5-293-735">&gt; 5     2.93     735</a></li>
+        
+    
+        <li class="main "><a href="#6-285-1450">&gt; 6     2.85    1450</a></li>
+        
+    
+        <li class="main "><a href="#dataframe-178-obs-of-14-variables">&gt; &apos;data.frame&apos;:  178 obs. of  14 variables:</a></li>
+        
+    
+        <li class="main "><a href="#type-factor-w-3-levels-123-1-1-1-1-1-1-1-1-1-1">&gt; $ Type           : Factor w/ 3 levels &quot;1&quot;,&quot;2&quot;,&quot;3&quot;: 1 1 1 1 1 1 1 1 1 1 ...</a></li>
+        
+    
+        <li class="main "><a href="#alcohol-num-142-132-132-144-132">&gt; $ Alcohol        : num  14.2 13.2 13.2 14.4 13.2 ...</a></li>
+        
+    
+        <li class="main "><a href="#malic-num-171-178-236-195-259-176-187-215-164-135">&gt; $ Malic          : num  1.71 1.78 2.36 1.95 2.59 1.76 1.87 2.15 1.64 1.35 ...</a></li>
+        
+    
+        <li class="main "><a href="#ash-num-243-214-267-25-287-245-245-261-217-227">&gt; $ Ash            : num  2.43 2.14 2.67 2.5 2.87 2.45 2.45 2.61 2.17 2.27 ...</a></li>
+        
+    
+        <li class="main "><a href="#alcalinity-num-156-112-186-168-21-152-146-176-14-16">&gt; $ Alcalinity     : num  15.6 11.2 18.6 16.8 21 15.2 14.6 17.6 14 16 ...</a></li>
+        
+    
+        <li class="main "><a href="#magnesium-int-127-100-101-113-118-112-96-121-97-98">&gt; $ Magnesium      : int  127 100 101 113 118 112 96 121 97 98 ...</a></li>
+        
+    
+        <li class="main "><a href="#phenols-num-28-265-28-385-28-327-25-26-28-298">&gt; $ Phenols        : num  2.8 2.65 2.8 3.85 2.8 3.27 2.5 2.6 2.8 2.98 ...</a></li>
+        
+    
+        <li class="main "><a href="#flavanoids-num-306-276-324-349-269-339-252-251-298-315">&gt; $ Flavanoids     : num  3.06 2.76 3.24 3.49 2.69 3.39 2.52 2.51 2.98 3.15 ...</a></li>
+        
+    
+        <li class="main "><a href="#nonflavanoids-num-028-026-03-024-039-034-03-031-029-022">&gt; $ Nonflavanoids  : num  0.28 0.26 0.3 0.24 0.39 0.34 0.3 0.31 0.29 0.22 ...</a></li>
+        
+    
+        <li class="main "><a href="#proanthocyanins-num-229-128-281-218-182-197-198-125-198-185">&gt; $ Proanthocyanins: num  2.29 1.28 2.81 2.18 1.82 1.97 1.98 1.25 1.98 1.85 ...</a></li>
+        
+    
+        <li class="main "><a href="#color-num-564-438-568-78-432-675-525-505-52-722">&gt; $ Color          : num  5.64 4.38 5.68 7.8 4.32 6.75 5.25 5.05 5.2 7.22 ...</a></li>
+        
+    
+        <li class="main "><a href="#hue-num-104-105-103-086-104-105-102-106-108-101">&gt; $ Hue            : num  1.04 1.05 1.03 0.86 1.04 1.05 1.02 1.06 1.08 1.01 ...</a></li>
+        
+    
+        <li class="main "><a href="#dilution-num-392-34-317-345-293-285-358-358-285-355">&gt; $ Dilution       : num  3.92 3.4 3.17 3.45 2.93 2.85 3.58 3.58 2.85 3.55 ...</a></li>
+        
+    
+        <li class="main "><a href="#proline-int-1065-1050-1185-1480-735-1450-1290-1295-1045-1045">&gt; $ Proline        : int  1065 1050 1185 1480 735 1450 1290 1295 1045 1045 ...</a></li>
+        
+    
+        <li class="main "><a href="#alcohol-malic">&gt;   Alcohol             Malic</a></li>
+        
+    
+        <li class="main "><a href="#min-242739-min-14290">&gt; Min.   :-2.42739   Min.   :-1.4290</a></li>
+        
+    
+        <li class="main "><a href="#1st-qu-078603-1st-qu-06569">&gt; 1st Qu.:-0.78603   1st Qu.:-0.6569</a></li>
+        
+    
+        <li class="main "><a href="#median-006083-median-04219">&gt; Median : 0.06083   Median :-0.4219</a></li>
+        
+    
+        <li class="main "><a href="#mean-000000-mean-00000">&gt; Mean   : 0.00000   Mean   : 0.0000</a></li>
+        
+    
+        <li class="main "><a href="#3rd-qu-083378-3rd-qu-06679">&gt; 3rd Qu.: 0.83378   3rd Qu.: 0.6679</a></li>
+        
+    
+        <li class="main "><a href="#max-225341-max-31004">&gt; Max.   : 2.25341   Max.   : 3.1004</a></li>
+        
+    
+        <li class="main "><a href="#ash-alcalinity">&gt;      Ash             Alcalinity</a></li>
+        
+    
+        <li class="main "><a href="#min-366881-min-2663505">&gt; Min.   :-3.66881   Min.   :-2.663505</a></li>
+        
+    
+        <li class="main "><a href="#1st-qu-057051-1st-qu-0687199">&gt; 1st Qu.:-0.57051   1st Qu.:-0.687199</a></li>
+        
+    
+        <li class="main "><a href="#median-002375-median-0001514">&gt; Median :-0.02375   Median : 0.001514</a></li>
+        
+    
+        <li class="main "><a href="#mean-000000-mean-0000000">&gt; Mean   : 0.00000   Mean   : 0.000000</a></li>
+        
+    
+        <li class="main "><a href="#3rd-qu-069615-3rd-qu-0600395">&gt; 3rd Qu.: 0.69615   3rd Qu.: 0.600395</a></li>
+        
+    
+        <li class="main "><a href="#max-314745-max-3145637">&gt; Max.   : 3.14745   Max.   : 3.145637</a></li>
+        
+    
+        <li class="main "><a href="#magnesium-phenols">&gt;   Magnesium          Phenols</a></li>
+        
+    
+        <li class="main "><a href="#min-20824-min-210132">&gt; Min.   :-2.0824   Min.   :-2.10132</a></li>
+        
+    
+        <li class="main "><a href="#1st-qu-08221-1st-qu-088298">&gt; 1st Qu.:-0.8221   1st Qu.:-0.88298</a></li>
+        
+    
+        <li class="main "><a href="#median-01219-median-009569">&gt; Median :-0.1219   Median : 0.09569</a></li>
+        
+    
+        <li class="main "><a href="#mean-00000-mean-000000">&gt; Mean   : 0.0000   Mean   : 0.00000</a></li>
+        
+    
+        <li class="main "><a href="#3rd-qu-05082-3rd-qu-080672">&gt; 3rd Qu.: 0.5082   3rd Qu.: 0.80672</a></li>
+        
+    
+        <li class="main "><a href="#max-43591-max-253237">&gt; Max.   : 4.3591   Max.   : 2.53237</a></li>
+        
+    
+        <li class="main "><a href="#flavanoids-nonflavanoids">&gt;   Flavanoids      Nonflavanoids</a></li>
+        
+    
+        <li class="main "><a href="#min-16912-min-18630">&gt; Min.   :-1.6912   Min.   :-1.8630</a></li>
+        
+    
+        <li class="main "><a href="#1st-qu-08252-1st-qu-07381">&gt; 1st Qu.:-0.8252   1st Qu.:-0.7381</a></li>
+        
+    
+        <li class="main "><a href="#median-01059-median-01756">&gt; Median : 0.1059   Median :-0.1756</a></li>
+        
+    
+        <li class="main "><a href="#mean-00000-mean-00000">&gt; Mean   : 0.0000   Mean   : 0.0000</a></li>
+        
+    
+        <li class="main "><a href="#3rd-qu-08467-3rd-qu-06078">&gt; 3rd Qu.: 0.8467   3rd Qu.: 0.6078</a></li>
+        
+    
+        <li class="main "><a href="#max-30542-max-23956">&gt; Max.   : 3.0542   Max.   : 2.3956</a></li>
+        
+    
+        <li class="main "><a href="#proanthocyanins-color">&gt; Proanthocyanins        Color</a></li>
+        
+    
+        <li class="main "><a href="#min-206321-min-16297">&gt; Min.   :-2.06321   Min.   :-1.6297</a></li>
+        
+    
+        <li class="main "><a href="#1st-qu-059560-1st-qu-07929">&gt; 1st Qu.:-0.59560   1st Qu.:-0.7929</a></li>
+        
+    
+        <li class="main "><a href="#median-006272-median-01588">&gt; Median :-0.06272   Median :-0.1588</a></li>
+        
+    
+        <li class="main "><a href="#mean-000000-mean-00000_1">&gt; Mean   : 0.00000   Mean   : 0.0000</a></li>
+        
+    
+        <li class="main "><a href="#3rd-qu-062741-3rd-qu-04926">&gt; 3rd Qu.: 0.62741   3rd Qu.: 0.4926</a></li>
+        
+    
+        <li class="main "><a href="#max-347527-max-34258">&gt; Max.   : 3.47527   Max.   : 3.4258</a></li>
+        
+    
+        <li class="main "><a href="#hue-dilution">&gt;      Hue              Dilution</a></li>
+        
+    
+        <li class="main "><a href="#min-208884-min-18897">&gt; Min.   :-2.08884   Min.   :-1.8897</a></li>
+        
+    
+        <li class="main "><a href="#1st-qu-076540-1st-qu-09496">&gt; 1st Qu.:-0.76540   1st Qu.:-0.9496</a></li>
+        
+    
+        <li class="main "><a href="#median-003303-median-02371">&gt; Median : 0.03303   Median : 0.2371</a></li>
+        
+    
+        <li class="main "><a href="#mean-000000-mean-00000_2">&gt; Mean   : 0.00000   Mean   : 0.0000</a></li>
+        
+    
+        <li class="main "><a href="#3rd-qu-071116-3rd-qu-07864">&gt; 3rd Qu.: 0.71116   3rd Qu.: 0.7864</a></li>
+        
+    
+        <li class="main "><a href="#max-329241-max-19554">&gt; Max.   : 3.29241   Max.   : 1.9554</a></li>
+        
+    
+        <li class="main "><a href="#proline">&gt;    Proline</a></li>
+        
+    
+        <li class="main "><a href="#min-14890">&gt; Min.   :-1.4890</a></li>
+        
+    
+        <li class="main "><a href="#1st-qu-07824">&gt; 1st Qu.:-0.7824</a></li>
+        
+    
+        <li class="main "><a href="#median-02331">&gt; Median :-0.2331</a></li>
+        
+    
+        <li class="main "><a href="#mean-00000">&gt; Mean   : 0.0000</a></li>
+        
+    
+        <li class="main "><a href="#3rd-qu-07561">&gt; 3rd Qu.: 0.7561</a></li>
+        
+    
+        <li class="main "><a href="#max-29631">&gt; Max.   : 2.9631</a></li>
+        
+    
+        <li class="main "><a href="#k-means-clustering-with-3-clusters-of-sizes-51-65-62">&gt; K-means clustering with 3 clusters of sizes 51, 65, 62</a></li>
+        
+    
+        <li class="main "><a href="#_1">&gt;</a></li>
+        
+    
+        <li class="main "><a href="#cluster-means">&gt; Cluster means:</a></li>
+        
+    
+        <li class="main "><a href="#alcohol-malic-ash-alcalinity">&gt;      Alcohol      Malic        Ash Alcalinity</a></li>
+        
+    
+        <li class="main "><a href="#1-01644436-08690954-01863726-05228924">&gt; 1  0.1644436  0.8690954  0.1863726  0.5228924</a></li>
+        
+    
+        <li class="main "><a href="#2-09234669-03929331-04931257-01701220">&gt; 2 -0.9234669 -0.3929331 -0.4931257  0.1701220</a></li>
+        
+    
+        <li class="main "><a href="#3-08328826-03029551-03636801-06084749">&gt; 3  0.8328826 -0.3029551  0.3636801 -0.6084749</a></li>
+        
+    
+        <li class="main "><a href="#magnesium-phenols-flavanoids-nonflavanoids">&gt;     Magnesium     Phenols  Flavanoids Nonflavanoids</a></li>
+        
+    
+        <li class="main "><a href="#1-007526047-097657548-121182921-072402116">&gt; 1 -0.07526047 -0.97657548 -1.21182921    0.72402116</a></li>
+        
+    
+        <li class="main "><a href="#2-049032869-007576891-002075402-003343924">&gt; 2 -0.49032869 -0.07576891  0.02075402   -0.03343924</a></li>
+        
+    
+        <li class="main "><a href="#3-057596208-088274724-097506900-056050853">&gt; 3  0.57596208  0.88274724  0.97506900   -0.56050853</a></li>
+        
+    
+        <li class="main "><a href="#proanthocyanins-color-hue-dilution">&gt;   Proanthocyanins      Color        Hue   Dilution</a></li>
+        
+    
+        <li class="main "><a href="#1-077751312-09388902-11615122-12887761">&gt; 1     -0.77751312  0.9388902 -1.1615122 -1.2887761</a></li>
+        
+    
+        <li class="main "><a href="#2-005810161-08993770-04605046-02700025">&gt; 2      0.05810161 -0.8993770  0.4605046  0.2700025</a></li>
+        
+    
+        <li class="main "><a href="#3-057865427-01705823-04726504-07770551">&gt; 3      0.57865427  0.1705823  0.4726504  0.7770551</a></li>
+        
+    
+        <li class="main "><a href="#proline_1">&gt;      Proline</a></li>
+        
+    
+        <li class="main "><a href="#1-04059428">&gt; 1 -0.4059428</a></li>
+        
+    
+        <li class="main "><a href="#2-07517257">&gt; 2 -0.7517257</a></li>
+        
+    
+        <li class="main "><a href="#3-11220202">&gt; 3  1.1220202</a></li>
+        
+    
+        <li class="main "><a href="#_2">&gt;</a></li>
+        
+    
+        <li class="main "><a href="#clustering-vector">&gt; Clustering vector:</a></li>
+        
+    
+        <li class="main "><a href="#1-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3">&gt;   [1] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</a></li>
+        
+    
+        <li class="main "><a href="#26-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3">&gt;  [26] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</a></li>
+        
+    
+        <li class="main "><a href="#51-3-3-3-3-3-3-3-3-3-2-2-1-2-2-2-2-2-2-2-2-2-2-2-3-2">&gt;  [51] 3 3 3 3 3 3 3 3 3 2 2 1 2 2 2 2 2 2 2 2 2 2 2 3 2</a></li>
+        
+    
+        <li class="main "><a href="#76-2-2-2-2-2-2-2-2-1-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2">&gt;  [76] 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 3 2 2 2 2</a></li>
+        
+    
+        <li class="main "><a href="#101-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-1-2-2-3-2-2-2">&gt; [101] 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 3 2 2 2</a></li>
+        
+    
+        <li class="main "><a href="#126-2-2-2-2-2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1">&gt; [126] 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</a></li>
+        
+    
+        <li class="main "><a href="#151-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1">&gt; [151] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</a></li>
+        
+    
+        <li class="main "><a href="#176-1-1-1">&gt; [176] 1 1 1</a></li>
+        
+    
+        <li class="main "><a href="#_3">&gt;</a></li>
+        
+    
+        <li class="main "><a href="#within-cluster-sum-of-squares-by-cluster">&gt; Within cluster sum of squares by cluster:</a></li>
+        
+    
+        <li class="main "><a href="#1-3263537-5586971-3856983">&gt; [1] 326.3537 558.6971 385.6983</a></li>
+        
+    
+        <li class="main "><a href="#between_ss-total_ss-448">&gt;  (between_SS / total_SS =  44.8 %)</a></li>
+        
+    
+        <li class="main "><a href="#_4">&gt;</a></li>
+        
+    
+        <li class="main "><a href="#available-components">&gt; Available components:</a></li>
+        
+    
+        <li class="main "><a href="#_5">&gt;</a></li>
+        
+    
+        <li class="main "><a href="#1-cluster-centers-totss">&gt; [1] &quot;cluster&quot;      &quot;centers&quot;      &quot;totss&quot;</a></li>
+        
+    
+        <li class="main "><a href="#4-withinss-totwithinss-betweenss">&gt; [4] &quot;withinss&quot;     &quot;tot.withinss&quot; &quot;betweenss&quot;</a></li>
+        
+    
+        <li class="main "><a href="#7-size-iter-ifault">&gt; [7] &quot;size&quot;         &quot;iter&quot;         &quot;ifault&quot;</a></li>
+        
+    
+        <li class="main "><a href="#1-2-3">&gt;    1  2  3</a></li>
+        
+    
+        <li class="main "><a href="#1-0-0-59">&gt; 1  0  0 59</a></li>
+        
+    
+        <li class="main "><a href="#2-3-65-3">&gt; 2  3 65  3</a></li>
+        
+    
+        <li class="main "><a href="#3-48-0-0">&gt; 3 48  0  0</a></li>
+        
+    
+        <li class="main "><a href="#ari">&gt;      ARI</a></li>
+        
+    
+        <li class="main "><a href="#0897495">&gt; 0.897495</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="clustering">Clustering</h1>
+<h1 id="using-k-means-to-cluster-wine-dataset">Using K-Means to cluster wine dataset</h1>
+<p style="text-align:justify;">Recently, I joined <a href="https://www.coursera.org/course/clusteranalysis"><code>Cluster Analysis</code></a> course in coursera. The content of first week is about Partitioning-Based Clustering Methods where I learned about some cluster algorithms based on distance such as <code>K-Means</code>, <code>K-Medians</code> and <code>K-Modes</code>. I would like to turn what I learn into practice so I write this post as an excercise of this course.</p>
+
+<p style="text-align:justify;">In this post, I will use K-Means for clustering <code>wine</code> data set which I found in one of excellent posts about K-Mean in <a href="http://www.r-statistics.com/2013/08/k-means-clustering-from-r-in-action/">r-statistics website</a>.</p>
+
+<h2>Meet the data</h2>
+
+<p style="text-align:justify;"><img src="http://www.godine.co.uk/blog/wp-content/uploads/2009/12/Italian-wine.jpg" alt="" /></p>
+
+<p style="text-align:justify;">The <code>wine</code> data set contains the results of a chemical analysis of wines grown in a specific area of Italy. Three types of wine are represented in the 178 samples, with the results of 13 chemical analyses recorded for each sample. The Type variable has been transformed into a categoric variable.</p>
+
+<p>[sourcecode language="r"]
+ data(wine, package=&quot;rattle&quot;)
+head(wine)</p>
+<h1 id="type-alcohol-malic-ash-alcalinity-magnesium-phenols">&gt;   Type Alcohol Malic  Ash Alcalinity Magnesium Phenols</h1>
+<h1 id="1-1-1423-171-243-156-127-280">&gt; 1    1   14.23  1.71 2.43       15.6       127    2.80</h1>
+<h1 id="2-1-1320-178-214-112-100-265">&gt; 2    1   13.20  1.78 2.14       11.2       100    2.65</h1>
+<h1 id="3-1-1316-236-267-186-101-280">&gt; 3    1   13.16  2.36 2.67       18.6       101    2.80</h1>
+<h1 id="4-1-1437-195-250-168-113-385">&gt; 4    1   14.37  1.95 2.50       16.8       113    3.85</h1>
+<h1 id="5-1-1324-259-287-210-118-280">&gt; 5    1   13.24  2.59 2.87       21.0       118    2.80</h1>
+<h1 id="6-1-1420-176-245-152-112-327">&gt; 6    1   14.20  1.76 2.45       15.2       112    3.27</h1>
+<h1 id="flavanoids-nonflavanoids-proanthocyanins-color-hue">&gt;   Flavanoids Nonflavanoids Proanthocyanins Color  Hue</h1>
+<h1 id="1-306-028-229-564-104">&gt; 1       3.06          0.28            2.29  5.64 1.04</h1>
+<h1 id="2-276-026-128-438-105">&gt; 2       2.76          0.26            1.28  4.38 1.05</h1>
+<h1 id="3-324-030-281-568-103">&gt; 3       3.24          0.30            2.81  5.68 1.03</h1>
+<h1 id="4-349-024-218-780-086">&gt; 4       3.49          0.24            2.18  7.80 0.86</h1>
+<h1 id="5-269-039-182-432-104">&gt; 5       2.69          0.39            1.82  4.32 1.04</h1>
+<h1 id="6-339-034-197-675-105">&gt; 6       3.39          0.34            1.97  6.75 1.05</h1>
+<h1 id="dilution-proline">&gt;   Dilution Proline</h1>
+<h1 id="1-392-1065">&gt; 1     3.92    1065</h1>
+<h1 id="2-340-1050">&gt; 2     3.40    1050</h1>
+<h1 id="3-317-1185">&gt; 3     3.17    1185</h1>
+<h1 id="4-345-1480">&gt; 4     3.45    1480</h1>
+<h1 id="5-293-735">&gt; 5     2.93     735</h1>
+<h1 id="6-285-1450">&gt; 6     2.85    1450</h1>
+<p>[/sourcecode]</p>
+<h3>Explore and Preprocessing Data</h3>
+
+<p style="text-align:justify;">Let&apos;s see structure of wine data set</p>
+
+<p>[sourcecode language="r"]
+ str(wine)</p>
+<h1 id="dataframe-178-obs-of-14-variables">&gt; &apos;data.frame&apos;:  178 obs. of  14 variables:</h1>
+<h1 id="type-factor-w-3-levels-123-1-1-1-1-1-1-1-1-1-1">&gt; $ Type           : Factor w/ 3 levels &quot;1&quot;,&quot;2&quot;,&quot;3&quot;: 1 1 1 1 1 1 1 1 1 1 ...</h1>
+<h1 id="alcohol-num-142-132-132-144-132">&gt; $ Alcohol        : num  14.2 13.2 13.2 14.4 13.2 ...</h1>
+<h1 id="malic-num-171-178-236-195-259-176-187-215-164-135">&gt; $ Malic          : num  1.71 1.78 2.36 1.95 2.59 1.76 1.87 2.15 1.64 1.35 ...</h1>
+<h1 id="ash-num-243-214-267-25-287-245-245-261-217-227">&gt; $ Ash            : num  2.43 2.14 2.67 2.5 2.87 2.45 2.45 2.61 2.17 2.27 ...</h1>
+<h1 id="alcalinity-num-156-112-186-168-21-152-146-176-14-16">&gt; $ Alcalinity     : num  15.6 11.2 18.6 16.8 21 15.2 14.6 17.6 14 16 ...</h1>
+<h1 id="magnesium-int-127-100-101-113-118-112-96-121-97-98">&gt; $ Magnesium      : int  127 100 101 113 118 112 96 121 97 98 ...</h1>
+<h1 id="phenols-num-28-265-28-385-28-327-25-26-28-298">&gt; $ Phenols        : num  2.8 2.65 2.8 3.85 2.8 3.27 2.5 2.6 2.8 2.98 ...</h1>
+<h1 id="flavanoids-num-306-276-324-349-269-339-252-251-298-315">&gt; $ Flavanoids     : num  3.06 2.76 3.24 3.49 2.69 3.39 2.52 2.51 2.98 3.15 ...</h1>
+<h1 id="nonflavanoids-num-028-026-03-024-039-034-03-031-029-022">&gt; $ Nonflavanoids  : num  0.28 0.26 0.3 0.24 0.39 0.34 0.3 0.31 0.29 0.22 ...</h1>
+<h1 id="proanthocyanins-num-229-128-281-218-182-197-198-125-198-185">&gt; $ Proanthocyanins: num  2.29 1.28 2.81 2.18 1.82 1.97 1.98 1.25 1.98 1.85 ...</h1>
+<h1 id="color-num-564-438-568-78-432-675-525-505-52-722">&gt; $ Color          : num  5.64 4.38 5.68 7.8 4.32 6.75 5.25 5.05 5.2 7.22 ...</h1>
+<h1 id="hue-num-104-105-103-086-104-105-102-106-108-101">&gt; $ Hue            : num  1.04 1.05 1.03 0.86 1.04 1.05 1.02 1.06 1.08 1.01 ...</h1>
+<h1 id="dilution-num-392-34-317-345-293-285-358-358-285-355">&gt; $ Dilution       : num  3.92 3.4 3.17 3.45 2.93 2.85 3.58 3.58 2.85 3.55 ...</h1>
+<h1 id="proline-int-1065-1050-1185-1480-735-1450-1290-1295-1045-1045">&gt; $ Proline        : int  1065 1050 1185 1480 735 1450 1290 1295 1045 1045 ...</h1>
+<p>[/sourcecode]</p>
+<p style="text-align:justify;">Wine data set contains 1 categorical variables (label) and 13 numerical variables. But these numerical variables is not scaled, I use <code>scale</code> function for scaling and centering data and then assign it as training data.</p>
+
+<p>[sourcecode language="r"]
+ data.train &lt;- scale(wine[-1])
+[/sourcecode]</p>
+<p style="text-align:justify;">Data is already centered and scaled.</p>
+
+<p>[sourcecode language="r"]
+ summary(data.train)</p>
+<h1 id="alcohol-malic">&gt;   Alcohol             Malic</h1>
+<h1 id="min-242739-min-14290">&gt; Min.   :-2.42739   Min.   :-1.4290</h1>
+<h1 id="1st-qu-078603-1st-qu-06569">&gt; 1st Qu.:-0.78603   1st Qu.:-0.6569</h1>
+<h1 id="median-006083-median-04219">&gt; Median : 0.06083   Median :-0.4219</h1>
+<h1 id="mean-000000-mean-00000">&gt; Mean   : 0.00000   Mean   : 0.0000</h1>
+<h1 id="3rd-qu-083378-3rd-qu-06679">&gt; 3rd Qu.: 0.83378   3rd Qu.: 0.6679</h1>
+<h1 id="max-225341-max-31004">&gt; Max.   : 2.25341   Max.   : 3.1004</h1>
+<h1 id="ash-alcalinity">&gt;      Ash             Alcalinity</h1>
+<h1 id="min-366881-min-2663505">&gt; Min.   :-3.66881   Min.   :-2.663505</h1>
+<h1 id="1st-qu-057051-1st-qu-0687199">&gt; 1st Qu.:-0.57051   1st Qu.:-0.687199</h1>
+<h1 id="median-002375-median-0001514">&gt; Median :-0.02375   Median : 0.001514</h1>
+<h1 id="mean-000000-mean-0000000">&gt; Mean   : 0.00000   Mean   : 0.000000</h1>
+<h1 id="3rd-qu-069615-3rd-qu-0600395">&gt; 3rd Qu.: 0.69615   3rd Qu.: 0.600395</h1>
+<h1 id="max-314745-max-3145637">&gt; Max.   : 3.14745   Max.   : 3.145637</h1>
+<h1 id="magnesium-phenols">&gt;   Magnesium          Phenols</h1>
+<h1 id="min-20824-min-210132">&gt; Min.   :-2.0824   Min.   :-2.10132</h1>
+<h1 id="1st-qu-08221-1st-qu-088298">&gt; 1st Qu.:-0.8221   1st Qu.:-0.88298</h1>
+<h1 id="median-01219-median-009569">&gt; Median :-0.1219   Median : 0.09569</h1>
+<h1 id="mean-00000-mean-000000">&gt; Mean   : 0.0000   Mean   : 0.00000</h1>
+<h1 id="3rd-qu-05082-3rd-qu-080672">&gt; 3rd Qu.: 0.5082   3rd Qu.: 0.80672</h1>
+<h1 id="max-43591-max-253237">&gt; Max.   : 4.3591   Max.   : 2.53237</h1>
+<h1 id="flavanoids-nonflavanoids">&gt;   Flavanoids      Nonflavanoids</h1>
+<h1 id="min-16912-min-18630">&gt; Min.   :-1.6912   Min.   :-1.8630</h1>
+<h1 id="1st-qu-08252-1st-qu-07381">&gt; 1st Qu.:-0.8252   1st Qu.:-0.7381</h1>
+<h1 id="median-01059-median-01756">&gt; Median : 0.1059   Median :-0.1756</h1>
+<h1 id="mean-00000-mean-00000">&gt; Mean   : 0.0000   Mean   : 0.0000</h1>
+<h1 id="3rd-qu-08467-3rd-qu-06078">&gt; 3rd Qu.: 0.8467   3rd Qu.: 0.6078</h1>
+<h1 id="max-30542-max-23956">&gt; Max.   : 3.0542   Max.   : 2.3956</h1>
+<h1 id="proanthocyanins-color">&gt; Proanthocyanins        Color</h1>
+<h1 id="min-206321-min-16297">&gt; Min.   :-2.06321   Min.   :-1.6297</h1>
+<h1 id="1st-qu-059560-1st-qu-07929">&gt; 1st Qu.:-0.59560   1st Qu.:-0.7929</h1>
+<h1 id="median-006272-median-01588">&gt; Median :-0.06272   Median :-0.1588</h1>
+<h1 id="mean-000000-mean-00000_1">&gt; Mean   : 0.00000   Mean   : 0.0000</h1>
+<h1 id="3rd-qu-062741-3rd-qu-04926">&gt; 3rd Qu.: 0.62741   3rd Qu.: 0.4926</h1>
+<h1 id="max-347527-max-34258">&gt; Max.   : 3.47527   Max.   : 3.4258</h1>
+<h1 id="hue-dilution">&gt;      Hue              Dilution</h1>
+<h1 id="min-208884-min-18897">&gt; Min.   :-2.08884   Min.   :-1.8897</h1>
+<h1 id="1st-qu-076540-1st-qu-09496">&gt; 1st Qu.:-0.76540   1st Qu.:-0.9496</h1>
+<h1 id="median-003303-median-02371">&gt; Median : 0.03303   Median : 0.2371</h1>
+<h1 id="mean-000000-mean-00000_2">&gt; Mean   : 0.00000   Mean   : 0.0000</h1>
+<h1 id="3rd-qu-071116-3rd-qu-07864">&gt; 3rd Qu.: 0.71116   3rd Qu.: 0.7864</h1>
+<h1 id="max-329241-max-19554">&gt; Max.   : 3.29241   Max.   : 1.9554</h1>
+<h1 id="proline">&gt;    Proline</h1>
+<h1 id="min-14890">&gt; Min.   :-1.4890</h1>
+<h1 id="1st-qu-07824">&gt; 1st Qu.:-0.7824</h1>
+<h1 id="median-02331">&gt; Median :-0.2331</h1>
+<h1 id="mean-00000">&gt; Mean   : 0.0000</h1>
+<h1 id="3rd-qu-07561">&gt; 3rd Qu.: 0.7561</h1>
+<h1 id="max-29631">&gt; Max.   : 2.9631</h1>
+<p>[/sourcecode]</p>
+<h3>Model Fitting</h3>
+
+<p style="text-align:justify;">Now the fun part begins. I use <code>NbClust</code> function to determine what is the best number of clusteres <code>k</code> for K-Means</p>
+
+<p>[sourcecode language="r"]
+ nc &lt;- NbClust(data.train,
+              min.nc=2, max.nc=15,
+              method=&quot;kmeans&quot;)
+barplot(table(nc$Best.n[1,]),
+        xlab=&quot;Numer of Clusters&quot;,
+        ylab=&quot;Number of Criteria&quot;,
+        main=&quot;Number of Clusters Chosen by 26 Criteria&quot;)
+[/sourcecode]</p>
+<p style="text-align:justify;"><img src="http://i.imgur.com/PZpK0fQ.png" alt="" /></p>
+
+<p style="text-align:justify;">According to the graph, we can find the best number of clusters is 3. Beside <code>NbClust</code> function which provides 30 indices for determing the number of clusters and proposes the best clustering scheme, we can draw the sum of square error (SSE) scree plot and look for a bend or elbow in this graph to determine appropriate k</p>
+
+<p>[sourcecode language="r"]
+ wss &lt;- 0
+for (i in 1:15){
+  wss[i] &lt;-
+    sum(kmeans(data.train, centers=i)$withinss)
+}
+plot(1:15,
+  wss,
+  type=&quot;b&quot;,
+  xlab=&quot;Number of Clusters&quot;,
+  ylab=&quot;Within groups sum of squares&quot;)
+[/sourcecode]</p>
+<p style="text-align:justify;"><img src="http://storage1.static.itmages.com/i/15/0507/h_1430988994_4723808_8afc9f6f9a.png" alt="" /></p>
+
+<p style="text-align:justify;">Both two methods suggest k=3 is best choice for us. It&apos;s reasonsable if we take notice that the original data set also contains 3 classes.</p>
+
+<h3>Fit the model</h3>
+
+<p style="text-align:justify;">We now fit <code>wine</code> data to K-Means with k = 3</p>
+
+<p>[sourcecode language="r"]
+ fit.km &lt;- kmeans(data.train, 3)
+[/sourcecode]</p>
+<p style="text-align:justify;">Then interpret the result</p>
+
+<p>[sourcecode language="r"]
+ fit.km</p>
+<h1 id="k-means-clustering-with-3-clusters-of-sizes-51-65-62">&gt; K-means clustering with 3 clusters of sizes 51, 65, 62</h1>
+<h1 id="_1">&gt;</h1>
+<h1 id="cluster-means">&gt; Cluster means:</h1>
+<h1 id="alcohol-malic-ash-alcalinity">&gt;      Alcohol      Malic        Ash Alcalinity</h1>
+<h1 id="1-01644436-08690954-01863726-05228924">&gt; 1  0.1644436  0.8690954  0.1863726  0.5228924</h1>
+<h1 id="2-09234669-03929331-04931257-01701220">&gt; 2 -0.9234669 -0.3929331 -0.4931257  0.1701220</h1>
+<h1 id="3-08328826-03029551-03636801-06084749">&gt; 3  0.8328826 -0.3029551  0.3636801 -0.6084749</h1>
+<h1 id="magnesium-phenols-flavanoids-nonflavanoids">&gt;     Magnesium     Phenols  Flavanoids Nonflavanoids</h1>
+<h1 id="1-007526047-097657548-121182921-072402116">&gt; 1 -0.07526047 -0.97657548 -1.21182921    0.72402116</h1>
+<h1 id="2-049032869-007576891-002075402-003343924">&gt; 2 -0.49032869 -0.07576891  0.02075402   -0.03343924</h1>
+<h1 id="3-057596208-088274724-097506900-056050853">&gt; 3  0.57596208  0.88274724  0.97506900   -0.56050853</h1>
+<h1 id="proanthocyanins-color-hue-dilution">&gt;   Proanthocyanins      Color        Hue   Dilution</h1>
+<h1 id="1-077751312-09388902-11615122-12887761">&gt; 1     -0.77751312  0.9388902 -1.1615122 -1.2887761</h1>
+<h1 id="2-005810161-08993770-04605046-02700025">&gt; 2      0.05810161 -0.8993770  0.4605046  0.2700025</h1>
+<h1 id="3-057865427-01705823-04726504-07770551">&gt; 3      0.57865427  0.1705823  0.4726504  0.7770551</h1>
+<h1 id="proline_1">&gt;      Proline</h1>
+<h1 id="1-04059428">&gt; 1 -0.4059428</h1>
+<h1 id="2-07517257">&gt; 2 -0.7517257</h1>
+<h1 id="3-11220202">&gt; 3  1.1220202</h1>
+<h1 id="_2">&gt;</h1>
+<h1 id="clustering-vector">&gt; Clustering vector:</h1>
+<h1 id="1-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3">&gt;   [1] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</h1>
+<h1 id="26-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3">&gt;  [26] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</h1>
+<h1 id="51-3-3-3-3-3-3-3-3-3-2-2-1-2-2-2-2-2-2-2-2-2-2-2-3-2">&gt;  [51] 3 3 3 3 3 3 3 3 3 2 2 1 2 2 2 2 2 2 2 2 2 2 2 3 2</h1>
+<h1 id="76-2-2-2-2-2-2-2-2-1-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2">&gt;  [76] 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 3 2 2 2 2</h1>
+<h1 id="101-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-1-2-2-3-2-2-2">&gt; [101] 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 3 2 2 2</h1>
+<h1 id="126-2-2-2-2-2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1">&gt; [126] 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</h1>
+<h1 id="151-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1">&gt; [151] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</h1>
+<h1 id="176-1-1-1">&gt; [176] 1 1 1</h1>
+<h1 id="_3">&gt;</h1>
+<h1 id="within-cluster-sum-of-squares-by-cluster">&gt; Within cluster sum of squares by cluster:</h1>
+<h1 id="1-3263537-5586971-3856983">&gt; [1] 326.3537 558.6971 385.6983</h1>
+<h1 id="between_ss-total_ss-448">&gt;  (between_SS / total_SS =  44.8 %)</h1>
+<h1 id="_4">&gt;</h1>
+<h1 id="available-components">&gt; Available components:</h1>
+<h1 id="_5">&gt;</h1>
+<h1 id="1-cluster-centers-totss">&gt; [1] &quot;cluster&quot;      &quot;centers&quot;      &quot;totss&quot;</h1>
+<h1 id="4-withinss-totwithinss-betweenss">&gt; [4] &quot;withinss&quot;     &quot;tot.withinss&quot; &quot;betweenss&quot;</h1>
+<h1 id="7-size-iter-ifault">&gt; [7] &quot;size&quot;         &quot;iter&quot;         &quot;ifault&quot;</h1>
+<p>[/sourcecode]</p>
+<p style="text-align:justify;">The result shows information about cluster means, clustering vector, sum of square by cluster and available components. Let&apos;s do some visualizations to see how data set is clustered.</p>
+
+<p style="text-align:justify;">First, I use <code>plotcluster</code> function from <code>fpc</code> package to draw discriminant projection plot</p>
+
+<p>[sourcecode language="r"]
+ library(fpc)
+plotcluster(data.train, fit.km$cluster)
+[/sourcecode]</p>
+<p style="text-align:justify;"><img src="http://i.imgur.com/XNRnMDz.png" alt="" /></p>
+
+<p style="text-align:justify;">We can see the data is clustered very well, there are no collapse between clusters. Next, we draw parallel coordinates plot to see how variables contributed in each cluster</p>
+
+<p>[sourcecode language="r"]
+ library(MASS)
+parcoord(data.train, fit.km$cluster)
+[/sourcecode]</p>
+<p style="text-align:justify;"><img src="http://i.imgur.com/Ir0gn7r.png" alt="" /></p>
+
+<p style="text-align:justify;">We can extract some insights from above graph suc as black cluster contains wine with low flavanoids value, low proanthocyanins value, low hue value. Or green cluster contains wine which has dilution value higher than wine in red cluster.</p>
+
+<h3>Evaluation</h3>
+
+<p style="text-align:justify;">Because the original data set <code>wine</code> also has 3 classes, it is reasonable if we compare these classes with 3 clusters fited by K-Means</p>
+
+<p>[sourcecode language="r"]
+ confuseTable.km &lt;- table(wine$Type, fit.km$cluster)
+confuseTable.km</p>
+<h1 id="1-2-3">&gt;    1  2  3</h1>
+<h1 id="1-0-0-59">&gt; 1  0  0 59</h1>
+<h1 id="2-3-65-3">&gt; 2  3 65  3</h1>
+<h1 id="3-48-0-0">&gt; 3 48  0  0</h1>
+<p>[/sourcecode]</p>
+<p style="text-align:justify;">We can see only 6 sample is missed. Let&apos;s use randIndex from flexclust to compare these two parititions - one from data set and one from result of clustering method.</p>
+
+<p>[sourcecode language="r"]
+ library(flexclust)
+randIndex(ct.km)</p>
+<h1 id="ari">&gt;      ARI</h1>
+<h1 id="0897495">&gt; 0.897495</h1>
+<p>[/sourcecode]</p>
+<p style="text-align:justify;">It&apos;s quite close to 1 so K-Means is good model for clustering <code>wine</code> data set.</p>
+
+<h3>References</h3>
+
+<ul><li>Choosing number of cluster in K-Means, <a href="http://stackoverflow.com/a/15376462/1036500">http://stackoverflow.com/a/15376462/1036500</a></li><li>K-means Clustering (from “R in Action”), <a href="http://www.r-statistics.com/2013/08/k-means-clustering-from-r-in-action/">http://www.r-statistics.com/2013/08/k-means-clustering-from-r-in-action/</a></li><li>Color the cluster output in r,  <a href="http://stackoverflow.com/questions/15386960/color-the-cluster-output-in-r">http://stackoverflow.com/questions/15386960/color-the-cluster-output-in-r</a></li></ul></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
