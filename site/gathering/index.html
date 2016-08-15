@@ -226,26 +226,6 @@
     
         <li class="main "><a href="#gathering">Gathering</a></li>
         
-            <li><a href="#read-and-write-data-in-python">Read and Write Data in python</a></li>
-        
-    
-        <li class="main "><a href="#read-data">read data</a></li>
-        
-    
-        <li class="main "><a href="#write-data">write data</a></li>
-        
-    
-        <li class="main "><a href="#read-data_1">read data</a></li>
-        
-    
-        <li class="main "><a href="#connect-to-sqlite3">connect to sqlite3</a></li>
-        
-    
-        <li class="main "><a href="#excute-query">excute query</a></li>
-        
-    
-        <li class="main "><a href="#return-dataset">return dataset</a></li>
-        
     
     </ul>
 </div></div>
@@ -276,52 +256,7 @@ import pandas_profiling
 df = pd.read_csv("train.csv", parse_dates=True, encoding='UTF-8')
 pandas_profiling.ProfileReport(df)
 [/code]</p>
-<h1 id="gathering">Gathering</h1>
-<p>Python: Read and Write Data</p>
-<h3 id="read-and-write-data-in-python">Read and Write Data in python</h3>
-<p>This post shows how to import data to Python from numerous resources</p>
-<p><strong>CSV File</strong></p>
-<p>Read a csv file from local or from a server</p>
-<p>[sourcecode language="python"]
-import numpy as np
-import pandas as pd</p>
-<h1 id="read-data">read data</h1>
-<p>df = pd.read_csv('data.csv', header = 0)</p>
-<h1 id="write-data">write data</h1>
-<p>df.to_csv('data.csv', header=1, index=False)
-[/sourcecode]</p>
-<p><strong>Excel File</strong> <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
-<p>[code lang="python"]
-import pandas as pd</p>
-<h1 id="read-data_1">read data</h1>
-<p>df = pd.read_excel('data.xls')
-[/code]</p>
-<p><strong>Sqlite File</strong> <sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup> <sup id="fnref:3"><a class="footnote-ref" href="#fn:3" rel="footnote">3</a></sup></p>
-<p>[code lang="python"]
-import sqlite3</p>
-<p>DB_NAME = "db.sqlite3"
-SELECT_QUERY = "SELECT page_id, type FROM service_page"</p>
-<h1 id="connect-to-sqlite3">connect to sqlite3</h1>
-<p>db_connector = sqlite3.connect(DB_NAME)</p>
-<h1 id="excute-query">excute query</h1>
-<p>cursor = db_connector.execute(SELECT_QUERY)</p>
-<h1 id="return-dataset">return dataset</h1>
-<p>data_set = cursor.fetchall()
-[/code]</p>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:1">
-<p><a href="http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_excel.html">pandas.read_excel</a>\&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p><a href="http://www.datacarpentry.org/python-ecology/08-working-with-sql">pandas.read_sqlite</a>\&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:3">
-<p><a href="http://www.tutorialspoint.com/sqlite/sqlite_python.htm">sqlite3.read_sqlite</a>\&#160;<a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div></div>
+<h1 id="gathering">Gathering</h1></div>
             
         </div>
 

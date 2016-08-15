@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "DS: 101\n\n\nInstallation\n\n\nUbuntu\n\n\n[code]\n\n\ninstall pip\n\n\nsudo apt-get install python-pip\n\n\nnumpy scipy notebook\n\n\nsudo apt-get install python-numpy python-scipy python-matplotlib python-pandas python-sympy python-nose\n\n\nscikit-learn\n\n\npip install jupyter ipython\npip install -U scikit-learn\n[/code]\n\n\nData Science: Questions and Answers\n\n\nWhat is Precision and recall? \n1\n\n\n\n\n\nWhat are 'Overfitting' and 'Underfitting'? \n2\n \n\n\n\nWhat are popular algorithms? \n2\n\n\n\n\n\nDecision Trees\n\n\nNeural Networks (back propagation)\n\n\nProbabilistic networks\n\n\nNearest Neighbor\n\n\nSupport vector machines\n\n\n\n\n\nDescribe a \"Rolls Royce\" solution that you could implement in 3 months, 3 weeks and 3 days.\n\n\n\n[!TODO]\n\n\nMachine Learning Problems \n3\n\n\n\n[!TODO]\n\n\nHow would you generate related searches on Bing? \n3\n\n\n\n[!TODO]\n\n\nHow would you approach the Netflix Prize? \n3\n\n\n\n[!TODO]\n\n\nHow would you suggest followers on Twitter? \n3\n\n\n\n[!TODO]\n\n\n\n\n\n\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Precision_and_recall\n\n\n\n\n\n\n\nhttp://career.guru99.com/top-50-interview-questions-on-machine-learning/\n \n\n\n\n\n\n\n\nhttp://www.quora.com/What-are-the-best-interview-questions-to-evaluate-a-machine-learning-researcher\n \n \n \n\n\n\n\n\n\n\n\n\n\nDS: Python Data Mining Folder Structure\n\n\n[code]\ncode/\n\u251c\u2500\u2500 data/\n\u2514\u2500\u2500 script.py\n[/code]\n\n\nCompetition\n\n\nKaggle\n\n\nThe reasons why you should take a competition\n\n\nAccording to \nYanir Seroussi\n, if you\u2019re a data scientist (or want to become one), participating in competitions is a great way of honing your skills, building reputation, and potentially winning some cash.\n\n\nIntroduction to\u00a0\nKaggle\n\n\nKaggle is the world's largest community of data scientists. They compete with each other to solve complex data science problems, and the top competitors are invited to work on the most interesting and sensitive business problems from some of the world\u2019s biggest companies through Masters competitions.\n\n\n\nKaggle provides cutting-edge data science results to companies of all sizes. We have a proven track-record of solving real-world problems across a diverse array of industries including life sciences, financial services, energy, information technology, and retail.\n\n\n\nProfiling\u00a0top Kagglers\n\n\n\n    \nProfiling Top Kagglers: KazAnova\u00a0Currently #2 in the World\n\n    \nProfiling Top Kagglers: Owen Zhang, Currently #1 in the World\n\n\n\n\n\nHow to compete\n \n1\n\n\n\n\n\n    \nRead the manual\n\n    \nUnderstand the performance measure\n\n    \nKnow your data\n\n    \nUnderstand what you want to achieve before worrying about the how\n\n    \nSet up a local validation environment\n\n    \nMonitor the forum\n\n    \nDo your research\n\n    \nApply the basics rigorously\n\n    \nEnsemble all the things\n\n    \nWin\n\n\n\n\n\nTools\n\n\nExploring Data\n\n\n\n    \nSQLiteStudio\n\n\n\n\n\nIDE\n\n\n\n    \nPycharm for Python\n\n    \nRStudio for R\n\n\n\n\n\nMachine learning libraries\n\n\nPython:\u00a0scikit-learn,\u00a0XGBoost,\u00a0Vowpal Wabbit,\u00a0cuda-convnet2\n\n\nR \n2\n :\u00a0gbm,\u00a0randomForest,\u00a0e1071,\u00a0glmnet,\u00a0tau,\u00a0Matrix,\u00a0SOAR,\u00a0forEach,\u00a0doMC,\u00a0data.table\n\n\nArticles\n\n\n\n\nWhat do top Kaggle competitors focus on?\n\n\n\n\n\n\n\n\n\n\n\n\nYanir Seroussi, 2015. \n10 Steps to Success in Kaggle Data Science Competitions\n. [ONLINE] Available at: \nhttp://www.kdnuggets.com/2015/03/10-steps-success-kaggle-data-science-competitions.html\n. [Accessed 10 March 2015].\n\n\n\n\n\n\nDataRobot,\u00a02015. \n10 R Packages to Win Kaggle Competitions\n. [ONLINE] Available at\u00a0\nhttp://www.slideshare.net/DataRobot/final-10-r-xc-36610234\n\u00a0[Accessed 03 July\u00a02014].\n\n\n\n\n\n\n\n\n\n\nTools\n\n\nThird Party APIs\n\n\nOriginal post: \nhttp://www.kdnuggets.com/2015/11/machine-learning-apis-data-science.html/2\n\n\nKeep update your knowledge with many conferences, groups and social networks about machine learning and data mining\n\n\nConferences, Journals, Groups, Social Networks and People\n\n\nConferences\n\n\nICML - Internal Conference on Machine Learning\n\n\n\n\nThe International Conference on Machine Learning (ICML) is the leading international academic conference in machine learning, attracting annually about 500 participants from all over the world. It is supported by the International Machine Learning Society (IMLS). The conference attracts leading innovations in the field of machine learning.\n\n\nNIPS - Annual Conference on Neural Information Processing \n\n\nThe Conference and Workshop on Neural Information Processing Systems (NIPS) is a machine learning and computational neuroscience conference held every December. The conference is a single track meeting that includes invited talks as well as oral and poster presentations of refereed papers, followed by parallel-track workshops that up to 2013 were held at ski resorts. According to Microsoft Academic Search, NIPS is the top conference on machine learning.\n\n\nNIPS Deep Learning Workshop \n\n\n2015, \n2014\n, \n2013\n, \n2012\n, \n2011\n, \n2010\n\n\nThe Deep Learning and Representation Learning Workshop will be held in conjunction with Neural Information Processing Systems (NIPS)\n\n\nDeep Learning algorithms attempt to discover good representations, at multiple levels of abstraction. There has been rapid progress in this area in recent years, both in terms of algorithms and in terms of applications, but many challenges remain. The workshop aims at bringing together researchers in that field and discussing these challenges, brainstorming about new solutions.\n\n\nACM SIGKDD\n\n\n2015\n, \n2014\n, \n2013\n\n\nKDD provides the premier forum for advancement and adoption of the \"science\" of knowledge discovery and data mining. KDD encourages:\n\n\n\n    \nResearch in KDD (through annual research conferences, newsletter and other related activities)\nAdoption of \"standards\" in the market in terms of terminology, evaluation, methodology\nInterdisciplinary education among KDD researchers, practitioners, and users\nKDD activities include the annual Conference on Knowledge Discovery and Data Mining and the SIGKDD Explorations Newsletter.\n\n\n\n\n\nJournals\n\n\n\nJMLR - Journal of Machine Learning Research\n\n\nThe Journal of Machine Learning Research (JMLR) provides an international forum for the electronic and paper publication of high-quality scholarly articles in all areas of machine learning. All published papers are freely available online.\n\n\nJAIR - Journal of Artificial Intelligence Research\n\n\nJAIR(ISSN 1076 - 9757) covers all areas of artificial intelligence (AI), publishing refereed research articles, survey articles, and technical notes. Established in 1993 as one of the first electronic scientific journals, JAIR is indexed by INSPEC, Science Citation Index, and MathSciNet. JAIR reviews papers within approximately three months of submission and publishes accepted articles on the internet immediately upon receiving the final versions. JAIR articles are published for free distribution on the internet by the AI Access Foundation, and for purchase in bound volumes by AAAI Press.\n\n\nGroups and Social Networks\n\n\n\nYou can join many peer groups - see \nTop 30 LinkedIn Groups for Analytics, Big Data, Data Mining, and Data Science\n.\n\n\nAnalyticBridge \nis an active community for Analytics and Data Science.\n\n\nYou can attend some of the many \nMeetings and Conferences on Analytics, Big Data, Data Mining, Data Science, \n Knowledge Discovery\n.\n\n\nPeople\n\n\n\nJure Leskovec\n: \n#SocialNetworkAnalysis\n\n\nAndrew Ng\n: \n#DeepLearning\n\n\nDavid Blei\n: \n#TopicModel\n\n\nMatei Zaharia\n: \n#apachespark , #2013, \ncreator of apache spark, (interview \n#1\n)\n\n\nReferences\n\n\n\n\n    \nquora.com, \nWhat are the best conferences and journals about machine learning?\n\n    \nkdnuggets.com, \n7 Steps for Learning Data Mining and Data Science\n\n    \nkdnuggets.com, \n7 Steps for Learning Data Mining and Data Science\n\n\n\n\n\nDS: Cultures\n\n\n\n\nWhat are machine learning cultures? Who are invent and follow what culture?\n\n\n\n\nInspired from two interesting papers,\n\n\n\n\nLeo Breiman, 2001, \nStatistical Modeling: The Two Cultures (with comments and a rejoinder by the author)\n\n\nJason Eisner, 2015, \nThe Three Cultures of Machine Learning\n\n\n\n\nFrequentist\n\n\nBayesian\n\n\nAlgorithmic Modeling, Deep Learning\n\n\nDS: Courses\n\n\nData Science Courses", 
+            "text": "DS: 101\n\n\nData Science: Questions and Answers\n\n\nWhat is Precision and recall? \n1\n\n\n\n\n\nWhat are 'Overfitting' and 'Underfitting'? \n2\n \n\n\n\nWhat are popular algorithms? \n2\n\n\n\n\n\nDecision Trees\n\n\nNeural Networks (back propagation)\n\n\nProbabilistic networks\n\n\nNearest Neighbor\n\n\nSupport vector machines\n\n\n\n\n\nDescribe a \"Rolls Royce\" solution that you could implement in 3 months, 3 weeks and 3 days.\n\n\n\n[!TODO]\n\n\nMachine Learning Problems \n3\n\n\n\n[!TODO]\n\n\nHow would you generate related searches on Bing? \n3\n\n\n\n[!TODO]\n\n\nHow would you approach the Netflix Prize? \n3\n\n\n\n[!TODO]\n\n\nHow would you suggest followers on Twitter? \n3\n\n\n\n[!TODO]\n\n\n\n\n\n\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Precision_and_recall\n\n\n\n\n\n\n\nhttp://career.guru99.com/top-50-interview-questions-on-machine-learning/\n \n\n\n\n\n\n\n\nhttp://www.quora.com/What-are-the-best-interview-questions-to-evaluate-a-machine-learning-researcher\n \n \n \n\n\n\n\n\n\n\n\n\n\nDS: Python Data Mining Folder Structure\n\n\ncode/\n\u251c\u2500\u2500 data/\n\u2514\u2500\u2500 script.py\n\n\n\n\nCompetition\n\n\nKaggle\n\n\nThe reasons why you should take a competition\n\n\nAccording to \nYanir Seroussi\n, if you\u2019re a data scientist (or want to become one), participating in competitions is a great way of honing your skills, building reputation, and potentially winning some cash.\n\n\nIntroduction to\u00a0\nKaggle\n\n\nKaggle is the world's largest community of data scientists. They compete with each other to solve complex data science problems, and the top competitors are invited to work on the most interesting and sensitive business problems from some of the world\u2019s biggest companies through Masters competitions.\n\n\n\nKaggle provides cutting-edge data science results to companies of all sizes. We have a proven track-record of solving real-world problems across a diverse array of industries including life sciences, financial services, energy, information technology, and retail.\n\n\n\nProfiling\u00a0top Kagglers\n\n\n\n    \nProfiling Top Kagglers: KazAnova\u00a0Currently #2 in the World\n\n    \nProfiling Top Kagglers: Owen Zhang, Currently #1 in the World\n\n\n\n\n\nHow to compete\n \n1\n\n\n\n\n\n    \nRead the manual\n\n    \nUnderstand the performance measure\n\n    \nKnow your data\n\n    \nUnderstand what you want to achieve before worrying about the how\n\n    \nSet up a local validation environment\n\n    \nMonitor the forum\n\n    \nDo your research\n\n    \nApply the basics rigorously\n\n    \nEnsemble all the things\n\n    \nWin\n\n\n\n\n\nTools\n\n\nExploring Data\n\n\n\n    \nSQLiteStudio\n\n\n\n\n\nIDE\n\n\n\n    \nPycharm for Python\n\n    \nRStudio for R\n\n\n\n\n\nMachine learning libraries\n\n\nPython:\u00a0scikit-learn,\u00a0XGBoost,\u00a0Vowpal Wabbit,\u00a0cuda-convnet2\n\n\nR \n2\n :\u00a0gbm,\u00a0randomForest,\u00a0e1071,\u00a0glmnet,\u00a0tau,\u00a0Matrix,\u00a0SOAR,\u00a0forEach,\u00a0doMC,\u00a0data.table\n\n\nArticles\n\n\n\n\nWhat do top Kaggle competitors focus on?\n\n\n\n\n\n\n\n\n\n\n\n\nYanir Seroussi, 2015. \n10 Steps to Success in Kaggle Data Science Competitions\n. [ONLINE] Available at: \nhttp://www.kdnuggets.com/2015/03/10-steps-success-kaggle-data-science-competitions.html\n. [Accessed 10 March 2015].\n\n\n\n\n\n\nDataRobot,\u00a02015. \n10 R Packages to Win Kaggle Competitions\n. [ONLINE] Available at\u00a0\nhttp://www.slideshare.net/DataRobot/final-10-r-xc-36610234\n\u00a0[Accessed 03 July\u00a02014].\n\n\n\n\n\n\n\n\n\n\nTools\n\n\nThird Party APIs\n\n\nOriginal post: \nhttp://www.kdnuggets.com/2015/11/machine-learning-apis-data-science.html/2\n\n\nKeep update your knowledge with many conferences, groups and social networks about machine learning and data mining\n\n\nConferences, Journals, Groups, Social Networks and People\n\n\nConferences\n\n\nICML - Internal Conference on Machine Learning\n\n\n\n\nThe International Conference on Machine Learning (ICML) is the leading international academic conference in machine learning, attracting annually about 500 participants from all over the world. It is supported by the International Machine Learning Society (IMLS). The conference attracts leading innovations in the field of machine learning.\n\n\nNIPS - Annual Conference on Neural Information Processing \n\n\nThe Conference and Workshop on Neural Information Processing Systems (NIPS) is a machine learning and computational neuroscience conference held every December. The conference is a single track meeting that includes invited talks as well as oral and poster presentations of refereed papers, followed by parallel-track workshops that up to 2013 were held at ski resorts. According to Microsoft Academic Search, NIPS is the top conference on machine learning.\n\n\nNIPS Deep Learning Workshop \n\n\n2015, \n2014\n, \n2013\n, \n2012\n, \n2011\n, \n2010\n\n\nThe Deep Learning and Representation Learning Workshop will be held in conjunction with Neural Information Processing Systems (NIPS)\n\n\nDeep Learning algorithms attempt to discover good representations, at multiple levels of abstraction. There has been rapid progress in this area in recent years, both in terms of algorithms and in terms of applications, but many challenges remain. The workshop aims at bringing together researchers in that field and discussing these challenges, brainstorming about new solutions.\n\n\nACM SIGKDD\n\n\n2015\n, \n2014\n, \n2013\n\n\nKDD provides the premier forum for advancement and adoption of the \"science\" of knowledge discovery and data mining. KDD encourages:\n\n\n\n    \nResearch in KDD (through annual research conferences, newsletter and other related activities)\nAdoption of \"standards\" in the market in terms of terminology, evaluation, methodology\nInterdisciplinary education among KDD researchers, practitioners, and users\nKDD activities include the annual Conference on Knowledge Discovery and Data Mining and the SIGKDD Explorations Newsletter.\n\n\n\n\n\nJournals\n\n\n\nJMLR - Journal of Machine Learning Research\n\n\nThe Journal of Machine Learning Research (JMLR) provides an international forum for the electronic and paper publication of high-quality scholarly articles in all areas of machine learning. All published papers are freely available online.\n\n\nJAIR - Journal of Artificial Intelligence Research\n\n\nJAIR(ISSN 1076 - 9757) covers all areas of artificial intelligence (AI), publishing refereed research articles, survey articles, and technical notes. Established in 1993 as one of the first electronic scientific journals, JAIR is indexed by INSPEC, Science Citation Index, and MathSciNet. JAIR reviews papers within approximately three months of submission and publishes accepted articles on the internet immediately upon receiving the final versions. JAIR articles are published for free distribution on the internet by the AI Access Foundation, and for purchase in bound volumes by AAAI Press.\n\n\nGroups and Social Networks\n\n\n\nYou can join many peer groups - see \nTop 30 LinkedIn Groups for Analytics, Big Data, Data Mining, and Data Science\n.\n\n\nAnalyticBridge \nis an active community for Analytics and Data Science.\n\n\nYou can attend some of the many \nMeetings and Conferences on Analytics, Big Data, Data Mining, Data Science, \n Knowledge Discovery\n.\n\n\nPeople\n\n\n\nJure Leskovec\n: \n#SocialNetworkAnalysis\n\n\nAndrew Ng\n: \n#DeepLearning\n\n\nDavid Blei\n: \n#TopicModel\n\n\nMatei Zaharia\n: \n#apachespark , #2013, \ncreator of apache spark, (interview \n#1\n)\n\n\nReferences\n\n\n\n\n    \nquora.com, \nWhat are the best conferences and journals about machine learning?\n\n    \nkdnuggets.com, \n7 Steps for Learning Data Mining and Data Science\n\n    \nkdnuggets.com, \n7 Steps for Learning Data Mining and Data Science\n\n\n\n\n\nDS: Cultures\n\n\n\n\nWhat are machine learning cultures? Who are invent and follow what culture?\n\n\n\n\nInspired from two interesting papers,\n\n\n\n\nLeo Breiman, 2001, \nStatistical Modeling: The Two Cultures (with comments and a rejoinder by the author)\n\n\nJason Eisner, 2015, \nThe Three Cultures of Machine Learning\n\n\n\n\nFrequentist\n\n\nBayesian\n\n\nAlgorithmic Modeling, Deep Learning\n\n\nDS: Courses\n\n\nData Science Courses", 
             "title": "Home"
         }, 
         {
@@ -11,38 +11,13 @@
             "title": "DS: 101"
         }, 
         {
-            "location": "/#installation", 
-            "text": "", 
-            "title": "Installation"
-        }, 
-        {
-            "location": "/#ubuntu", 
-            "text": "[code]", 
-            "title": "Ubuntu"
-        }, 
-        {
-            "location": "/#install-pip", 
-            "text": "sudo apt-get install python-pip", 
-            "title": "install pip"
-        }, 
-        {
-            "location": "/#numpy-scipy-notebook", 
-            "text": "sudo apt-get install python-numpy python-scipy python-matplotlib python-pandas python-sympy python-nose", 
-            "title": "numpy scipy notebook"
-        }, 
-        {
-            "location": "/#scikit-learn", 
-            "text": "pip install jupyter ipython\npip install -U scikit-learn\n[/code]", 
-            "title": "scikit-learn"
-        }, 
-        {
             "location": "/#data-science-questions-and-answers", 
             "text": "", 
             "title": "Data Science: Questions and Answers"
         }, 
         {
             "location": "/#ds-python-data-mining-folder-structure", 
-            "text": "[code]\ncode/\n\u251c\u2500\u2500 data/\n\u2514\u2500\u2500 script.py\n[/code]", 
+            "text": "code/\n\u251c\u2500\u2500 data/\n\u2514\u2500\u2500 script.py", 
             "title": "DS: Python Data Mining Folder Structure"
         }, 
         {
@@ -107,7 +82,7 @@
         }, 
         {
             "location": "/gathering/", 
-            "text": "DS: Gathering \n Preparation\n\n\nDS: Collection\n\n\nOpen Data\n\n\nwikipedia dumps: \nhttps://dumps.wikimedia.org/other/pagecounts-raw/\n\n\nDS: Explore Data Analysis\n\n\nOk. You've assigned a machine learning task, then you get some data. What's next?\n\n\nExplore Data Analysis is step you must do now.\n\n\nQuestion 1: What's size of your data set?\n\n\nHow many rows? How many columns?\n\n\nQuestion 2: What type of variables?\n\n\ncategorical, continuous or discrete\n\n\nQuestion 3: What are missing value?\n\n\nTooling\n\n\n\n\npandas-profiling\n, \ndemo\n\n\n\n\n\n\npip install -U pandas-profiling\n\n\n\n\n[code language=\"python\"]\nimport pandas as pd\nimport pandas_profiling\ndf = pd.read_csv(\"train.csv\", parse_dates=True, encoding='UTF-8')\npandas_profiling.ProfileReport(df)\n[/code]\n\n\nGathering\n\n\nPython: Read and Write Data\n\n\nRead and Write Data in python\n\n\nThis post shows how to import data to Python from numerous resources\n\n\nCSV File\n\n\nRead a csv file from local or from a server\n\n\n[sourcecode language=\"python\"]\nimport numpy as np\nimport pandas as pd\n\n\nread data\n\n\ndf = pd.read_csv('data.csv', header = 0)\n\n\nwrite data\n\n\ndf.to_csv('data.csv', header=1, index=False)\n[/sourcecode]\n\n\nExcel File\n \n1\n\n\n[code lang=\"python\"]\nimport pandas as pd\n\n\nread data\n\n\ndf = pd.read_excel('data.xls')\n[/code]\n\n\nSqlite File\n \n2\n \n3\n\n\n[code lang=\"python\"]\nimport sqlite3\n\n\nDB_NAME = \"db.sqlite3\"\nSELECT_QUERY = \"SELECT page_id, type FROM service_page\"\n\n\nconnect to sqlite3\n\n\ndb_connector = sqlite3.connect(DB_NAME)\n\n\nexcute query\n\n\ncursor = db_connector.execute(SELECT_QUERY)\n\n\nreturn dataset\n\n\ndata_set = cursor.fetchall()\n[/code]\n\n\n\n\n\n\n\n\n\n\npandas.read_excel\n\\\n\n\n\n\n\n\npandas.read_sqlite\n\\\n\n\n\n\n\n\nsqlite3.read_sqlite\n\\", 
+            "text": "DS: Gathering \n Preparation\n\n\nDS: Collection\n\n\nOpen Data\n\n\nwikipedia dumps: \nhttps://dumps.wikimedia.org/other/pagecounts-raw/\n\n\nDS: Explore Data Analysis\n\n\nOk. You've assigned a machine learning task, then you get some data. What's next?\n\n\nExplore Data Analysis is step you must do now.\n\n\nQuestion 1: What's size of your data set?\n\n\nHow many rows? How many columns?\n\n\nQuestion 2: What type of variables?\n\n\ncategorical, continuous or discrete\n\n\nQuestion 3: What are missing value?\n\n\nTooling\n\n\n\n\npandas-profiling\n, \ndemo\n\n\n\n\n\n\npip install -U pandas-profiling\n\n\n\n\n[code language=\"python\"]\nimport pandas as pd\nimport pandas_profiling\ndf = pd.read_csv(\"train.csv\", parse_dates=True, encoding='UTF-8')\npandas_profiling.ProfileReport(df)\n[/code]\n\n\nGathering", 
             "title": "Gathering"
         }, 
         {
@@ -152,68 +127,28 @@
         }, 
         {
             "location": "/gathering/#gathering", 
-            "text": "Python: Read and Write Data", 
+            "text": "", 
             "title": "Gathering"
         }, 
         {
-            "location": "/gathering/#read-and-write-data-in-python", 
-            "text": "This post shows how to import data to Python from numerous resources  CSV File  Read a csv file from local or from a server  [sourcecode language=\"python\"]\nimport numpy as np\nimport pandas as pd", 
-            "title": "Read and Write Data in python"
-        }, 
-        {
-            "location": "/gathering/#read-data", 
-            "text": "df = pd.read_csv('data.csv', header = 0)", 
-            "title": "read data"
-        }, 
-        {
-            "location": "/gathering/#write-data", 
-            "text": "df.to_csv('data.csv', header=1, index=False)\n[/sourcecode]  Excel File   1  [code lang=\"python\"]\nimport pandas as pd", 
-            "title": "write data"
-        }, 
-        {
-            "location": "/gathering/#read-data_1", 
-            "text": "df = pd.read_excel('data.xls')\n[/code]  Sqlite File   2   3  [code lang=\"python\"]\nimport sqlite3  DB_NAME = \"db.sqlite3\"\nSELECT_QUERY = \"SELECT page_id, type FROM service_page\"", 
-            "title": "read data"
-        }, 
-        {
-            "location": "/gathering/#connect-to-sqlite3", 
-            "text": "db_connector = sqlite3.connect(DB_NAME)", 
-            "title": "connect to sqlite3"
-        }, 
-        {
-            "location": "/gathering/#excute-query", 
-            "text": "cursor = db_connector.execute(SELECT_QUERY)", 
-            "title": "excute query"
-        }, 
-        {
-            "location": "/gathering/#return-dataset", 
-            "text": "data_set = cursor.fetchall()\n[/code]      pandas.read_excel \\    pandas.read_sqlite \\    sqlite3.read_sqlite \\", 
-            "title": "return dataset"
-        }, 
-        {
             "location": "/preparation/", 
-            "text": "DS: Prepartion\n\n\nDS: Feature Scaling\n\n\n\n\nWhy have we do Feature Scaling?\n\n\nIdea:\n\n\nWe have to predict the house prices base on 2 features:\n\n\n    \nHouse sizes (feet\n2\n)\n\n    \nNumber of bedrooms in the house\n\n\n\nAnd we relized that house sizes are about 1000 times \u00a0the number of bedrooms.\u00a0When features diff\u000ber by orders of magnitude,\u00a0first performing feature scaling can make gradient descent converge\u00a0much more quickly.\n\n\nGradient Descent with \n without Feature Scaling:\n\n\n\n\nThe figure is in the Machine Learning course on Cousera\n\n\nThe left-hand side figure is gradient descent without Feature Scaling and as we seen in this figure, the way of gradient descent to find out the global minimal is way more longer than the right-hand side figure which is gradient descent with Feature scaling\n\n\nHow to perform Feature Scaling?\n\n\n\n\n\n    \nSubtract the mean value (the average value) of each feature from the dataset.\n\n    \nAfter subtracting the mean, additionally scale (divide) the feature values\u00a0by their respective \"standard deviations.\"(\nStandard deviations?\n)\n\n    \nFunction:\u00a0\n\u00a0Where \n is the original feature vector, \n is the mean of that feature vector, and \n is its standard deviation.\n\n\n\n\n\n\nFeature Scaling Function implementation in Octave:\n\n\nfunction [X_norm, mu, sigma] = featureNormalize(X)\nX_norm = X;\nmu = zeros(1, size(X, 2)); % storing the mean value in mu\nsigma = zeros(1, size(X, 2)); % storing the standard deviation in sigma\n\nfor i = 1:length(mu),\nmu(i) = mean(X(:,i));\nend;\n\nfor i = 1:length(sigma),\nsigma(i) = std(X(:,i));\nend;\n\nX_norm = (X .- mu)./sigma;\nend\n\n\n\n\nPython: Matrix\n\n\nCreate Matrix\n\n\n[code lang=\"python\"]\nA = np.array([[1, 2, 3], [2, 4, 5]\n\n\narray([[1, 2, 3],\n       [2, 4, 5]])\n[/code]\n\n\nPython: Preperation\n\n\nNormalization \n1\n\n\n[code lang=\"python\"]\nfrom sklearn.preprocessing import normalize\nmatrix = numpy.arange(0,27,3).reshape(3,3).astype(numpy.float64)\n\n\narray([[  0.,   3.,   6.],\n\n\n[  9.,  12.,  15.],\n\n\n[ 18.,  21.,  24.]])\n\n\nnormed_matrix = normalize(matrix, axis=1, norm='l1')\n\n\n[[ 0.          0.33333333  0.66666667]\n\n\n[ 0.25        0.33333333  0.41666667]\n\n\n[ 0.28571429  0.33333333  0.38095238]]\n\n\n[/code]\n\n\nLabel Encoder \n2\n\n\nEncode labels (categorical variables) with value between 0 and n_classes-1.\n\n\n[code lang=\"python\"]\nle = preprocessing.LabelEncoder()\nle.fit([\"paris\", \"paris\", \"tokyo\", \"amsterdam\"])\n\n\nLabelEncoder()\n\n\nlist(le.classes_)\n\n\n['amsterdam', 'paris', 'tokyo']\n\n\nle.transform([\"tokyo\", \"tokyo\", \"paris\"])\n\n\narray([2, 2, 1]...)\n\n\nlist(le.inverse_transform([2, 2, 1]))\n\n\n['tokyo', 'tokyo', 'paris']\n\n\n[/code]\n\n\n\n\n\n\n\n\n\n\nHow to normalize a 2-dimensional numpy array in python less verbose?\n\n\n\n\n\n\nsklearn.preprocessing.LabelEncoder", 
+            "text": "Prepartion\n\n\nNormalization\n\n\nFeature Scaling\n\n\n\n\n\n\nWhy have we do Feature Scaling?\n\n\n\n\nIdea:\n\n\n\nWe have to predict the house prices base on 2 features:\n\n\n    \nHouse sizes (feet\n2\n)\n\n    \nNumber of bedrooms in the house\n\n\n\nAnd we relized that house sizes are about 1000 times \u00a0the number of bedrooms.\u00a0When features diff\u000ber by orders of magnitude,\u00a0first performing feature scaling can make gradient descent converge\u00a0much more quickly.\n\n\n\nGradient Descent with \n without Feature Scaling:\n\n\n\n\n\nThe figure is in the Machine Learning course on Cousera\n\n\nThe left-hand side figure is gradient descent without Feature Scaling and as we seen in this figure, the way of gradient descent to find out the global minimal is way more longer than the right-hand side figure which is gradient descent with Feature scaling\n\n\n\n\nHow to perform Feature Scaling?\n\n\n\n\n\n\n\n    \nSubtract the mean value (the average value) of each feature from the dataset.\n\n    \nAfter subtracting the mean, additionally scale (divide) the feature values\u00a0by their respective \"standard deviations.\"(\nStandard deviations?\n)\n\n    \nFunction:\u00a0\n\u00a0Where \n is the original feature vector, \n is the mean of that feature vector, and \n is its standard deviation.\n\n\n\n\n\n\n\nFeature Scaling Function implementation in Octave:\n\n\nfunction [X_norm, mu, sigma] = featureNormalize(X)\nX_norm = X;\nmu = zeros(1, size(X, 2)); % storing the mean value in mu\nsigma = zeros(1, size(X, 2)); % storing the standard deviation in sigma\n\nfor i = 1:length(mu),\nmu(i) = mean(X(:,i));\nend;\n\nfor i = 1:length(sigma),\nsigma(i) = std(X(:,i));\nend;\n\nX_norm = (X .- mu)./sigma;\nend\n\n\n\n\nSampling", 
             "title": "Preparation"
         }, 
         {
-            "location": "/preparation/#ds-prepartion", 
+            "location": "/preparation/#prepartion", 
             "text": "", 
-            "title": "DS: Prepartion"
+            "title": "Prepartion"
         }, 
         {
-            "location": "/preparation/#ds-feature-scaling", 
+            "location": "/preparation/#normalization", 
             "text": "", 
-            "title": "DS: Feature Scaling"
+            "title": "Normalization"
         }, 
         {
-            "location": "/preparation/#why-have-we-do-feature-scaling", 
-            "text": "", 
-            "title": "Why have we do Feature Scaling?"
-        }, 
-        {
-            "location": "/preparation/#how-to-perform-feature-scaling", 
-            "text": "Subtract the mean value (the average value) of each feature from the dataset. \n     After subtracting the mean, additionally scale (divide) the feature values\u00a0by their respective \"standard deviations.\"( Standard deviations? ) \n     Function:\u00a0 \u00a0Where   is the original feature vector,   is the mean of that feature vector, and   is its standard deviation.", 
-            "title": "How to perform Feature Scaling?"
+            "location": "/preparation/#feature-scaling", 
+            "text": "Why have we do Feature Scaling?", 
+            "title": "Feature Scaling"
         }, 
         {
             "location": "/preparation/#feature-scaling-function-implementation-in-octave", 
@@ -221,79 +156,9 @@
             "title": "Feature Scaling Function implementation in Octave:"
         }, 
         {
-            "location": "/preparation/#python-matrix", 
+            "location": "/preparation/#sampling", 
             "text": "", 
-            "title": "Python: Matrix"
-        }, 
-        {
-            "location": "/preparation/#create-matrix", 
-            "text": "[code lang=\"python\"]\nA = np.array([[1, 2, 3], [2, 4, 5]  array([[1, 2, 3],\n       [2, 4, 5]])\n[/code]", 
-            "title": "Create Matrix"
-        }, 
-        {
-            "location": "/preparation/#python-preperation", 
-            "text": "", 
-            "title": "Python: Preperation"
-        }, 
-        {
-            "location": "/preparation/#normalization-1", 
-            "text": "[code lang=\"python\"]\nfrom sklearn.preprocessing import normalize\nmatrix = numpy.arange(0,27,3).reshape(3,3).astype(numpy.float64)", 
-            "title": "Normalization 1"
-        }, 
-        {
-            "location": "/preparation/#array-0-3-6", 
-            "text": "", 
-            "title": "array([[  0.,   3.,   6.],"
-        }, 
-        {
-            "location": "/preparation/#9-12-15", 
-            "text": "", 
-            "title": "[  9.,  12.,  15.],"
-        }, 
-        {
-            "location": "/preparation/#18-21-24", 
-            "text": "normed_matrix = normalize(matrix, axis=1, norm='l1')", 
-            "title": "[ 18.,  21.,  24.]])"
-        }, 
-        {
-            "location": "/preparation/#0-033333333-066666667", 
-            "text": "", 
-            "title": "[[ 0.          0.33333333  0.66666667]"
-        }, 
-        {
-            "location": "/preparation/#025-033333333-041666667", 
-            "text": "", 
-            "title": "[ 0.25        0.33333333  0.41666667]"
-        }, 
-        {
-            "location": "/preparation/#028571429-033333333-038095238", 
-            "text": "[/code]", 
-            "title": "[ 0.28571429  0.33333333  0.38095238]]"
-        }, 
-        {
-            "location": "/preparation/#label-encoder-2", 
-            "text": "Encode labels (categorical variables) with value between 0 and n_classes-1.  [code lang=\"python\"]\nle = preprocessing.LabelEncoder()\nle.fit([\"paris\", \"paris\", \"tokyo\", \"amsterdam\"])", 
-            "title": "Label Encoder 2"
-        }, 
-        {
-            "location": "/preparation/#labelencoder", 
-            "text": "list(le.classes_)", 
-            "title": "LabelEncoder()"
-        }, 
-        {
-            "location": "/preparation/#amsterdam-paris-tokyo", 
-            "text": "le.transform([\"tokyo\", \"tokyo\", \"paris\"])", 
-            "title": "['amsterdam', 'paris', 'tokyo']"
-        }, 
-        {
-            "location": "/preparation/#array2-2-1", 
-            "text": "list(le.inverse_transform([2, 2, 1]))", 
-            "title": "array([2, 2, 1]...)"
-        }, 
-        {
-            "location": "/preparation/#tokyo-tokyo-paris", 
-            "text": "[/code]      How to normalize a 2-dimensional numpy array in python less verbose?    sklearn.preprocessing.LabelEncoder", 
-            "title": "['tokyo', 'tokyo', 'paris']"
+            "title": "Sampling"
         }, 
         {
             "location": "/models/", 
