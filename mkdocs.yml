@@ -1,23 +1,25 @@
 site_name: DataScience
 pages:
 - "Home": "index.md"
-- "Process": "process.md"
-- "Problem Definitation": "problem.md"
-- "Gathering": "gathering.md"
-- "Preparation": "preparation.md"
-- "Models":
-  - "Models": "models.md"
-  - "Regression": "model_regression.md"
-  - "Classification": "model_classification.md"
-  - "Clustering": "model_clustering.md"
-  - "Neural Network": "model_neuralnetwork.md"
-  - "Ensemble": "ensemble.md"
-- "Evaluation": "evaluation.md"
-- "Application":
-  - "Recommendation System": "app_recommendation.md"
-  - "Anomaly Detection": "app_anomaly.md"
-  - "Natural Language Processing": "app_nlp.md"
-  - "Computer Vision": "app_vision.md"
-  - "Dimensionality Reduction": "app_reduction.md"
+- "Docs":
+  - "Process": "process.md"
+  - "Problem Definitation": "problem.md"
+  - "Gathering": "gathering.md"
+  - "Preparation": "preparation.md"
+  - "Models":
+    - "Models": "models.md"
+    - "Regression": "model_regression.md"
+    - "Classification": "model_classification.md"
+    - "Clustering": "model_clustering.md"
+    - "Neural Network": "model_neuralnetwork.md"
+    - "Ensemble": "ensemble.md"
+  - "Evaluation": "evaluation.md"
+  - "Application":
+    - "Recommendation System": "app_recommendation.md"
+    - "Anomaly Detection": "app_anomaly.md"
+    - "Natural Language Processing": "app_nlp.md"
+    - "Computer Vision": "app_vision.md"
+    - "Dimensionality Reduction": "app_reduction.md"
+  - "Q&A": "qanda.md"
 markdown_extensions:
     - footnotes

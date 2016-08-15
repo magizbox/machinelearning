@@ -1,77 +1,16 @@
-http://www.datascienceontology.com/
+# What is Machine Learning?
 
-![](http://www.nerdgraph.com/wp-content/uploads/How-to-become-a-data-scientist-620x2837.jpg)
+Machine learning is a branch of science that deals with programming the systems in such a way that they automatically learn and improve with experience. Here, learning means recognizing and understanding the input data and making wise decisions based on the supplied data.
 
-# DS: 101
+# Books
 
-# Data Science: Questions and Answers
+# Courses
 
-<h4>What is Precision and recall? <sup id="fnref-922-1"><a href="#fn-922-1" rel="footnote">1</a></sup></h4>
+# Videos
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Precisionrecall.svg/350px-Precisionrecall.svg.png" alt="" />
+# Challenges
 
-<h4>What are 'Overfitting' and 'Underfitting'? <sup id="fnref-922-2"><a href="#fn-922-2" rel="footnote">2</a></sup> <img class="alignnone" src="http://pingax.com/wp-content/uploads/2014/05/underfitting-overfitting.png" alt="" width="555" height="140" /></h4>
-
-<h4>What are popular algorithms? <sup id="fnref2:922-2"><a href="#fn-922-2" rel="footnote">2</a></sup></h4>
-
-<ul>
-<li>Decision Trees</li>
-<li>Neural Networks (back propagation)</li>
-<li>Probabilistic networks</li>
-<li>Nearest Neighbor</li>
-<li>Support vector machines</li>
-</ul>
-
-<h4>Describe a "Rolls Royce" solution that you could implement in 3 months, 3 weeks and 3 days.</h4>
-
-[!TODO]
-
-<h2>Machine Learning Problems <sup id="fnref-922-3"><a href="#fn-922-3" rel="footnote">3</a></sup></h2>
-
-[!TODO]
-
-<h4>How would you generate related searches on Bing? <sup id="fnref2:922-3"><a href="#fn-922-3" rel="footnote">3</a></sup></h4>
-
-[!TODO]
-
-<h4>How would you approach the Netflix Prize? <sup id="fnref3:922-3"><a href="#fn-922-3" rel="footnote">3</a></sup></h4>
-
-[!TODO]
-
-<h4>How would you suggest followers on Twitter? <sup id="fnref4:922-3"><a href="#fn-922-3" rel="footnote">3</a></sup></h4>
-
-[!TODO]
-
-<div class="footnotes">
-<hr />
-<ol>
-
-<li id="fn-922-1">
-<a href="https://en.wikipedia.org/wiki/Precision_and_recall" target="_blank">https://en.wikipedia.org/wiki/Precision_and_recall</a>&#160;<a href="#fnref-922-1" rev="footnote">&#8617;</a>
-</li>
-
-<li id="fn-922-2">
-<a href="http://career.guru99.com/top-50-interview-questions-on-machine-learning/" target="_blank">http://career.guru99.com/top-50-interview-questions-on-machine-learning/</a>&#160;<a href="#fnref-922-2" rev="footnote">&#8617;</a> <a href="922-2" rev="footnote">&#8617;</a>
-</li>
-
-<li id="fn-922-3">
-<a href="http://www.quora.com/What-are-the-best-interview-questions-to-evaluate-a-machine-learning-researcher" target="_blank">http://www.quora.com/What-are-the-best-interview-questions-to-evaluate-a-machine-learning-researcher</a>&#160;<a href="#fnref-922-3" rev="footnote">&#8617;</a> <a href="922-3" rev="footnote">&#8617;</a> <a href="922-3" rev="footnote">&#8617;</a> <a href="922-3" rev="footnote">&#8617;</a>
-</li>
-
-</ol>
-</div>
-
-# DS: Python Data Mining Folder Structure
-
-```
-code/
-├── data/
-└── script.py
-```
-
-# Competition
-
-# Kaggle
+## Kaggle
 
 <strong>The reasons why you should take a competition</strong>
 
@@ -132,35 +71,9 @@ R <sup id="fnref-15-2"><a href="#fn-15-2" rel="footnote">2</a></sup> : gbm, ra
 
 * [What do top Kaggle competitors focus on?](https://www.quora.com/What-do-top-Kaggle-competitors-focus-on)
 
-<div class="footnotes">
-<hr />
-<ol>
-
-<li id="fn-15-1">
-Yanir Seroussi, 2015. <em>10 Steps to Success in Kaggle Data Science Competitions</em>. [ONLINE] Available at: <a href="http://www.kdnuggets.com/2015/03/10-steps-success-kaggle-data-science-competitions.html" target="_blank">http://www.kdnuggets.com/2015/03/10-steps-success-kaggle-data-science-competitions.html</a>. [Accessed 10 March 2015].&#160;<a href="#fnref-15-1" rev="footnote">&#8617;</a>
-</li>
-
-<li id="fn-15-2">
-DataRobot, 2015. <em>10 R Packages to Win Kaggle Competitions</em>. [ONLINE] Available at <a href="http://www.slideshare.net/DataRobot/final-10-r-xc-36610234" target="_blank">http://www.slideshare.net/DataRobot/final-10-r-xc-36610234</a> [Accessed 03 July 2014].&#160;<a href="#fnref-15-2" rev="footnote">&#8617;</a>
-</li>
-
-</ol>
-</div>
-
-# Tools
-
-# Third Party APIs
-
-Original post: [http://www.kdnuggets.com/2015/11/machine-learning-apis-data-science.html/2](http://www.kdnuggets.com/2015/11/machine-learning-apis-data-science.html/2)
-
-Keep update your knowledge with many conferences, groups and social networks about machine learning and data mining
-
-# Conferences, Journals, Groups, Social Networks and People
-<h3>Conferences</h3>
+# Conferences
 
 <a href="http://icml.cc/" target="_blank">ICML - Internal Conference on Machine Learning</a>
-
-![](http://hci-kdd.org/wordpress/wp-content/uploads/2014/11/International-Conference-Machine-Learning-2016.jpg)
 
 The International Conference on Machine Learning (ICML) is the leading international academic conference in machine learning, attracting annually about 500 participants from all over the world. It is supported by the International Machine Learning Society (IMLS). The conference attracts leading innovations in the field of machine learning.
 
@@ -189,7 +102,7 @@ Interdisciplinary education among KDD researchers, practitioners, and users
 KDD activities include the annual Conference on Knowledge Discovery and Data Mining and the SIGKDD Explorations Newsletter.</li>
 </ul>
 
-<h3>Journals</h3>
+# Journals
 
 <a href="http://jmlr.csail.mit.edu/" target="_blank">JMLR - Journal of Machine Learning Research</a>
 
@@ -199,7 +112,7 @@ The Journal of Machine Learning Research (JMLR) provides an international forum 
 
 JAIR(ISSN 1076 - 9757) covers all areas of artificial intelligence (AI), publishing refereed research articles, survey articles, and technical notes. Established in 1993 as one of the first electronic scientific journals, JAIR is indexed by INSPEC, Science Citation Index, and MathSciNet. JAIR reviews papers within approximately three months of submission and publishes accepted articles on the internet immediately upon receiving the final versions. JAIR articles are published for free distribution on the internet by the AI Access Foundation, and for purchase in bound volumes by AAAI Press.
 
-<h3>Groups and Social Networks</h3>
+# Groups and Social Networks
 
 You can join many peer groups - see <a href="http://www.kdnuggets.com/2013/04/top-30-linkedin-groups-analytics-big-data-data-mining-data-science.html" target="_blank">Top 30 LinkedIn Groups for Analytics, Big Data, Data Mining, and Data Science</a>.
 
@@ -207,7 +120,7 @@ You can join many peer groups - see <a href="http://www.kdnuggets.com/2013/04/to
 
 You can attend some of the many <a href="http://www.kdnuggets.com/meetings/index.html" target="_blank">Meetings and Conferences on Analytics, Big Data, Data Mining, Data Science, &amp; Knowledge Discovery</a>.
 
-<h3>People</h3>
+# People
 
 <a href="https://scholar.google.com/citations?hl=en&amp;user=Q_kKkIUAAAAJ&amp;view_op=list_works" target="_blank">Jure Leskovec</a>: <small>#SocialNetworkAnalysis</small>
 
@@ -217,29 +130,3 @@ You can attend some of the many <a href="http://www.kdnuggets.com/meetings/index
 
 <a href="http://people.csail.mit.edu/matei/" target="_blank">Matei Zaharia</a>: <small>#apachespark , #2013, </small>creator of apache spark, (interview <a href="http://www.kdnuggets.com/2015/05/interview-matei-zaharia-creator-apache-spark.html" target="_blank">#1</a>)
 
-<h4>References</h4>
-
-<ul>
-    <li>quora.com, <a href="http://www.quora.com/What-are-the-best-conferences-and-journals-about-machine-learning" target="_blank">What are the best conferences and journals about machine learning?</a></li>
-    <li>kdnuggets.com, <a href="http://www.kdnuggets.com/2013/10/7-steps-learning-data-mining-data-science.html" target="_blank">7 Steps for Learning Data Mining and Data Science</a></li>
-    <li>kdnuggets.com, <a href="http://www.kdnuggets.com/2013/10/7-steps-learning-data-mining-data-science.html" target="_blank">7 Steps for Learning Data Mining and Data Science</a></li>
-</ul>
-
-# DS: Cultures
-
-> What are machine learning cultures? Who are invent and follow what culture?
-
-Inspired from two interesting papers,
-
-* [Leo Breiman, 2001, *Statistical Modeling: The Two Cultures (with comments and a rejoinder by the author)*](http://projecteuclid.org/download/pdf_1/euclid.ss/1009213726)
-* [Jason Eisner, 2015, *The Three Cultures of Machine Learning*](https://www.cs.jhu.edu/~jason/tutorials/ml-simplex.html)
-
-Frequentist
-
-Bayesian
-
-Algorithmic Modeling, Deep Learning
-
-# DS: Courses
-
-[Data Science Courses](http://magizbox.com/pages/ds-course/)
