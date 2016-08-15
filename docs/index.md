@@ -4,20 +4,6 @@ http://www.datascienceontology.com/
 
 # DS: 101
 
-# Installation
-
-## Ubuntu
-
-[code]
-# install pip
-sudo apt-get install python-pip
-# numpy scipy notebook
-sudo apt-get install python-numpy python-scipy python-matplotlib python-pandas python-sympy python-nose
-# scikit-learn
-pip install jupyter ipython
-pip install -U scikit-learn
-[/code]
-
 # Data Science: Questions and Answers
 
 <h4>What is Precision and recall? <sup id="fnref-922-1"><a href="#fn-922-1" rel="footnote">1</a></sup></h4>
@@ -77,11 +63,11 @@ pip install -U scikit-learn
 
 # DS: Python Data Mining Folder Structure
 
-[code]
+```
 code/
 ├── data/
 └── script.py
-[/code]
+```
 
 # Competition
 
