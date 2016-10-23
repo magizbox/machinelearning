@@ -2,68 +2,53 @@
     "docs": [
         {
             "location": "/", 
-            "text": "DS: 101\n\n\nData Science: Questions and Answers\n\n\nWhat is Precision and recall? \n1\n\n\n\n\n\nWhat are 'Overfitting' and 'Underfitting'? \n2\n \n\n\n\nWhat are popular algorithms? \n2\n\n\n\n\n\nDecision Trees\n\n\nNeural Networks (back propagation)\n\n\nProbabilistic networks\n\n\nNearest Neighbor\n\n\nSupport vector machines\n\n\n\n\n\nDescribe a \"Rolls Royce\" solution that you could implement in 3 months, 3 weeks and 3 days.\n\n\n\n[!TODO]\n\n\nMachine Learning Problems \n3\n\n\n\n[!TODO]\n\n\nHow would you generate related searches on Bing? \n3\n\n\n\n[!TODO]\n\n\nHow would you approach the Netflix Prize? \n3\n\n\n\n[!TODO]\n\n\nHow would you suggest followers on Twitter? \n3\n\n\n\n[!TODO]\n\n\n\n\n\n\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Precision_and_recall\n\n\n\n\n\n\n\nhttp://career.guru99.com/top-50-interview-questions-on-machine-learning/\n \n\n\n\n\n\n\n\nhttp://www.quora.com/What-are-the-best-interview-questions-to-evaluate-a-machine-learning-researcher\n \n \n \n\n\n\n\n\n\n\n\n\n\nDS: Python Data Mining Folder Structure\n\n\ncode/\n\u251c\u2500\u2500 data/\n\u2514\u2500\u2500 script.py\n\n\n\n\nCompetition\n\n\nKaggle\n\n\nThe reasons why you should take a competition\n\n\nAccording to \nYanir Seroussi\n, if you\u2019re a data scientist (or want to become one), participating in competitions is a great way of honing your skills, building reputation, and potentially winning some cash.\n\n\nIntroduction to\u00a0\nKaggle\n\n\nKaggle is the world's largest community of data scientists. They compete with each other to solve complex data science problems, and the top competitors are invited to work on the most interesting and sensitive business problems from some of the world\u2019s biggest companies through Masters competitions.\n\n\n\nKaggle provides cutting-edge data science results to companies of all sizes. We have a proven track-record of solving real-world problems across a diverse array of industries including life sciences, financial services, energy, information technology, and retail.\n\n\n\nProfiling\u00a0top Kagglers\n\n\n\n    \nProfiling Top Kagglers: KazAnova\u00a0Currently #2 in the World\n\n    \nProfiling Top Kagglers: Owen Zhang, Currently #1 in the World\n\n\n\n\n\nHow to compete\n \n1\n\n\n\n\n\n    \nRead the manual\n\n    \nUnderstand the performance measure\n\n    \nKnow your data\n\n    \nUnderstand what you want to achieve before worrying about the how\n\n    \nSet up a local validation environment\n\n    \nMonitor the forum\n\n    \nDo your research\n\n    \nApply the basics rigorously\n\n    \nEnsemble all the things\n\n    \nWin\n\n\n\n\n\nTools\n\n\nExploring Data\n\n\n\n    \nSQLiteStudio\n\n\n\n\n\nIDE\n\n\n\n    \nPycharm for Python\n\n    \nRStudio for R\n\n\n\n\n\nMachine learning libraries\n\n\nPython:\u00a0scikit-learn,\u00a0XGBoost,\u00a0Vowpal Wabbit,\u00a0cuda-convnet2\n\n\nR \n2\n :\u00a0gbm,\u00a0randomForest,\u00a0e1071,\u00a0glmnet,\u00a0tau,\u00a0Matrix,\u00a0SOAR,\u00a0forEach,\u00a0doMC,\u00a0data.table\n\n\nArticles\n\n\n\n\nWhat do top Kaggle competitors focus on?\n\n\n\n\n\n\n\n\n\n\n\n\nYanir Seroussi, 2015. \n10 Steps to Success in Kaggle Data Science Competitions\n. [ONLINE] Available at: \nhttp://www.kdnuggets.com/2015/03/10-steps-success-kaggle-data-science-competitions.html\n. [Accessed 10 March 2015].\n\n\n\n\n\n\nDataRobot,\u00a02015. \n10 R Packages to Win Kaggle Competitions\n. [ONLINE] Available at\u00a0\nhttp://www.slideshare.net/DataRobot/final-10-r-xc-36610234\n\u00a0[Accessed 03 July\u00a02014].\n\n\n\n\n\n\n\n\n\n\nTools\n\n\nThird Party APIs\n\n\nOriginal post: \nhttp://www.kdnuggets.com/2015/11/machine-learning-apis-data-science.html/2\n\n\nKeep update your knowledge with many conferences, groups and social networks about machine learning and data mining\n\n\nConferences, Journals, Groups, Social Networks and People\n\n\nConferences\n\n\nICML - Internal Conference on Machine Learning\n\n\n\n\nThe International Conference on Machine Learning (ICML) is the leading international academic conference in machine learning, attracting annually about 500 participants from all over the world. It is supported by the International Machine Learning Society (IMLS). The conference attracts leading innovations in the field of machine learning.\n\n\nNIPS - Annual Conference on Neural Information Processing \n\n\nThe Conference and Workshop on Neural Information Processing Systems (NIPS) is a machine learning and computational neuroscience conference held every December. The conference is a single track meeting that includes invited talks as well as oral and poster presentations of refereed papers, followed by parallel-track workshops that up to 2013 were held at ski resorts. According to Microsoft Academic Search, NIPS is the top conference on machine learning.\n\n\nNIPS Deep Learning Workshop \n\n\n2015, \n2014\n, \n2013\n, \n2012\n, \n2011\n, \n2010\n\n\nThe Deep Learning and Representation Learning Workshop will be held in conjunction with Neural Information Processing Systems (NIPS)\n\n\nDeep Learning algorithms attempt to discover good representations, at multiple levels of abstraction. There has been rapid progress in this area in recent years, both in terms of algorithms and in terms of applications, but many challenges remain. The workshop aims at bringing together researchers in that field and discussing these challenges, brainstorming about new solutions.\n\n\nACM SIGKDD\n\n\n2015\n, \n2014\n, \n2013\n\n\nKDD provides the premier forum for advancement and adoption of the \"science\" of knowledge discovery and data mining. KDD encourages:\n\n\n\n    \nResearch in KDD (through annual research conferences, newsletter and other related activities)\nAdoption of \"standards\" in the market in terms of terminology, evaluation, methodology\nInterdisciplinary education among KDD researchers, practitioners, and users\nKDD activities include the annual Conference on Knowledge Discovery and Data Mining and the SIGKDD Explorations Newsletter.\n\n\n\n\n\nJournals\n\n\n\nJMLR - Journal of Machine Learning Research\n\n\nThe Journal of Machine Learning Research (JMLR) provides an international forum for the electronic and paper publication of high-quality scholarly articles in all areas of machine learning. All published papers are freely available online.\n\n\nJAIR - Journal of Artificial Intelligence Research\n\n\nJAIR(ISSN 1076 - 9757) covers all areas of artificial intelligence (AI), publishing refereed research articles, survey articles, and technical notes. Established in 1993 as one of the first electronic scientific journals, JAIR is indexed by INSPEC, Science Citation Index, and MathSciNet. JAIR reviews papers within approximately three months of submission and publishes accepted articles on the internet immediately upon receiving the final versions. JAIR articles are published for free distribution on the internet by the AI Access Foundation, and for purchase in bound volumes by AAAI Press.\n\n\nGroups and Social Networks\n\n\n\nYou can join many peer groups - see \nTop 30 LinkedIn Groups for Analytics, Big Data, Data Mining, and Data Science\n.\n\n\nAnalyticBridge \nis an active community for Analytics and Data Science.\n\n\nYou can attend some of the many \nMeetings and Conferences on Analytics, Big Data, Data Mining, Data Science, \n Knowledge Discovery\n.\n\n\nPeople\n\n\n\nJure Leskovec\n: \n#SocialNetworkAnalysis\n\n\nAndrew Ng\n: \n#DeepLearning\n\n\nDavid Blei\n: \n#TopicModel\n\n\nMatei Zaharia\n: \n#apachespark , #2013, \ncreator of apache spark, (interview \n#1\n)\n\n\nReferences\n\n\n\n\n    \nquora.com, \nWhat are the best conferences and journals about machine learning?\n\n    \nkdnuggets.com, \n7 Steps for Learning Data Mining and Data Science\n\n    \nkdnuggets.com, \n7 Steps for Learning Data Mining and Data Science\n\n\n\n\n\nDS: Cultures\n\n\n\n\nWhat are machine learning cultures? Who are invent and follow what culture?\n\n\n\n\nInspired from two interesting papers,\n\n\n\n\nLeo Breiman, 2001, \nStatistical Modeling: The Two Cultures (with comments and a rejoinder by the author)\n\n\nJason Eisner, 2015, \nThe Three Cultures of Machine Learning\n\n\n\n\nFrequentist\n\n\nBayesian\n\n\nAlgorithmic Modeling, Deep Learning\n\n\nDS: Courses\n\n\nData Science Courses", 
+            "text": "Machine Learning\n\n\n\n\nMachine learning is a branch of science that deals with programming the systems in such a way that they automatically learn and improve with experience. Here, learning means recognizing and understanding the input data and making wise decisions based on the supplied data.\n\n\n\n\nBooks\n\n\n\n\n\n\n\n\nCourses\n\n\n\n\n\n\n\n\nVideos\n\n\n\n\n\n\n\n\nConferences\n\n\nICML - Internal Conference on Machine Learning\n\n\nThe International Conference on Machine Learning (ICML) is the leading international academic conference in machine learning, attracting annually about 500 participants from all over the world. It is supported by the International Machine Learning Society (IMLS). The conference attracts leading innovations in the field of machine learning.\n\n\nNIPS - Annual Conference on Neural Information Processing \n\n\nThe Conference and Workshop on Neural Information Processing Systems (NIPS) is a machine learning and computational neuroscience conference held every December. The conference is a single track meeting that includes invited talks as well as oral and poster presentations of refereed papers, followed by parallel-track workshops that up to 2013 were held at ski resorts. According to Microsoft Academic Search, NIPS is the top conference on machine learning.\n\n\nNIPS Deep Learning Workshop \n\n\n2015, \n2014\n, \n2013\n, \n2012\n, \n2011\n, \n2010\n\n\nThe Deep Learning and Representation Learning Workshop will be held in conjunction with Neural Information Processing Systems (NIPS)\n\n\nDeep Learning algorithms attempt to discover good representations, at multiple levels of abstraction. There has been rapid progress in this area in recent years, both in terms of algorithms and in terms of applications, but many challenges remain. The workshop aims at bringing together researchers in that field and discussing these challenges, brainstorming about new solutions.\n\n\nACM SIGKDD\n\n\n2015\n, \n2014\n, \n2013\n\n\nKDD provides the premier forum for advancement and adoption of the \"science\" of knowledge discovery and data mining. KDD encourages:\n\n\n\n    \nResearch in KDD (through annual research conferences, newsletter and other related activities)\nAdoption of \"standards\" in the market in terms of terminology, evaluation, methodology\nInterdisciplinary education among KDD researchers, practitioners, and users\nKDD activities include the annual Conference on Knowledge Discovery and Data Mining and the SIGKDD Explorations Newsletter.\n\n\n\n\n\nJournals\n\n\nJMLR - Journal of Machine Learning Research\n\n\nThe Journal of Machine Learning Research (JMLR) provides an international forum for the electronic and paper publication of high-quality scholarly articles in all areas of machine learning. All published papers are freely available online.\n\n\nJAIR - Journal of Artificial Intelligence Research\n\n\nJAIR(ISSN 1076 - 9757) covers all areas of artificial intelligence (AI), publishing refereed research articles, survey articles, and technical notes. Established in 1993 as one of the first electronic scientific journals, JAIR is indexed by INSPEC, Science Citation Index, and MathSciNet. JAIR reviews papers within approximately three months of submission and publishes accepted articles on the internet immediately upon receiving the final versions. JAIR articles are published for free distribution on the internet by the AI Access Foundation, and for purchase in bound volumes by AAAI Press.\n\n\nGroups and Social Networks\n\n\nYou can join many peer groups - see \nTop 30 LinkedIn Groups for Analytics, Big Data, Data Mining, and Data Science\n.\n\n\nAnalyticBridge \nis an active community for Analytics and Data Science.\n\n\nYou can attend some of the many \nMeetings and Conferences on Analytics, Big Data, Data Mining, Data Science, \n Knowledge Discovery\n.\n\n\nPeople\n\n\nJure Leskovec\n: \n#SocialNetworkAnalysis\n\n\nAndrew Ng\n: \n#DeepLearning\n\n\nDavid Blei\n: \n#TopicModel\n\n\nMatei Zaharia\n: \n#apachespark , #2013, \ncreator of apache spark, (interview \n#1\n)", 
             "title": "Home"
         }, 
         {
-            "location": "/#ds-101", 
+            "location": "/#machine-learning", 
+            "text": "Machine learning is a branch of science that deals with programming the systems in such a way that they automatically learn and improve with experience. Here, learning means recognizing and understanding the input data and making wise decisions based on the supplied data.", 
+            "title": "Machine Learning"
+        }, 
+        {
+            "location": "/#books", 
             "text": "", 
-            "title": "DS: 101"
+            "title": "Books"
         }, 
         {
-            "location": "/#data-science-questions-and-answers", 
+            "location": "/#courses", 
             "text": "", 
-            "title": "Data Science: Questions and Answers"
+            "title": "Courses"
         }, 
         {
-            "location": "/#ds-python-data-mining-folder-structure", 
-            "text": "code/\n\u251c\u2500\u2500 data/\n\u2514\u2500\u2500 script.py", 
-            "title": "DS: Python Data Mining Folder Structure"
-        }, 
-        {
-            "location": "/#competition", 
+            "location": "/#videos", 
             "text": "", 
-            "title": "Competition"
+            "title": "Videos"
         }, 
         {
-            "location": "/#kaggle", 
-            "text": "The reasons why you should take a competition  According to  Yanir Seroussi , if you\u2019re a data scientist (or want to become one), participating in competitions is a great way of honing your skills, building reputation, and potentially winning some cash.  Introduction to\u00a0 Kaggle  Kaggle is the world's largest community of data scientists. They compete with each other to solve complex data science problems, and the top competitors are invited to work on the most interesting and sensitive business problems from some of the world\u2019s biggest companies through Masters competitions.  Kaggle provides cutting-edge data science results to companies of all sizes. We have a proven track-record of solving real-world problems across a diverse array of industries including life sciences, financial services, energy, information technology, and retail.  Profiling\u00a0top Kagglers  \n     Profiling Top Kagglers: KazAnova\u00a0Currently #2 in the World \n     Profiling Top Kagglers: Owen Zhang, Currently #1 in the World   How to compete   1   \n     Read the manual \n     Understand the performance measure \n     Know your data \n     Understand what you want to achieve before worrying about the how \n     Set up a local validation environment \n     Monitor the forum \n     Do your research \n     Apply the basics rigorously \n     Ensemble all the things \n     Win   Tools  Exploring Data  \n     SQLiteStudio   IDE  \n     Pycharm for Python \n     RStudio for R   Machine learning libraries  Python:\u00a0scikit-learn,\u00a0XGBoost,\u00a0Vowpal Wabbit,\u00a0cuda-convnet2  R  2  :\u00a0gbm,\u00a0randomForest,\u00a0e1071,\u00a0glmnet,\u00a0tau,\u00a0Matrix,\u00a0SOAR,\u00a0forEach,\u00a0doMC,\u00a0data.table", 
-            "title": "Kaggle"
+            "location": "/#conferences", 
+            "text": "ICML - Internal Conference on Machine Learning  The International Conference on Machine Learning (ICML) is the leading international academic conference in machine learning, attracting annually about 500 participants from all over the world. It is supported by the International Machine Learning Society (IMLS). The conference attracts leading innovations in the field of machine learning.  NIPS - Annual Conference on Neural Information Processing   The Conference and Workshop on Neural Information Processing Systems (NIPS) is a machine learning and computational neuroscience conference held every December. The conference is a single track meeting that includes invited talks as well as oral and poster presentations of refereed papers, followed by parallel-track workshops that up to 2013 were held at ski resorts. According to Microsoft Academic Search, NIPS is the top conference on machine learning.  NIPS Deep Learning Workshop   2015,  2014 ,  2013 ,  2012 ,  2011 ,  2010  The Deep Learning and Representation Learning Workshop will be held in conjunction with Neural Information Processing Systems (NIPS)  Deep Learning algorithms attempt to discover good representations, at multiple levels of abstraction. There has been rapid progress in this area in recent years, both in terms of algorithms and in terms of applications, but many challenges remain. The workshop aims at bringing together researchers in that field and discussing these challenges, brainstorming about new solutions.  ACM SIGKDD  2015 ,  2014 ,  2013  KDD provides the premier forum for advancement and adoption of the \"science\" of knowledge discovery and data mining. KDD encourages:  \n     Research in KDD (through annual research conferences, newsletter and other related activities)\nAdoption of \"standards\" in the market in terms of terminology, evaluation, methodology\nInterdisciplinary education among KDD researchers, practitioners, and users\nKDD activities include the annual Conference on Knowledge Discovery and Data Mining and the SIGKDD Explorations Newsletter.", 
+            "title": "Conferences"
         }, 
         {
-            "location": "/#articles", 
-            "text": "What do top Kaggle competitors focus on?      \nYanir Seroussi, 2015.  10 Steps to Success in Kaggle Data Science Competitions . [ONLINE] Available at:  http://www.kdnuggets.com/2015/03/10-steps-success-kaggle-data-science-competitions.html . [Accessed 10 March 2015].   \nDataRobot,\u00a02015.  10 R Packages to Win Kaggle Competitions . [ONLINE] Available at\u00a0 http://www.slideshare.net/DataRobot/final-10-r-xc-36610234 \u00a0[Accessed 03 July\u00a02014].", 
-            "title": "Articles"
+            "location": "/#journals", 
+            "text": "JMLR - Journal of Machine Learning Research  The Journal of Machine Learning Research (JMLR) provides an international forum for the electronic and paper publication of high-quality scholarly articles in all areas of machine learning. All published papers are freely available online.  JAIR - Journal of Artificial Intelligence Research  JAIR(ISSN 1076 - 9757) covers all areas of artificial intelligence (AI), publishing refereed research articles, survey articles, and technical notes. Established in 1993 as one of the first electronic scientific journals, JAIR is indexed by INSPEC, Science Citation Index, and MathSciNet. JAIR reviews papers within approximately three months of submission and publishes accepted articles on the internet immediately upon receiving the final versions. JAIR articles are published for free distribution on the internet by the AI Access Foundation, and for purchase in bound volumes by AAAI Press.", 
+            "title": "Journals"
         }, 
         {
-            "location": "/#tools", 
-            "text": "", 
-            "title": "Tools"
+            "location": "/#groups-and-social-networks", 
+            "text": "You can join many peer groups - see  Top 30 LinkedIn Groups for Analytics, Big Data, Data Mining, and Data Science .  AnalyticBridge  is an active community for Analytics and Data Science.  You can attend some of the many  Meetings and Conferences on Analytics, Big Data, Data Mining, Data Science,   Knowledge Discovery .", 
+            "title": "Groups and Social Networks"
         }, 
         {
-            "location": "/#third-party-apis", 
-            "text": "Original post:  http://www.kdnuggets.com/2015/11/machine-learning-apis-data-science.html/2  Keep update your knowledge with many conferences, groups and social networks about machine learning and data mining", 
-            "title": "Third Party APIs"
-        }, 
-        {
-            "location": "/#conferences-journals-groups-social-networks-and-people", 
-            "text": "", 
-            "title": "Conferences, Journals, Groups, Social Networks and People"
-        }, 
-        {
-            "location": "/#ds-cultures", 
-            "text": "What are machine learning cultures? Who are invent and follow what culture?   Inspired from two interesting papers,   Leo Breiman, 2001,  Statistical Modeling: The Two Cultures (with comments and a rejoinder by the author)  Jason Eisner, 2015,  The Three Cultures of Machine Learning   Frequentist  Bayesian  Algorithmic Modeling, Deep Learning", 
-            "title": "DS: Cultures"
-        }, 
-        {
-            "location": "/#ds-courses", 
-            "text": "Data Science Courses", 
-            "title": "DS: Courses"
+            "location": "/#people", 
+            "text": "Jure Leskovec :  #SocialNetworkAnalysis  Andrew Ng :  #DeepLearning  David Blei :  #TopicModel  Matei Zaharia :  #apachespark , #2013,  creator of apache spark, (interview  #1 )", 
+            "title": "People"
         }, 
         {
             "location": "/process/", 
             "text": "DS: Process\n\n\nThe good life is a process, not a state of being. It is a direction not a destination.\n\nCarl Rogers\n\n\n\n\n\n\n\nI searched a framework fit for every data mining task, I found a good one from an article of Oracle.\n\n\nAnd here is my summary. The data mining process has 4 steps:\n\n\nStep 1. Problem Definition\n\n\nThis initial phase of a data mining project focuses on understanding the project objectives and requirements. Once you have specified the project from a business perspective, you can formulate it as a data mining problem and develop a preliminary implementation plan.\n\n\nStep 2. Data Gathering \n Preparation\n\n\nThe data understanding phase involves data collection and exploration. As you take a closer look at the data, you can determine how well it addresses the business problem. You might decide to remove some of the data or add additional data. This is also the time to identify data quality problems and to scan for patterns in the data.\n\n\n\n\n\u00a0Data Access\n\n\n\u00a0Data Sampling\n\n\n\u00a0Data Transformation\n\n\n\n\n\nData in the real world is dirty [3]. They are often\u00a0\nincomplete \n(lacking attribute values, lacking certain attributes of\u00a0interest, or containing only aggregate data),\u00a0\nnoisy\n (containing errors or outliers),\u0089 \ninconsistent\n\u00a0(containing discrepancies in codes or names).\n\n\nStep 3. Model Building\n\n\nIn this phase, you select and apply various modeling techniques and calibrate the parameters to optimal values. If the algorithm requires data transformations, you will need to step back to the previous phase to implement them\n\n\n\n\n\u00a0Create Model\n\n\n\n\n\n\u00a0Test Model\n\n\n\u00a0 Evaluate \n Interpret Model\n\n\n\n\nSome important questions [2]:\n\n\n\n    \nIs at least one of predictors useful in predicting the response? (F-statistics)\n\n    \nDo all the predictors help to explain Y, or is only a subset of the predictors useful? (all subsets or best subsets)\n\n    \nHow well does the model fit the data?\n\n    \nGiven a set of predictor values, what response value should we predict, and how accurate is our prediction?\n\n\n\n\n\nStep 4. Knowledge Deployment\n\n\nKnowledge deployment is the use of data mining within a target environment. In the deployment phase, insight and actionable information can be derived from data.\n\n\n\n    \nModel Apply\n\n    \nCustom Reports\n\n    \nExternal Applications\n\n\n\n\n\nReferences\n\n\n\n\n    \nThe Data Mining Process\n, Oracle\n\n    \nTrevor Hastie and Rob Tibshirani, Model Selection and Qualitative Predictors, URL:https://www.youtube.com/watch?v=3T6RXmIHbJ4\n\n    \nNguyen Hung Son, Data cleaning and\u00a0Data preprocessing, URL:http://www.mimuw.edu.pl/~son/datamining/DM/4-preprocess.pdf", 
-            "title": "Process"
+            "title": "Overview"
         }, 
         {
             "location": "/process/#ds-process", 
@@ -197,7 +182,7 @@
         }, 
         {
             "location": "/model_regression/", 
-            "text": "Regression\n\n\nLinear Regression\n\n\nIn-Out\n\n\n\n\n\nInput: \nContinuous\n\nOutput: \nContinuous\n\n\nWhen to use \n1\n\n\n\n\nEconometric Modeling\n\n\nMarketing Mix Model\n\n\nCustomer Lifetime Value\n\n\n\n\n\nExamples\n\n\nEx1. Linear Regression with Boston Dataset\n\n\n[code language=\"python\" title=\"script.py\"]\n\nauthor\n = 'rain'\n\n\nfrom sklearn.datasets import load_boston\nfrom sklearn.cross_validation import train_test_split\nfrom sklearn.linear_model import LinearRegression, Ridge\nboston = load_boston()\ndata = boston['data']\nX, y = data[:, :-1], data[:, -1]\nX_train, X_test, y_train, y_test =\n  train_test_split(X, y, test_size=0.3)\nprint boston['DESCR']\nclf_linear = LinearRegression()\nclf_linear.fit(X_train, y_train)\nlinear_score = clf_linear.score(X_test, y_test)\n\n\n-\n 0.671\n\n\nprint(clf_linear.coef_)\nprint(clf_linear.intercept_)\n\n\nclf_ridge = Ridge(alpha=1.0)\nclf_ridge.fit(X_train, y_train)\n\n\n0.674\n\n\nridge_score = clf_ridge.score(X_test, y_test)\n\n\nprint y_test\nprint clf_linear.predict(X_test)\nprint clf_ridge.predict(X_test)\n[/code]\n\n\nEx2. Linear Regression with market data set (coursera)\n ([python language=\"notebook\"]\n/python\n)\n\n\nLogistic Regression\n\n\n\n\nIn-Out \n1\n\n\n\n\n\nIn: \ncontinuos\n\n\nOut: \nTrue/False\n\n\n\n\n\n1. Hyposthesis Representation\n\n\n$latex h_{\\theta}(x) = g(\\theta^T x)\ns=2$  where $latex g(z) = \\frac{1}{1 + e^{-z}}\ns=2$\n\n\ng(z) is sigmoid function or logistic function\n\n\n$latex h_{\\theta}(x)\ns=1$ estimated probability of y equal 1 given x\n\n\nIn spam detection problem, $latex h_{\\theta}(x) = 0.7$ means it's 70% chance this email is spam.\n\n\n2. Decision Boundary\n\n\nLogistic Regression\n\n\n3. Cost Function\n\n\n$latex cost(h_{\\theta}(x), y) = -y log(h_{\\theta}(x)) - (1-y) log(1- h_{\\theta}(x))\ns=1$\n\n\nLoss Function\n\n\n$latex J(\\theta) = \\frac{1}{m} \\sum_{i=1}^{m} cost(h_{\\theta}(x^{(i)}), y^{(i)}) \\newline =\\frac{-1}{m} \\sum_{i=1}^{m} y^{(i)} log h_{\\theta}(x^{(i)}) + (1-y^{(i)})log(1-h_{\\theta}(x^{(i)}))$\n\n\n4. Gradient Descent\n\n\nGradient\n\n\n$latex \\frac{\\partial J(\\theta)}{\\partial \\theta_j} = \\frac{1}{m} \\sum^m_{i=1} (h_\\theta (x^{(i)}) - y^{(i)}) x_j^{(i)}\ns=1$\n\n\n5. Predict\n\n\n$latex p(\\theta, X) = h_\\theta(X) \\ge 0.5\ns=1$\n\n\n6. Regularization\n\n\n6.1 Feature Mapping\n\n\nCost Function\n\n\n[latex]mapFeature(x) =\n\\begin{bmatrix}\n1 \\\nx_1 \\\nx_2 \\\nx_1^2 \\\nx_1 x_2 \\\nx_2^2 \\\nx_1^3 \\\n\\cdots \\\nx_1 x_2^5\\\nx_2^6\n\\end{bmatrix}\n[/latex]\n\n\n6.2 Cost Function and Gradient\n\n\nCost Function\n\n\n[latex]\nJ(\\theta) = \\frac{1}{m} \\sum^m_{i=1} [-y^{(i)} log(h_\\theta(x^{(i)})) - (1 - y^{(i)})log(1 - h_\\theta(x^{(i)}))] + \\frac{\\lambda}{2m} \\sum^n_{j=1} \\theta^2_j\n[/latex]\n\n\nGradient\n\n\n$latex \\frac{\\partial J(\\theta)}{\\partial \\theta_j} = \\frac{1}{m} \\sum^m_{i=1}(h_\\theta(x^{(i)}) - y^{(i)})x_j^{(i)}\ns=1$ for $latex j = 0\ns=1$\n\n\n$latex \\frac{\\partial J(\\theta)}{\\partial \\theta_j} = \\left( \\frac{1}{m} \\sum^m_{i=1}(h_\\theta(x^{(i)}) - y^{(i)})x_j^{(i)}\ns=1 \\right) + \\frac{\\lambda}{m} \\theta_j\ns=1$ for $latex j \\ge 1\ns=1$\n\nCode\n\n\nBank Marketing Data Set\n\n\n[code language=\"python\"]\nimport statsmodels.api as sm\nimport pandas as pd\nfrom statsmodels.tools.tools import categorical\nfrom sklearn.preprocessing import LabelEncoder\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.cross_validation import train_test_split\nfrom sklearn.metrics import confusion_matrix\nimport numpy\nfrom sklearn.tree import DecisionTreeClassifier\n\n\ndef get_data():\n    return pd.read_csv(\n./bank/bank-full.csv\n, header=0, sep=\n;\n)\n\n\ndata = get_data()\n\n\ndata.job = LabelEncoder().fit_transform(data.job)\ndata.marital = LabelEncoder().fit_transform(data.marital)\ndata.education = LabelEncoder().fit_transform(data.education)\ndata.default = LabelEncoder().fit_transform(data.default)\ndata.housing = LabelEncoder().fit_transform(data.housing)\ndata.loan = LabelEncoder().fit_transform(data.loan)\ndata.month = LabelEncoder().fit_transform(data.month)\ndata.contact = LabelEncoder().fit_transform(data.contact)\ndata.poutcome = LabelEncoder().fit_transform(data.poutcome)\n\n\nX = data.iloc[:, :-1]\ny = data.iloc[:, -1]\n\n\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)\n\n\nclf = LogisticRegression()\nclf.fit(X_train, y_train)\nscore = clf.score(X_test, y_test)\n\n\nprint confusion_matrix(y_test, clf.predict(X_test))\n\n\n[[11807   203]\n\n\n[ 1243   311]]\n\n\nit's too bad\n\n\n[/code]\n\n\nExamples \n2\n\n\n\n\n\nAffair Dataset, Logistic Regression with scikit-learn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Regression vs Logistic Regression vs Poisson Regression\n\n\n\n\n\n\n\nLogistic Regression with scikit-learn\n\n\n\n\n\n\n\n\n\n\nPolynormial Regression\n\n\nPolynomial Regression\n\n\nh theata (x) = theta 0 + theta 1 (size) + theta 2 (size)^ 2 + theta (size)^ 3\n\n\nChoice of Feature\n\n\n\n\nMachine Learning Andrew Ng, Polynomial anf Feature Selection\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Regression vs Logistic Regression vs Poisson Regression", 
+            "text": "Regression\n\n\nLinear Regression\n\n\nIn-Out\n\n\n\n\n\nInput: \nContinuous\n\nOutput: \nContinuous\n\n\nWhen to use \n1\n\n\n\n\nEconometric Modeling\n\n\nMarketing Mix Model\n\n\nCustomer Lifetime Value\n\n\n\n\n\nExamples\n\n\nEx1. Linear Regression with Boston Dataset\n\n\n__author__ = 'rain'\n\nfrom sklearn.datasets import load_boston\nfrom sklearn.cross_validation import train_test_split\nfrom sklearn.linear_model import LinearRegression, Ridge\nboston = load_boston()\ndata = boston['data']\nX, y = data[:, :-1], data[:, -1]\nX_train, X_test, y_train, y_test =\n  train_test_split(X, y, test_size=0.3)\nprint boston['DESCR']\nclf_linear = LinearRegression()\nclf_linear.fit(X_train, y_train)\nlinear_score = clf_linear.score(X_test, y_test)\n#-\n 0.671\nprint(clf_linear.coef_)\nprint(clf_linear.intercept_)\n\nclf_ridge = Ridge(alpha=1.0)\nclf_ridge.fit(X_train, y_train)\n# 0.674\nridge_score = clf_ridge.score(X_test, y_test)\n\nprint y_test\nprint clf_linear.predict(X_test)\nprint clf_ridge.predict(X_test)\n\n\n\n\nEx2. Linear Regression with market data set (coursera)\n ([python language=\"notebook\"]\n/python\n)\n\n\nLogistic Regression\n\n\n\n\nIn-Out \n1\n\n\n\n\n\nIn: \ncontinuos\n\n\nOut: \nTrue/False\n\n\n\n\n\n1. Hyposthesis Representation\n\n\n\n\nh_{\\theta}(x) = g(\\theta^T x)\\ where\\ g(z) = \\frac{1}{1 + e^{-z}}\n\n\n\n\n\n\n g(z) \n is sigmoid function or logistic function\n\n\n\n\n h_{\\theta}(x) \n estimated probability of \n y = 1\n given \n x \n\n\n\n\nIn spam detection problem, \n h_{\\theta}(x) = 0.7 \n means it's 70% chance this email is spam.\n\n\n2. Decision Boundary\n\n\nLogistic Regression\n\n\n3. Cost Function\n\n\n\n\ncost(h_{\\theta}(x), y) = -y log(h_{\\theta}(x)) - (1-y) log(1- h_{\\theta}(x))\n\n\n\n\nLoss Function\n\n\n\n\nJ(\\theta) = \\frac{1}{m} \\sum_{i=1}^{m} cost(h_{\\theta}(x^{(i)}), y^{(i)}) = \\frac{-1}{m} \\sum_{i=1}^{m} y^{(i)} log h_{\\theta}(x^{(i)}) + (1-y^{(i)})log(1-h_{\\theta}(x^{(i)}))\n\n\n\n\n4. Gradient Descent\n\n\nGradient\n\n\n\n\n\\frac{\\partial J(\\theta)}{\\partial \\theta_j} = \\frac{1}{m} \\sum^m_{i=1} (h_\\theta (x^{(i)}) - y^{(i)}) x_j^{(i)}\n\n\n\n\n5. Predict\n\n\n\n\np(\\theta, X) = h_\\theta(X) \\ge 0.5\n\n\n\n\n6. Regularization\n\n\n6.1 Feature Mapping\n\n\nCost Function\n\n\n\n\nmapFeature(x) =\n\\begin{bmatrix}\n1 \\\\\nx_1 \\\\\nx_2 \\\\\nx_1^2 \\\\\nx_1 x_2 \\\\\nx_2^2 \\\\\nx_1^3 \\\\\n\\cdots \\\\\nx_1 x_2^5\\\\\nx_2^6\n\\end{bmatrix}\n\n\n\n\n\n6.2 Cost Function and Gradient\n\n\nCost Function\n\n\nJ(\\theta) = \\frac{1}{m} \\sum^m_{i=1} [-y^{(i)} log(h_\\theta(x^{(i)})) - (1 - y^{(i)})log(1 - h_\\theta(x^{(i)}))] + \\frac{\\lambda}{2m} \\sum^n_{j=1} \\theta^2_j\n\n\n\n\n\nGradient\n\n\n\n\n \\frac{\\partial J(\\theta)}{\\partial \\theta_j} = \\frac{1}{m} \\sum^m_{i=1}(h_\\theta(x^{(i)}) - y^{(i)})x_j^{(i)} \n\nfor \n j = 0 \n\n\n\n\n\n\n \\frac{\\partial J(\\theta)}{\\partial \\theta_j} = \\left( \\frac{1}{m} \\sum^m_{i=1}(h_\\theta(x^{(i)}) - y^{(i)})x_j^{(i)} \\right) + \\frac{\\lambda}{m} \\theta_j \n for \n j \\ge 1 \n\n\n\n\nCode\n\n\n\nBank Marketing Data Set\n\n\nimport statsmodels.api as sm\nimport pandas as pd\nfrom statsmodels.tools.tools import categorical\nfrom sklearn.preprocessing import LabelEncoder\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.cross_validation import train_test_split\nfrom sklearn.metrics import confusion_matrix\nimport numpy\nfrom sklearn.tree import DecisionTreeClassifier\n\n\ndef get_data():\n    return pd.read_csv(\nquot;./bank/bank-full.csv\nquot;, header=0, sep=\nquot;;\nquot;)\n\ndata = get_data()\n\ndata.job = LabelEncoder().fit_transform(data.job)\ndata.marital = LabelEncoder().fit_transform(data.marital)\ndata.education = LabelEncoder().fit_transform(data.education)\ndata.default = LabelEncoder().fit_transform(data.default)\ndata.housing = LabelEncoder().fit_transform(data.housing)\ndata.loan = LabelEncoder().fit_transform(data.loan)\ndata.month = LabelEncoder().fit_transform(data.month)\ndata.contact = LabelEncoder().fit_transform(data.contact)\ndata.poutcome = LabelEncoder().fit_transform(data.poutcome)\n\nX = data.iloc[:, :-1]\ny = data.iloc[:, -1]\n\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)\n\nclf = LogisticRegression()\nclf.fit(X_train, y_train)\nscore = clf.score(X_test, y_test)\n\nprint confusion_matrix(y_test, clf.predict(X_test))\n# [[11807   203]\n#  [ 1243   311]]\n# it's too bad\n\n\n\n\n\nExamples\n\n\n\n\nAffair Dataset, Logistic Regression with scikit-learn\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Regression vs Logistic Regression vs Poisson Regression", 
             "title": "Regression"
         }, 
         {
@@ -217,18 +202,8 @@
         }, 
         {
             "location": "/model_regression/#examples", 
-            "text": "Ex1. Linear Regression with Boston Dataset  [code language=\"python\" title=\"script.py\"] author  = 'rain'  from sklearn.datasets import load_boston\nfrom sklearn.cross_validation import train_test_split\nfrom sklearn.linear_model import LinearRegression, Ridge\nboston = load_boston()\ndata = boston['data']\nX, y = data[:, :-1], data[:, -1]\nX_train, X_test, y_train, y_test =\n  train_test_split(X, y, test_size=0.3)\nprint boston['DESCR']\nclf_linear = LinearRegression()\nclf_linear.fit(X_train, y_train)\nlinear_score = clf_linear.score(X_test, y_test)", 
+            "text": "Ex1. Linear Regression with Boston Dataset  __author__ = 'rain'\n\nfrom sklearn.datasets import load_boston\nfrom sklearn.cross_validation import train_test_split\nfrom sklearn.linear_model import LinearRegression, Ridge\nboston = load_boston()\ndata = boston['data']\nX, y = data[:, :-1], data[:, -1]\nX_train, X_test, y_train, y_test =\n  train_test_split(X, y, test_size=0.3)\nprint boston['DESCR']\nclf_linear = LinearRegression()\nclf_linear.fit(X_train, y_train)\nlinear_score = clf_linear.score(X_test, y_test)\n#-  0.671\nprint(clf_linear.coef_)\nprint(clf_linear.intercept_)\n\nclf_ridge = Ridge(alpha=1.0)\nclf_ridge.fit(X_train, y_train)\n# 0.674\nridge_score = clf_ridge.score(X_test, y_test)\n\nprint y_test\nprint clf_linear.predict(X_test)\nprint clf_ridge.predict(X_test)  Ex2. Linear Regression with market data set (coursera)  ([python language=\"notebook\"] /python )", 
             "title": "Examples"
-        }, 
-        {
-            "location": "/model_regression/#-0671", 
-            "text": "print(clf_linear.coef_)\nprint(clf_linear.intercept_)  clf_ridge = Ridge(alpha=1.0)\nclf_ridge.fit(X_train, y_train)", 
-            "title": "-&gt; 0.671"
-        }, 
-        {
-            "location": "/model_regression/#0674", 
-            "text": "ridge_score = clf_ridge.score(X_test, y_test)  print y_test\nprint clf_linear.predict(X_test)\nprint clf_ridge.predict(X_test)\n[/code]  Ex2. Linear Regression with market data set (coursera)  ([python language=\"notebook\"] /python )", 
-            "title": "0.674"
         }, 
         {
             "location": "/model_regression/#logistic-regression", 
@@ -237,7 +212,7 @@
         }, 
         {
             "location": "/model_regression/#1-hyposthesis-representation", 
-            "text": "$latex h_{\\theta}(x) = g(\\theta^T x) s=2$  where $latex g(z) = \\frac{1}{1 + e^{-z}} s=2$  g(z) is sigmoid function or logistic function  $latex h_{\\theta}(x) s=1$ estimated probability of y equal 1 given x  In spam detection problem, $latex h_{\\theta}(x) = 0.7$ means it's 70% chance this email is spam.", 
+            "text": "h_{\\theta}(x) = g(\\theta^T x)\\ where\\ g(z) = \\frac{1}{1 + e^{-z}}     g(z)   is sigmoid function or logistic function    h_{\\theta}(x)   estimated probability of   y = 1  given   x    In spam detection problem,   h_{\\theta}(x) = 0.7   means it's 70% chance this email is spam.", 
             "title": "1. Hyposthesis Representation"
         }, 
         {
@@ -247,17 +222,17 @@
         }, 
         {
             "location": "/model_regression/#3-cost-function", 
-            "text": "$latex cost(h_{\\theta}(x), y) = -y log(h_{\\theta}(x)) - (1-y) log(1- h_{\\theta}(x)) s=1$  Loss Function  $latex J(\\theta) = \\frac{1}{m} \\sum_{i=1}^{m} cost(h_{\\theta}(x^{(i)}), y^{(i)}) \\newline =\\frac{-1}{m} \\sum_{i=1}^{m} y^{(i)} log h_{\\theta}(x^{(i)}) + (1-y^{(i)})log(1-h_{\\theta}(x^{(i)}))$", 
+            "text": "cost(h_{\\theta}(x), y) = -y log(h_{\\theta}(x)) - (1-y) log(1- h_{\\theta}(x))   Loss Function   J(\\theta) = \\frac{1}{m} \\sum_{i=1}^{m} cost(h_{\\theta}(x^{(i)}), y^{(i)}) = \\frac{-1}{m} \\sum_{i=1}^{m} y^{(i)} log h_{\\theta}(x^{(i)}) + (1-y^{(i)})log(1-h_{\\theta}(x^{(i)}))", 
             "title": "3. Cost Function"
         }, 
         {
             "location": "/model_regression/#4-gradient-descent", 
-            "text": "Gradient  $latex \\frac{\\partial J(\\theta)}{\\partial \\theta_j} = \\frac{1}{m} \\sum^m_{i=1} (h_\\theta (x^{(i)}) - y^{(i)}) x_j^{(i)} s=1$", 
+            "text": "Gradient   \\frac{\\partial J(\\theta)}{\\partial \\theta_j} = \\frac{1}{m} \\sum^m_{i=1} (h_\\theta (x^{(i)}) - y^{(i)}) x_j^{(i)}", 
             "title": "4. Gradient Descent"
         }, 
         {
             "location": "/model_regression/#5-predict", 
-            "text": "$latex p(\\theta, X) = h_\\theta(X) \\ge 0.5 s=1$", 
+            "text": "p(\\theta, X) = h_\\theta(X) \\ge 0.5", 
             "title": "5. Predict"
         }, 
         {
@@ -267,37 +242,22 @@
         }, 
         {
             "location": "/model_regression/#61-feature-mapping", 
-            "text": "Cost Function  [latex]mapFeature(x) =\n\\begin{bmatrix}\n1 \\\nx_1 \\\nx_2 \\\nx_1^2 \\\nx_1 x_2 \\\nx_2^2 \\\nx_1^3 \\\n\\cdots \\\nx_1 x_2^5\\\nx_2^6\n\\end{bmatrix}\n[/latex]", 
+            "text": "Cost Function   mapFeature(x) =\n\\begin{bmatrix}\n1 \\\\\nx_1 \\\\\nx_2 \\\\\nx_1^2 \\\\\nx_1 x_2 \\\\\nx_2^2 \\\\\nx_1^3 \\\\\n\\cdots \\\\\nx_1 x_2^5\\\\\nx_2^6\n\\end{bmatrix}", 
             "title": "6.1 Feature Mapping"
         }, 
         {
             "location": "/model_regression/#62-cost-function-and-gradient", 
-            "text": "Cost Function  [latex]\nJ(\\theta) = \\frac{1}{m} \\sum^m_{i=1} [-y^{(i)} log(h_\\theta(x^{(i)})) - (1 - y^{(i)})log(1 - h_\\theta(x^{(i)}))] + \\frac{\\lambda}{2m} \\sum^n_{j=1} \\theta^2_j\n[/latex]  Gradient  $latex \\frac{\\partial J(\\theta)}{\\partial \\theta_j} = \\frac{1}{m} \\sum^m_{i=1}(h_\\theta(x^{(i)}) - y^{(i)})x_j^{(i)} s=1$ for $latex j = 0 s=1$  $latex \\frac{\\partial J(\\theta)}{\\partial \\theta_j} = \\left( \\frac{1}{m} \\sum^m_{i=1}(h_\\theta(x^{(i)}) - y^{(i)})x_j^{(i)} s=1 \\right) + \\frac{\\lambda}{m} \\theta_j s=1$ for $latex j \\ge 1 s=1$", 
+            "text": "Cost Function \nJ(\\theta) = \\frac{1}{m} \\sum^m_{i=1} [-y^{(i)} log(h_\\theta(x^{(i)})) - (1 - y^{(i)})log(1 - h_\\theta(x^{(i)}))] + \\frac{\\lambda}{2m} \\sum^n_{j=1} \\theta^2_j   Gradient    \\frac{\\partial J(\\theta)}{\\partial \\theta_j} = \\frac{1}{m} \\sum^m_{i=1}(h_\\theta(x^{(i)}) - y^{(i)})x_j^{(i)}  \nfor   j = 0      \\frac{\\partial J(\\theta)}{\\partial \\theta_j} = \\left( \\frac{1}{m} \\sum^m_{i=1}(h_\\theta(x^{(i)}) - y^{(i)})x_j^{(i)} \\right) + \\frac{\\lambda}{m} \\theta_j   for   j \\ge 1", 
             "title": "6.2 Cost Function and Gradient"
         }, 
         {
-            "location": "/model_regression/#11807-203", 
-            "text": "", 
-            "title": "[[11807   203]"
-        }, 
-        {
-            "location": "/model_regression/#1243-311", 
-            "text": "", 
-            "title": "[ 1243   311]]"
-        }, 
-        {
-            "location": "/model_regression/#its-too-bad", 
-            "text": "[/code]", 
-            "title": "it's too bad"
-        }, 
-        {
-            "location": "/model_regression/#polynormial-regression", 
-            "text": "Polynomial Regression  h theata (x) = theta 0 + theta 1 (size) + theta 2 (size)^ 2 + theta (size)^ 3  Choice of Feature   Machine Learning Andrew Ng, Polynomial anf Feature Selection       Linear Regression vs Logistic Regression vs Poisson Regression", 
-            "title": "Polynormial Regression"
+            "location": "/model_regression/#examples_1", 
+            "text": "Affair Dataset, Logistic Regression with scikit-learn       Linear Regression vs Logistic Regression vs Poisson Regression", 
+            "title": "Examples"
         }, 
         {
             "location": "/model_classification/", 
-            "text": "Classification\n\n\n\n\nClassification \n1\n\n\nA very familiar example is the email spam-catching system: given a set of emails marked as spam and not-spam, it learns the characteristics of spam emails and is then able to process future email messages to mark them as spam or not-spam.\n\n\nThe technique used in the above example of email spam-catching system is one of the most common machine learning techniques: classification (actually, statistical classification). More precisely it is a supervised statistical classification. Supervised because the system needs to be first trained using already classified training data as opposed to an unsupervised system where such training is not done.\n\n\nA supervised learning system that performs classification is known as a learner or, more commonly, a classifier.\n\n\nThe classifier is first fed training data in which each item is already labeled with the correct label or class. This data is used to train the learning algorithm, which creates models that can then be used to label/classify similar data.\n\n\nFormally, given a set of input items, \n and a set of labels/classes, \n and training data \nis the label/class for $latex x_i$, a classifier is a mapping from X to Y $latex f(T, x) = y$.\n\n\nBinary Classification\n\n\nAlgorithms \n1\n\n\n\n\nTwo-class SVM\n\n\n\n\n\n\n100 features, linear model\n\n\n\n\n\n\nTwo-class Logistic Regression\n\n\nFast training, linear model\n\n\nTwo-class Bayes point machine\n\n\nFast training, linear model\n\n\nTwo-class random forest\n\n\nAccuracy, fast training\n\n\nTwo-class boosted decision tree\n\n\nAccuracy, fast training\n\n\nTwo-class neural network\n\n\nAccuracy, long training times\n\n\n\n\nMulticlass Classification\n\n\n\n\nIntroduction \n2\n\n\nIn machine learning, multiclass or multinomial classification is the problem of classifying instances into one of the more than two classes (classifying instances into one of the two classes is called binary classification).\n\n\nWhile some classification algorithms naturally permit the use of more than two classes, others are by nature binary algorithms; these can, however, be turned into multinomial classifiers by a variety of strategies.\n\n\nMulticlass classification should not be confused with multi-label classification, where multiple labels are to be predicted for each instance.\n\n\nAlgorithms \n1\n\n\n\n\nMulticlass Logistic Regression\n\n\nMulticlass SVM\n\n\nMulticlass Neural Network\n\n\nMulticlass Decision Forest\n\n\nMulticlass Decision Jungle\n\n\n\n\nConfusion Matrix\n\n\nsklearn plot confusion matrix with labels \n3\n\n\n[code lang=\"python\"]\nimport matplotlib.pyplot as plt\ndef plot_confusion_matrix(cm, title='Confusion matrix', cmap=plt.cm.Blues, labels=None):\n    fig = plt.figure()\n    ax = fig.add_subplot(111)\n    cax = ax.matshow(cm)\n    plt.title(title)\n    fig.colorbar(cax)\n    if labels:\n        ax.set_xticklabels([''] + labels)\n        ax.set_yticklabels([''] + labels)\n    plt.xlabel('Predicted')\n    plt.ylabel('True')\n    plt.show()\n[/code]\n\n\n\n\nMultilabel Classification\n\n\n\n\nIntroduction \n1\n\n\nIn machine learning, multi-label classification and the strongly related problem of multi-output classification are variants of the classification problem where multiple target labels must be assigned to each instance. Multi-label classification should not be confused with multiclass classification, which is the problem of categorizing instances into one of more than two classes. Formally, multi-label learning can be phrased as the problem of finding a model that maps inputs x to binary vectors y, rather than scalar outputs as in the ordinary classification problem.\n\n\nThere are two main methods for tackling the multi-label classification problem:[1] problem transformation methods and algorithm adaptation methods. Problem transformation methods transform the multi-label problem into a set of binary classification problems, which can then be handled using single-class classifiers. Algorithm adaptation methods adapt the algorithms to directly perform multi-label classification. In other words, rather than trying to convert the problem to a simpler problem, they try to address the problem in its full form.\n\n\nImplements\n\n\n\n\nMulticlass and multilabel algorithms\n\n\n\n\nSVM\n\n\n\n\n\n\n\n\n\n\nMulti-label classification\n\n\n\n\n\n\nMulticlass classification\n\n\n\n\n\n\nsklearn plot confusion matrix with labels", 
+            "text": "Classification\n\n\n\n\nClassification \n1\n\n\nA very familiar example is the email spam-catching system: given a set of emails marked as spam and not-spam, it learns the characteristics of spam emails and is then able to process future email messages to mark them as spam or not-spam.\n\n\nThe technique used in the above example of email spam-catching system is one of the most common machine learning techniques: classification (actually, statistical classification). More precisely it is a supervised statistical classification. Supervised because the system needs to be first trained using already classified training data as opposed to an unsupervised system where such training is not done.\n\n\nA supervised learning system that performs classification is known as a learner or, more commonly, a classifier.\n\n\nThe classifier is first fed training data in which each item is already labeled with the correct label or class. This data is used to train the learning algorithm, which creates models that can then be used to label/classify similar data.\n\n\nFormally, given a set of input items, \n and a set of labels/classes, \n and training data \nis the label/class for $latex x_i$, a classifier is a mapping from X to Y $latex f(T, x) = y$.\n\n\nBinary Classification\n\n\nAlgorithms \n1\n\n\n\n\nTwo-class SVM\n\n\n\n\n\n\n100 features, linear model\n\n\n\n\n\n\nTwo-class Logistic Regression\n\n\nFast training, linear model\n\n\nTwo-class Bayes point machine\n\n\nFast training, linear model\n\n\nTwo-class random forest\n\n\nAccuracy, fast training\n\n\nTwo-class boosted decision tree\n\n\nAccuracy, fast training\n\n\nTwo-class neural network\n\n\nAccuracy, long training times\n\n\n\n\nMulticlass Classification\n\n\n\n\nIntroduction \n2\n\n\nIn machine learning, multiclass or multinomial classification is the problem of classifying instances into one of the more than two classes (classifying instances into one of the two classes is called binary classification).\n\n\nWhile some classification algorithms naturally permit the use of more than two classes, others are by nature binary algorithms; these can, however, be turned into multinomial classifiers by a variety of strategies.\n\n\nMulticlass classification should not be confused with multi-label classification, where multiple labels are to be predicted for each instance.\n\n\nAlgorithms \n1\n\n\n\n\nMulticlass Logistic Regression\n\n\nMulticlass SVM\n\n\nMulticlass Neural Network\n\n\nMulticlass Decision Forest\n\n\nMulticlass Decision Jungle\n\n\n\n\nConfusion Matrix\n\n\nsklearn plot confusion matrix with labels \n3\n\n\nimport matplotlib.pyplot as plt\ndef plot_confusion_matrix(cm, title='Confusion matrix', cmap=plt.cm.Blues, labels=None):\n    fig = plt.figure()\n    ax = fig.add_subplot(111)\n    cax = ax.matshow(cm)\n    plt.title(title)\n    fig.colorbar(cax)\n    if labels:\n        ax.set_xticklabels([''] + labels)\n        ax.set_yticklabels([''] + labels)\n    plt.xlabel('Predicted')\n    plt.ylabel('True')\n    plt.show()\n\n\n\n\n\n\nMultilabel Classification\n\n\n\n\nIntroduction \n1\n\n\nIn machine learning, multi-label classification and the strongly related problem of multi-output classification are variants of the classification problem where multiple target labels must be assigned to each instance. Multi-label classification should not be confused with multiclass classification, which is the problem of categorizing instances into one of more than two classes. Formally, multi-label learning can be phrased as the problem of finding a model that maps inputs x to binary vectors y, rather than scalar outputs as in the ordinary classification problem.\n\n\nThere are two main methods for tackling the multi-label classification problem:[1] problem transformation methods and algorithm adaptation methods. Problem transformation methods transform the multi-label problem into a set of binary classification problems, which can then be handled using single-class classifiers. Algorithm adaptation methods adapt the algorithms to directly perform multi-label classification. In other words, rather than trying to convert the problem to a simpler problem, they try to address the problem in its full form.\n\n\nImplements\n\n\n\n\nMulticlass and multilabel algorithms\n\n\n\n\nSVM\n\n\n\n\n\n\n\n\n\n\nMulti-label classification\n\n\n\n\n\n\nMulticlass classification\n\n\n\n\n\n\nsklearn plot confusion matrix with labels", 
             "title": "Classification"
         }, 
         {
@@ -337,7 +297,7 @@
         }, 
         {
             "location": "/model_classification/#confusion-matrix", 
-            "text": "sklearn plot confusion matrix with labels  3  [code lang=\"python\"]\nimport matplotlib.pyplot as plt\ndef plot_confusion_matrix(cm, title='Confusion matrix', cmap=plt.cm.Blues, labels=None):\n    fig = plt.figure()\n    ax = fig.add_subplot(111)\n    cax = ax.matshow(cm)\n    plt.title(title)\n    fig.colorbar(cax)\n    if labels:\n        ax.set_xticklabels([''] + labels)\n        ax.set_yticklabels([''] + labels)\n    plt.xlabel('Predicted')\n    plt.ylabel('True')\n    plt.show()\n[/code]", 
+            "text": "sklearn plot confusion matrix with labels  3  import matplotlib.pyplot as plt\ndef plot_confusion_matrix(cm, title='Confusion matrix', cmap=plt.cm.Blues, labels=None):\n    fig = plt.figure()\n    ax = fig.add_subplot(111)\n    cax = ax.matshow(cm)\n    plt.title(title)\n    fig.colorbar(cax)\n    if labels:\n        ax.set_xticklabels([''] + labels)\n        ax.set_yticklabels([''] + labels)\n    plt.xlabel('Predicted')\n    plt.ylabel('True')\n    plt.show()", 
             "title": "Confusion Matrix"
         }, 
         {
@@ -362,7 +322,7 @@
         }, 
         {
             "location": "/model_clustering/", 
-            "text": "Clustering\n\n\nUsing K-Means to cluster wine dataset\n\n\nRecently, I joined\u00a0\nCluster Analysis\n\u00a0course in coursera. The content of first week is about Partitioning-Based Clustering Methods where I learned about some cluster algorithms based on distance such as\u00a0\nK-Means\n,\u00a0\nK-Medians\n\u00a0and\u00a0\nK-Modes\n. I would like to turn what I learn into practice so I write this post as an excercise of this course.\n\n\n\nIn this post, I will use K-Means for clustering\u00a0\nwine\n\u00a0data set which I found in one of excellent posts about K-Mean in\u00a0\nr-statistics website\n.\n\n\n\nMeet the data\n\n\n\n\n\n\nThe\u00a0\nwine\n\u00a0data set contains the results of a chemical analysis of wines grown in a specific area of Italy. Three types of wine are represented in the 178 samples, with the results of 13 chemical analyses recorded for each sample. The Type variable has been transformed into a categoric variable.\n\n\n\n[sourcecode language=\"r\"]\n data(wine, package=\nrattle\n)\nhead(wine)\n\n\n   Type Alcohol Malic  Ash Alcalinity Magnesium Phenols\n\n\n 1    1   14.23  1.71 2.43       15.6       127    2.80\n\n\n 2    1   13.20  1.78 2.14       11.2       100    2.65\n\n\n 3    1   13.16  2.36 2.67       18.6       101    2.80\n\n\n 4    1   14.37  1.95 2.50       16.8       113    3.85\n\n\n 5    1   13.24  2.59 2.87       21.0       118    2.80\n\n\n 6    1   14.20  1.76 2.45       15.2       112    3.27\n\n\n   Flavanoids Nonflavanoids Proanthocyanins Color  Hue\n\n\n 1       3.06          0.28            2.29  5.64 1.04\n\n\n 2       2.76          0.26            1.28  4.38 1.05\n\n\n 3       3.24          0.30            2.81  5.68 1.03\n\n\n 4       3.49          0.24            2.18  7.80 0.86\n\n\n 5       2.69          0.39            1.82  4.32 1.04\n\n\n 6       3.39          0.34            1.97  6.75 1.05\n\n\n   Dilution Proline\n\n\n 1     3.92    1065\n\n\n 2     3.40    1050\n\n\n 3     3.17    1185\n\n\n 4     3.45    1480\n\n\n 5     2.93     735\n\n\n 6     2.85    1450\n\n\n[/sourcecode]\n\n\nExplore and Preprocessing Data\n\n\n\nLet\ns see structure of wine data set\n\n\n\n[sourcecode language=\"r\"]\n str(wine)\n\n\n \ndata.frame\n:  178 obs. of  14 variables:\n\n\n $ Type           : Factor w/ 3 levels \n1\n,\n2\n,\n3\n: 1 1 1 1 1 1 1 1 1 1 ...\n\n\n $ Alcohol        : num  14.2 13.2 13.2 14.4 13.2 ...\n\n\n $ Malic          : num  1.71 1.78 2.36 1.95 2.59 1.76 1.87 2.15 1.64 1.35 ...\n\n\n $ Ash            : num  2.43 2.14 2.67 2.5 2.87 2.45 2.45 2.61 2.17 2.27 ...\n\n\n $ Alcalinity     : num  15.6 11.2 18.6 16.8 21 15.2 14.6 17.6 14 16 ...\n\n\n $ Magnesium      : int  127 100 101 113 118 112 96 121 97 98 ...\n\n\n $ Phenols        : num  2.8 2.65 2.8 3.85 2.8 3.27 2.5 2.6 2.8 2.98 ...\n\n\n $ Flavanoids     : num  3.06 2.76 3.24 3.49 2.69 3.39 2.52 2.51 2.98 3.15 ...\n\n\n $ Nonflavanoids  : num  0.28 0.26 0.3 0.24 0.39 0.34 0.3 0.31 0.29 0.22 ...\n\n\n $ Proanthocyanins: num  2.29 1.28 2.81 2.18 1.82 1.97 1.98 1.25 1.98 1.85 ...\n\n\n $ Color          : num  5.64 4.38 5.68 7.8 4.32 6.75 5.25 5.05 5.2 7.22 ...\n\n\n $ Hue            : num  1.04 1.05 1.03 0.86 1.04 1.05 1.02 1.06 1.08 1.01 ...\n\n\n $ Dilution       : num  3.92 3.4 3.17 3.45 2.93 2.85 3.58 3.58 2.85 3.55 ...\n\n\n $ Proline        : int  1065 1050 1185 1480 735 1450 1290 1295 1045 1045 ...\n\n\n[/sourcecode]\n\n\nWine data set contains 1 categorical variables (label) and 13 numerical variables. But these numerical variables is not scaled, I use\u00a0\nscale\n\u00a0function for scaling and centering data and then assign it as training data.\n\n\n\n[sourcecode language=\"r\"]\n data.train \n- scale(wine[-1])\n[/sourcecode]\n\n\nData is already centered and scaled.\n\n\n\n[sourcecode language=\"r\"]\n summary(data.train)\n\n\n   Alcohol             Malic\n\n\n Min.   :-2.42739   Min.   :-1.4290\n\n\n 1st Qu.:-0.78603   1st Qu.:-0.6569\n\n\n Median : 0.06083   Median :-0.4219\n\n\n Mean   : 0.00000   Mean   : 0.0000\n\n\n 3rd Qu.: 0.83378   3rd Qu.: 0.6679\n\n\n Max.   : 2.25341   Max.   : 3.1004\n\n\n      Ash             Alcalinity\n\n\n Min.   :-3.66881   Min.   :-2.663505\n\n\n 1st Qu.:-0.57051   1st Qu.:-0.687199\n\n\n Median :-0.02375   Median : 0.001514\n\n\n Mean   : 0.00000   Mean   : 0.000000\n\n\n 3rd Qu.: 0.69615   3rd Qu.: 0.600395\n\n\n Max.   : 3.14745   Max.   : 3.145637\n\n\n   Magnesium          Phenols\n\n\n Min.   :-2.0824   Min.   :-2.10132\n\n\n 1st Qu.:-0.8221   1st Qu.:-0.88298\n\n\n Median :-0.1219   Median : 0.09569\n\n\n Mean   : 0.0000   Mean   : 0.00000\n\n\n 3rd Qu.: 0.5082   3rd Qu.: 0.80672\n\n\n Max.   : 4.3591   Max.   : 2.53237\n\n\n   Flavanoids      Nonflavanoids\n\n\n Min.   :-1.6912   Min.   :-1.8630\n\n\n 1st Qu.:-0.8252   1st Qu.:-0.7381\n\n\n Median : 0.1059   Median :-0.1756\n\n\n Mean   : 0.0000   Mean   : 0.0000\n\n\n 3rd Qu.: 0.8467   3rd Qu.: 0.6078\n\n\n Max.   : 3.0542   Max.   : 2.3956\n\n\n Proanthocyanins        Color\n\n\n Min.   :-2.06321   Min.   :-1.6297\n\n\n 1st Qu.:-0.59560   1st Qu.:-0.7929\n\n\n Median :-0.06272   Median :-0.1588\n\n\n Mean   : 0.00000   Mean   : 0.0000\n\n\n 3rd Qu.: 0.62741   3rd Qu.: 0.4926\n\n\n Max.   : 3.47527   Max.   : 3.4258\n\n\n      Hue              Dilution\n\n\n Min.   :-2.08884   Min.   :-1.8897\n\n\n 1st Qu.:-0.76540   1st Qu.:-0.9496\n\n\n Median : 0.03303   Median : 0.2371\n\n\n Mean   : 0.00000   Mean   : 0.0000\n\n\n 3rd Qu.: 0.71116   3rd Qu.: 0.7864\n\n\n Max.   : 3.29241   Max.   : 1.9554\n\n\n    Proline\n\n\n Min.   :-1.4890\n\n\n 1st Qu.:-0.7824\n\n\n Median :-0.2331\n\n\n Mean   : 0.0000\n\n\n 3rd Qu.: 0.7561\n\n\n Max.   : 2.9631\n\n\n[/sourcecode]\n\n\nModel Fitting\n\n\n\nNow the fun part begins. I use\u00a0\nNbClust\n\u00a0function to determine what is the best number of clusteres\u00a0\nk\n\u00a0for K-Means\n\n\n\n[sourcecode language=\"r\"]\n nc \n- NbClust(data.train,\n              min.nc=2, max.nc=15,\n              method=\nkmeans\n)\nbarplot(table(nc$Best.n[1,]),\n        xlab=\nNumer of Clusters\n,\n        ylab=\nNumber of Criteria\n,\n        main=\nNumber of Clusters Chosen by 26 Criteria\n)\n[/sourcecode]\n\n\n\n\n\nAccording to the graph, we can find the best number of clusters is 3. Beside\u00a0\nNbClust\n\u00a0function which provides 30 indices for determing the number of clusters and proposes the best clustering scheme, we can draw the sum of square error (SSE) scree plot and look for a bend or elbow in this graph to determine appropriate k\n\n\n\n[sourcecode language=\"r\"]\n wss \n- 0\nfor (i in 1:15){\n  wss[i] \n-\n    sum(kmeans(data.train, centers=i)$withinss)\n}\nplot(1:15,\n  wss,\n  type=\nb\n,\n  xlab=\nNumber of Clusters\n,\n  ylab=\nWithin groups sum of squares\n)\n[/sourcecode]\n\n\n\n\n\nBoth two methods suggest k=3 is best choice for us. It\ns reasonsable if we take notice that the original data set also contains 3 classes.\n\n\n\nFit the model\n\n\n\nWe now fit\u00a0\nwine\n\u00a0data to K-Means with k = 3\n\n\n\n[sourcecode language=\"r\"]\n fit.km \n- kmeans(data.train, 3)\n[/sourcecode]\n\n\nThen interpret the result\n\n\n\n[sourcecode language=\"r\"]\n fit.km\n\n\n K-means clustering with 3 clusters of sizes 51, 65, 62\n\n\n\n\n Cluster means:\n\n\n      Alcohol      Malic        Ash Alcalinity\n\n\n 1  0.1644436  0.8690954  0.1863726  0.5228924\n\n\n 2 -0.9234669 -0.3929331 -0.4931257  0.1701220\n\n\n 3  0.8328826 -0.3029551  0.3636801 -0.6084749\n\n\n     Magnesium     Phenols  Flavanoids Nonflavanoids\n\n\n 1 -0.07526047 -0.97657548 -1.21182921    0.72402116\n\n\n 2 -0.49032869 -0.07576891  0.02075402   -0.03343924\n\n\n 3  0.57596208  0.88274724  0.97506900   -0.56050853\n\n\n   Proanthocyanins      Color        Hue   Dilution\n\n\n 1     -0.77751312  0.9388902 -1.1615122 -1.2887761\n\n\n 2      0.05810161 -0.8993770  0.4605046  0.2700025\n\n\n 3      0.57865427  0.1705823  0.4726504  0.7770551\n\n\n      Proline\n\n\n 1 -0.4059428\n\n\n 2 -0.7517257\n\n\n 3  1.1220202\n\n\n\n\n Clustering vector:\n\n\n   [1] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3\n\n\n  [26] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3\n\n\n  [51] 3 3 3 3 3 3 3 3 3 2 2 1 2 2 2 2 2 2 2 2 2 2 2 3 2\n\n\n  [76] 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 3 2 2 2 2\n\n\n [101] 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 3 2 2 2\n\n\n [126] 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\n\n\n [151] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\n\n\n [176] 1 1 1\n\n\n\n\n Within cluster sum of squares by cluster:\n\n\n [1] 326.3537 558.6971 385.6983\n\n\n  (between_SS / total_SS =  44.8 %)\n\n\n\n\n Available components:\n\n\n\n\n [1] \ncluster\n      \ncenters\n      \ntotss\n\n\n [4] \nwithinss\n     \ntot.withinss\n \nbetweenss\n\n\n [7] \nsize\n         \niter\n         \nifault\n\n\n[/sourcecode]\n\n\nThe result shows information about cluster means, clustering vector, sum of square by cluster and available components. Let\ns do some visualizations to see how data set is clustered.\n\n\n\nFirst, I use\u00a0\nplotcluster\n\u00a0function from\u00a0\nfpc\n\u00a0package to draw discriminant projection plot\n\n\n\n[sourcecode language=\"r\"]\n library(fpc)\nplotcluster(data.train, fit.km$cluster)\n[/sourcecode]\n\n\n\n\n\nWe can see the data is clustered very well, there are no collapse between clusters. Next, we draw parallel coordinates plot to see how variables contributed in each cluster\n\n\n\n[sourcecode language=\"r\"]\n library(MASS)\nparcoord(data.train, fit.km$cluster)\n[/sourcecode]\n\n\n\n\n\nWe can extract some insights from above graph suc as black cluster contains wine with low flavanoids value, low proanthocyanins value, low hue value. Or green cluster contains wine which has dilution value higher than wine in red cluster.\n\n\n\nEvaluation\n\n\n\nBecause the original data set\u00a0\nwine\n\u00a0also has 3 classes, it is reasonable if we compare these classes with 3 clusters fited by K-Means\n\n\n\n[sourcecode language=\"r\"]\n confuseTable.km \n- table(wine$Type, fit.km$cluster)\nconfuseTable.km\n\n\n    1  2  3\n\n\n 1  0  0 59\n\n\n 2  3 65  3\n\n\n 3 48  0  0\n\n\n[/sourcecode]\n\n\nWe can see only 6 sample is missed. Let\ns use randIndex from flexclust to compare these two parititions - one from data set and one from result of clustering method.\n\n\n\n[sourcecode language=\"r\"]\n library(flexclust)\nrandIndex(ct.km)\n\n\n      ARI\n\n\n 0.897495\n\n\n[/sourcecode]\n\n\nIt\ns quite close to 1 so K-Means is good model for clustering\u00a0\nwine\n\u00a0data set.\n\n\n\nReferences\n\n\n\nChoosing number of cluster in K-Means,\u00a0\nhttp://stackoverflow.com/a/15376462/1036500\nK-means Clustering (from \u201cR in Action\u201d),\u00a0\nhttp://www.r-statistics.com/2013/08/k-means-clustering-from-r-in-action/\nColor the cluster output in r, \u00a0\nhttp://stackoverflow.com/questions/15386960/color-the-cluster-output-in-r", 
+            "text": "Clustering\n\n\nUsing K-Means to cluster wine dataset\n\n\nRecently, I joined\u00a0\nCluster Analysis\n\u00a0course in coursera. The content of first week is about Partitioning-Based Clustering Methods where I learned about some cluster algorithms based on distance such as\u00a0\nK-Means\n,\u00a0\nK-Medians\n\u00a0and\u00a0\nK-Modes\n. I would like to turn what I learn into practice so I write this post as an excercise of this course.\n\n\n\nIn this post, I will use K-Means for clustering\u00a0\nwine\n\u00a0data set which I found in one of excellent posts about K-Mean in\u00a0\nr-statistics website\n.\n\n\n\nMeet the data\n\n\n\n\n\n\nThe\u00a0\nwine\n\u00a0data set contains the results of a chemical analysis of wines grown in a specific area of Italy. Three types of wine are represented in the 178 samples, with the results of 13 chemical analyses recorded for each sample. The Type variable has been transformed into a categoric variable.\n\n\n\n data(wine, package=\nquot;rattle\nquot;)\nhead(wine)\n\n#\ngt;   Type Alcohol Malic  Ash Alcalinity Magnesium Phenols\n#\ngt; 1    1   14.23  1.71 2.43       15.6       127    2.80\n#\ngt; 2    1   13.20  1.78 2.14       11.2       100    2.65\n#\ngt; 3    1   13.16  2.36 2.67       18.6       101    2.80\n#\ngt; 4    1   14.37  1.95 2.50       16.8       113    3.85\n#\ngt; 5    1   13.24  2.59 2.87       21.0       118    2.80\n#\ngt; 6    1   14.20  1.76 2.45       15.2       112    3.27\n#\ngt;   Flavanoids Nonflavanoids Proanthocyanins Color  Hue\n#\ngt; 1       3.06          0.28            2.29  5.64 1.04\n#\ngt; 2       2.76          0.26            1.28  4.38 1.05\n#\ngt; 3       3.24          0.30            2.81  5.68 1.03\n#\ngt; 4       3.49          0.24            2.18  7.80 0.86\n#\ngt; 5       2.69          0.39            1.82  4.32 1.04\n#\ngt; 6       3.39          0.34            1.97  6.75 1.05\n#\ngt;   Dilution Proline\n#\ngt; 1     3.92    1065\n#\ngt; 2     3.40    1050\n#\ngt; 3     3.17    1185\n#\ngt; 4     3.45    1480\n#\ngt; 5     2.93     735\n#\ngt; 6     2.85    1450\n\n\n\n\nExplore and Preprocessing Data\n\n\n\nLet\ns see structure of wine data set\n\n\n\n str(wine)\n\n#\ngt; \napos;data.frame\napos;:  178 obs. of  14 variables:\n#\ngt; $ Type           : Factor w/ 3 levels \nquot;1\nquot;,\nquot;2\nquot;,\nquot;3\nquot;: 1 1 1 1 1 1 1 1 1 1 ...\n#\ngt; $ Alcohol        : num  14.2 13.2 13.2 14.4 13.2 ...\n#\ngt; $ Malic          : num  1.71 1.78 2.36 1.95 2.59 1.76 1.87 2.15 1.64 1.35 ...\n#\ngt; $ Ash            : num  2.43 2.14 2.67 2.5 2.87 2.45 2.45 2.61 2.17 2.27 ...\n#\ngt; $ Alcalinity     : num  15.6 11.2 18.6 16.8 21 15.2 14.6 17.6 14 16 ...\n#\ngt; $ Magnesium      : int  127 100 101 113 118 112 96 121 97 98 ...\n#\ngt; $ Phenols        : num  2.8 2.65 2.8 3.85 2.8 3.27 2.5 2.6 2.8 2.98 ...\n#\ngt; $ Flavanoids     : num  3.06 2.76 3.24 3.49 2.69 3.39 2.52 2.51 2.98 3.15 ...\n#\ngt; $ Nonflavanoids  : num  0.28 0.26 0.3 0.24 0.39 0.34 0.3 0.31 0.29 0.22 ...\n#\ngt; $ Proanthocyanins: num  2.29 1.28 2.81 2.18 1.82 1.97 1.98 1.25 1.98 1.85 ...\n#\ngt; $ Color          : num  5.64 4.38 5.68 7.8 4.32 6.75 5.25 5.05 5.2 7.22 ...\n#\ngt; $ Hue            : num  1.04 1.05 1.03 0.86 1.04 1.05 1.02 1.06 1.08 1.01 ...\n#\ngt; $ Dilution       : num  3.92 3.4 3.17 3.45 2.93 2.85 3.58 3.58 2.85 3.55 ...\n#\ngt; $ Proline        : int  1065 1050 1185 1480 735 1450 1290 1295 1045 1045 ...\n\n\n\n\nWine data set contains 1 categorical variables (label) and 13 numerical variables. But these numerical variables is not scaled, I use\u00a0\nscale\n\u00a0function for scaling and centering data and then assign it as training data.\n\n\n\n data.train \nlt;- scale(wine[-1])\n\n\n\n\nData is already centered and scaled.\n\n\n\n summary(data.train)\n#\ngt;   Alcohol             Malic\n#\ngt; Min.   :-2.42739   Min.   :-1.4290\n#\ngt; 1st Qu.:-0.78603   1st Qu.:-0.6569\n#\ngt; Median : 0.06083   Median :-0.4219\n#\ngt; Mean   : 0.00000   Mean   : 0.0000\n#\ngt; 3rd Qu.: 0.83378   3rd Qu.: 0.6679\n#\ngt; Max.   : 2.25341   Max.   : 3.1004\n#\ngt;      Ash             Alcalinity\n#\ngt; Min.   :-3.66881   Min.   :-2.663505\n#\ngt; 1st Qu.:-0.57051   1st Qu.:-0.687199\n#\ngt; Median :-0.02375   Median : 0.001514\n#\ngt; Mean   : 0.00000   Mean   : 0.000000\n#\ngt; 3rd Qu.: 0.69615   3rd Qu.: 0.600395\n#\ngt; Max.   : 3.14745   Max.   : 3.145637\n#\ngt;   Magnesium          Phenols\n#\ngt; Min.   :-2.0824   Min.   :-2.10132\n#\ngt; 1st Qu.:-0.8221   1st Qu.:-0.88298\n#\ngt; Median :-0.1219   Median : 0.09569\n#\ngt; Mean   : 0.0000   Mean   : 0.00000\n#\ngt; 3rd Qu.: 0.5082   3rd Qu.: 0.80672\n#\ngt; Max.   : 4.3591   Max.   : 2.53237\n#\ngt;   Flavanoids      Nonflavanoids\n#\ngt; Min.   :-1.6912   Min.   :-1.8630\n#\ngt; 1st Qu.:-0.8252   1st Qu.:-0.7381\n#\ngt; Median : 0.1059   Median :-0.1756\n#\ngt; Mean   : 0.0000   Mean   : 0.0000\n#\ngt; 3rd Qu.: 0.8467   3rd Qu.: 0.6078\n#\ngt; Max.   : 3.0542   Max.   : 2.3956\n#\ngt; Proanthocyanins        Color\n#\ngt; Min.   :-2.06321   Min.   :-1.6297\n#\ngt; 1st Qu.:-0.59560   1st Qu.:-0.7929\n#\ngt; Median :-0.06272   Median :-0.1588\n#\ngt; Mean   : 0.00000   Mean   : 0.0000\n#\ngt; 3rd Qu.: 0.62741   3rd Qu.: 0.4926\n#\ngt; Max.   : 3.47527   Max.   : 3.4258\n#\ngt;      Hue              Dilution\n#\ngt; Min.   :-2.08884   Min.   :-1.8897\n#\ngt; 1st Qu.:-0.76540   1st Qu.:-0.9496\n#\ngt; Median : 0.03303   Median : 0.2371\n#\ngt; Mean   : 0.00000   Mean   : 0.0000\n#\ngt; 3rd Qu.: 0.71116   3rd Qu.: 0.7864\n#\ngt; Max.   : 3.29241   Max.   : 1.9554\n#\ngt;    Proline\n#\ngt; Min.   :-1.4890\n#\ngt; 1st Qu.:-0.7824\n#\ngt; Median :-0.2331\n#\ngt; Mean   : 0.0000\n#\ngt; 3rd Qu.: 0.7561\n# \ngt; Max.   : 2.963\n\n\n\n\nModel Fitting\n\n\n\nNow the fun part begins. I use\u00a0\nNbClust\n\u00a0function to determine what is the best number of clusteres\u00a0\nk\n\u00a0for K-Means\n\n\n\n nc \nlt;- NbClust(data.train,\n              min.nc=2, max.nc=15,\n              method=\nquot;kmeans\nquot;)\nbarplot(table(nc$Best.n[1,]),\n        xlab=\nquot;Numer of Clusters\nquot;,\n        ylab=\nquot;Number of Criteria\nquot;,\n        main=\nquot;Number of Clusters Chosen by 26 Criteria\nquot;)\n\n\n\n\n\n\n\nAccording to the graph, we can find the best number of clusters is 3. Beside\u00a0\nNbClust\n\u00a0function which provides 30 indices for determing the number of clusters and proposes the best clustering scheme, we can draw the sum of square error (SSE) scree plot and look for a bend or elbow in this graph to determine appropriate k\n\n\n\n wss \nlt;- 0\nfor (i in 1:15){\n  wss[i] \nlt;-\n    sum(kmeans(data.train, centers=i)$withinss)\n}\nplot(1:15,\n  wss,\n  type=\nquot;b\nquot;,\n  xlab=\nquot;Number of Clusters\nquot;,\n  ylab=\nquot;Within groups sum of squares\nquot;)\n\n\n\n\n\n\n\nBoth two methods suggest k=3 is best choice for us. It\ns reasonsable if we take notice that the original data set also contains 3 classes.\n\n\n\nFit the model\n\n\n\nWe now fit\u00a0\nwine\n\u00a0data to K-Means with k = 3\n\n\n\n fit.km \nlt;- kmeans(data.train, 3)\n\n\n\n\nThen interpret the result\n\n\n\n fit.km\n\n#\ngt; K-means clustering with 3 clusters of sizes 51, 65, 62\n#\ngt;\n#\ngt; Cluster means:\n#\ngt;      Alcohol      Malic        Ash Alcalinity\n#\ngt; 1  0.1644436  0.8690954  0.1863726  0.5228924\n#\ngt; 2 -0.9234669 -0.3929331 -0.4931257  0.1701220\n#\ngt; 3  0.8328826 -0.3029551  0.3636801 -0.6084749\n#\ngt;     Magnesium     Phenols  Flavanoids Nonflavanoids\n#\ngt; 1 -0.07526047 -0.97657548 -1.21182921    0.72402116\n#\ngt; 2 -0.49032869 -0.07576891  0.02075402   -0.03343924\n#\ngt; 3  0.57596208  0.88274724  0.97506900   -0.56050853\n#\ngt;   Proanthocyanins      Color        Hue   Dilution\n#\ngt; 1     -0.77751312  0.9388902 -1.1615122 -1.2887761\n#\ngt; 2      0.05810161 -0.8993770  0.4605046  0.2700025\n#\ngt; 3      0.57865427  0.1705823  0.4726504  0.7770551\n#\ngt;      Proline\n#\ngt; 1 -0.4059428\n#\ngt; 2 -0.7517257\n#\ngt; 3  1.1220202\n#\ngt;\n#\ngt; Clustering vector:\n#\ngt;   [1] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3\n#\ngt;  [26] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3\n#\ngt;  [51] 3 3 3 3 3 3 3 3 3 2 2 1 2 2 2 2 2 2 2 2 2 2 2 3 2\n#\ngt;  [76] 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 3 2 2 2 2\n#\ngt; [101] 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 3 2 2 2\n#\ngt; [126] 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\n#\ngt; [151] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\n#\ngt; [176] 1 1 1\n#\ngt;\n#\ngt; Within cluster sum of squares by cluster:\n#\ngt; [1] 326.3537 558.6971 385.6983\n#\ngt;  (between_SS / total_SS =  44.8 %)\n#\ngt;\n#\ngt; Available components:\n#\ngt;\n#\ngt; [1] \nquot;cluster\nquot;      \nquot;centers\nquot;      \nquot;totss\nquot;\n#\ngt; [4] \nquot;withinss\nquot;     \nquot;tot.withinss\nquot; \nquot;betweenss\nquot;\n# \ngt; [7] \nquot;size\nquot;         \nquot;iter\nquot;         \nquot;ifault\nquot\n\n\n\n\nThe result shows information about cluster means, clustering vector, sum of square by cluster and available components. Let\ns do some visualizations to see how data set is clustered.\n\n\n\nFirst, I use\u00a0\nplotcluster\n\u00a0function from\u00a0\nfpc\n\u00a0package to draw discriminant projection plot\n\n\n\n library(fpc)\nplotcluster(data.train, fit.km$cluster)\n\n\n\n\n\n\n\nWe can see the data is clustered very well, there are no collapse between clusters. Next, we draw parallel coordinates plot to see how variables contributed in each cluster\n\n\n\n library(MASS)\nparcoord(data.train, fit.km$cluster)\n\n\n\n\n\n\n\nWe can extract some insights from above graph suc as black cluster contains wine with low flavanoids value, low proanthocyanins value, low hue value. Or green cluster contains wine which has dilution value higher than wine in red cluster.\n\n\n\nEvaluation\n\n\n\nBecause the original data set\u00a0\nwine\n\u00a0also has 3 classes, it is reasonable if we compare these classes with 3 clusters fited by K-Means\n\n\n\n confuseTable.km \nlt;- table(wine$Type, fit.km$cluster)\nconfuseTable.km\n#\ngt;    1  2  3\n#\ngt; 1  0  0 59\n#\ngt; 2  3 65  3\n# \ngt; 3 48  0  \n\n\n\n\nWe can see only 6 sample is missed. Let\ns use randIndex from flexclust to compare these two parititions - one from data set and one from result of clustering method.\n\n\n\n library(flexclust)\nrandIndex(ct.km)\n#\ngt;      ARI\n#\ngt; 0.897495\n\n\n\n\nIt\ns quite close to 1 so K-Means is good model for clustering\u00a0\nwine\n\u00a0data set.\n\n\n\nReferences\n\n\n\nChoosing number of cluster in K-Means,\u00a0\nhttp://stackoverflow.com/a/15376462/1036500\nK-means Clustering (from \u201cR in Action\u201d),\u00a0\nhttp://www.r-statistics.com/2013/08/k-means-clustering-from-r-in-action/\nColor the cluster output in r, \u00a0\nhttp://stackoverflow.com/questions/15386960/color-the-cluster-output-in-r", 
             "title": "Clustering"
         }, 
         {
@@ -374,666 +334,6 @@
             "location": "/model_clustering/#using-k-means-to-cluster-wine-dataset", 
             "text": "Recently, I joined\u00a0 Cluster Analysis \u00a0course in coursera. The content of first week is about Partitioning-Based Clustering Methods where I learned about some cluster algorithms based on distance such as\u00a0 K-Means ,\u00a0 K-Medians \u00a0and\u00a0 K-Modes . I would like to turn what I learn into practice so I write this post as an excercise of this course.  In this post, I will use K-Means for clustering\u00a0 wine \u00a0data set which I found in one of excellent posts about K-Mean in\u00a0 r-statistics website .", 
             "title": "Using K-Means to cluster wine dataset"
-        }, 
-        {
-            "location": "/model_clustering/#type-alcohol-malic-ash-alcalinity-magnesium-phenols", 
-            "text": "", 
-            "title": "&gt;   Type Alcohol Malic  Ash Alcalinity Magnesium Phenols"
-        }, 
-        {
-            "location": "/model_clustering/#1-1-1423-171-243-156-127-280", 
-            "text": "", 
-            "title": "&gt; 1    1   14.23  1.71 2.43       15.6       127    2.80"
-        }, 
-        {
-            "location": "/model_clustering/#2-1-1320-178-214-112-100-265", 
-            "text": "", 
-            "title": "&gt; 2    1   13.20  1.78 2.14       11.2       100    2.65"
-        }, 
-        {
-            "location": "/model_clustering/#3-1-1316-236-267-186-101-280", 
-            "text": "", 
-            "title": "&gt; 3    1   13.16  2.36 2.67       18.6       101    2.80"
-        }, 
-        {
-            "location": "/model_clustering/#4-1-1437-195-250-168-113-385", 
-            "text": "", 
-            "title": "&gt; 4    1   14.37  1.95 2.50       16.8       113    3.85"
-        }, 
-        {
-            "location": "/model_clustering/#5-1-1324-259-287-210-118-280", 
-            "text": "", 
-            "title": "&gt; 5    1   13.24  2.59 2.87       21.0       118    2.80"
-        }, 
-        {
-            "location": "/model_clustering/#6-1-1420-176-245-152-112-327", 
-            "text": "", 
-            "title": "&gt; 6    1   14.20  1.76 2.45       15.2       112    3.27"
-        }, 
-        {
-            "location": "/model_clustering/#flavanoids-nonflavanoids-proanthocyanins-color-hue", 
-            "text": "", 
-            "title": "&gt;   Flavanoids Nonflavanoids Proanthocyanins Color  Hue"
-        }, 
-        {
-            "location": "/model_clustering/#1-306-028-229-564-104", 
-            "text": "", 
-            "title": "&gt; 1       3.06          0.28            2.29  5.64 1.04"
-        }, 
-        {
-            "location": "/model_clustering/#2-276-026-128-438-105", 
-            "text": "", 
-            "title": "&gt; 2       2.76          0.26            1.28  4.38 1.05"
-        }, 
-        {
-            "location": "/model_clustering/#3-324-030-281-568-103", 
-            "text": "", 
-            "title": "&gt; 3       3.24          0.30            2.81  5.68 1.03"
-        }, 
-        {
-            "location": "/model_clustering/#4-349-024-218-780-086", 
-            "text": "", 
-            "title": "&gt; 4       3.49          0.24            2.18  7.80 0.86"
-        }, 
-        {
-            "location": "/model_clustering/#5-269-039-182-432-104", 
-            "text": "", 
-            "title": "&gt; 5       2.69          0.39            1.82  4.32 1.04"
-        }, 
-        {
-            "location": "/model_clustering/#6-339-034-197-675-105", 
-            "text": "", 
-            "title": "&gt; 6       3.39          0.34            1.97  6.75 1.05"
-        }, 
-        {
-            "location": "/model_clustering/#dilution-proline", 
-            "text": "", 
-            "title": "&gt;   Dilution Proline"
-        }, 
-        {
-            "location": "/model_clustering/#1-392-1065", 
-            "text": "", 
-            "title": "&gt; 1     3.92    1065"
-        }, 
-        {
-            "location": "/model_clustering/#2-340-1050", 
-            "text": "", 
-            "title": "&gt; 2     3.40    1050"
-        }, 
-        {
-            "location": "/model_clustering/#3-317-1185", 
-            "text": "", 
-            "title": "&gt; 3     3.17    1185"
-        }, 
-        {
-            "location": "/model_clustering/#4-345-1480", 
-            "text": "", 
-            "title": "&gt; 4     3.45    1480"
-        }, 
-        {
-            "location": "/model_clustering/#5-293-735", 
-            "text": "", 
-            "title": "&gt; 5     2.93     735"
-        }, 
-        {
-            "location": "/model_clustering/#6-285-1450", 
-            "text": "[/sourcecode]", 
-            "title": "&gt; 6     2.85    1450"
-        }, 
-        {
-            "location": "/model_clustering/#dataframe-178-obs-of-14-variables", 
-            "text": "", 
-            "title": "&gt; &apos;data.frame&apos;:  178 obs. of  14 variables:"
-        }, 
-        {
-            "location": "/model_clustering/#type-factor-w-3-levels-123-1-1-1-1-1-1-1-1-1-1", 
-            "text": "", 
-            "title": "&gt; $ Type           : Factor w/ 3 levels &quot;1&quot;,&quot;2&quot;,&quot;3&quot;: 1 1 1 1 1 1 1 1 1 1 ..."
-        }, 
-        {
-            "location": "/model_clustering/#alcohol-num-142-132-132-144-132", 
-            "text": "", 
-            "title": "&gt; $ Alcohol        : num  14.2 13.2 13.2 14.4 13.2 ..."
-        }, 
-        {
-            "location": "/model_clustering/#malic-num-171-178-236-195-259-176-187-215-164-135", 
-            "text": "", 
-            "title": "&gt; $ Malic          : num  1.71 1.78 2.36 1.95 2.59 1.76 1.87 2.15 1.64 1.35 ..."
-        }, 
-        {
-            "location": "/model_clustering/#ash-num-243-214-267-25-287-245-245-261-217-227", 
-            "text": "", 
-            "title": "&gt; $ Ash            : num  2.43 2.14 2.67 2.5 2.87 2.45 2.45 2.61 2.17 2.27 ..."
-        }, 
-        {
-            "location": "/model_clustering/#alcalinity-num-156-112-186-168-21-152-146-176-14-16", 
-            "text": "", 
-            "title": "&gt; $ Alcalinity     : num  15.6 11.2 18.6 16.8 21 15.2 14.6 17.6 14 16 ..."
-        }, 
-        {
-            "location": "/model_clustering/#magnesium-int-127-100-101-113-118-112-96-121-97-98", 
-            "text": "", 
-            "title": "&gt; $ Magnesium      : int  127 100 101 113 118 112 96 121 97 98 ..."
-        }, 
-        {
-            "location": "/model_clustering/#phenols-num-28-265-28-385-28-327-25-26-28-298", 
-            "text": "", 
-            "title": "&gt; $ Phenols        : num  2.8 2.65 2.8 3.85 2.8 3.27 2.5 2.6 2.8 2.98 ..."
-        }, 
-        {
-            "location": "/model_clustering/#flavanoids-num-306-276-324-349-269-339-252-251-298-315", 
-            "text": "", 
-            "title": "&gt; $ Flavanoids     : num  3.06 2.76 3.24 3.49 2.69 3.39 2.52 2.51 2.98 3.15 ..."
-        }, 
-        {
-            "location": "/model_clustering/#nonflavanoids-num-028-026-03-024-039-034-03-031-029-022", 
-            "text": "", 
-            "title": "&gt; $ Nonflavanoids  : num  0.28 0.26 0.3 0.24 0.39 0.34 0.3 0.31 0.29 0.22 ..."
-        }, 
-        {
-            "location": "/model_clustering/#proanthocyanins-num-229-128-281-218-182-197-198-125-198-185", 
-            "text": "", 
-            "title": "&gt; $ Proanthocyanins: num  2.29 1.28 2.81 2.18 1.82 1.97 1.98 1.25 1.98 1.85 ..."
-        }, 
-        {
-            "location": "/model_clustering/#color-num-564-438-568-78-432-675-525-505-52-722", 
-            "text": "", 
-            "title": "&gt; $ Color          : num  5.64 4.38 5.68 7.8 4.32 6.75 5.25 5.05 5.2 7.22 ..."
-        }, 
-        {
-            "location": "/model_clustering/#hue-num-104-105-103-086-104-105-102-106-108-101", 
-            "text": "", 
-            "title": "&gt; $ Hue            : num  1.04 1.05 1.03 0.86 1.04 1.05 1.02 1.06 1.08 1.01 ..."
-        }, 
-        {
-            "location": "/model_clustering/#dilution-num-392-34-317-345-293-285-358-358-285-355", 
-            "text": "", 
-            "title": "&gt; $ Dilution       : num  3.92 3.4 3.17 3.45 2.93 2.85 3.58 3.58 2.85 3.55 ..."
-        }, 
-        {
-            "location": "/model_clustering/#proline-int-1065-1050-1185-1480-735-1450-1290-1295-1045-1045", 
-            "text": "[/sourcecode]  Wine data set contains 1 categorical variables (label) and 13 numerical variables. But these numerical variables is not scaled, I use\u00a0 scale \u00a0function for scaling and centering data and then assign it as training data.  [sourcecode language=\"r\"]\n data.train  - scale(wine[-1])\n[/sourcecode]  Data is already centered and scaled.  [sourcecode language=\"r\"]\n summary(data.train)", 
-            "title": "&gt; $ Proline        : int  1065 1050 1185 1480 735 1450 1290 1295 1045 1045 ..."
-        }, 
-        {
-            "location": "/model_clustering/#alcohol-malic", 
-            "text": "", 
-            "title": "&gt;   Alcohol             Malic"
-        }, 
-        {
-            "location": "/model_clustering/#min-242739-min-14290", 
-            "text": "", 
-            "title": "&gt; Min.   :-2.42739   Min.   :-1.4290"
-        }, 
-        {
-            "location": "/model_clustering/#1st-qu-078603-1st-qu-06569", 
-            "text": "", 
-            "title": "&gt; 1st Qu.:-0.78603   1st Qu.:-0.6569"
-        }, 
-        {
-            "location": "/model_clustering/#median-006083-median-04219", 
-            "text": "", 
-            "title": "&gt; Median : 0.06083   Median :-0.4219"
-        }, 
-        {
-            "location": "/model_clustering/#mean-000000-mean-00000", 
-            "text": "", 
-            "title": "&gt; Mean   : 0.00000   Mean   : 0.0000"
-        }, 
-        {
-            "location": "/model_clustering/#3rd-qu-083378-3rd-qu-06679", 
-            "text": "", 
-            "title": "&gt; 3rd Qu.: 0.83378   3rd Qu.: 0.6679"
-        }, 
-        {
-            "location": "/model_clustering/#max-225341-max-31004", 
-            "text": "", 
-            "title": "&gt; Max.   : 2.25341   Max.   : 3.1004"
-        }, 
-        {
-            "location": "/model_clustering/#ash-alcalinity", 
-            "text": "", 
-            "title": "&gt;      Ash             Alcalinity"
-        }, 
-        {
-            "location": "/model_clustering/#min-366881-min-2663505", 
-            "text": "", 
-            "title": "&gt; Min.   :-3.66881   Min.   :-2.663505"
-        }, 
-        {
-            "location": "/model_clustering/#1st-qu-057051-1st-qu-0687199", 
-            "text": "", 
-            "title": "&gt; 1st Qu.:-0.57051   1st Qu.:-0.687199"
-        }, 
-        {
-            "location": "/model_clustering/#median-002375-median-0001514", 
-            "text": "", 
-            "title": "&gt; Median :-0.02375   Median : 0.001514"
-        }, 
-        {
-            "location": "/model_clustering/#mean-000000-mean-0000000", 
-            "text": "", 
-            "title": "&gt; Mean   : 0.00000   Mean   : 0.000000"
-        }, 
-        {
-            "location": "/model_clustering/#3rd-qu-069615-3rd-qu-0600395", 
-            "text": "", 
-            "title": "&gt; 3rd Qu.: 0.69615   3rd Qu.: 0.600395"
-        }, 
-        {
-            "location": "/model_clustering/#max-314745-max-3145637", 
-            "text": "", 
-            "title": "&gt; Max.   : 3.14745   Max.   : 3.145637"
-        }, 
-        {
-            "location": "/model_clustering/#magnesium-phenols", 
-            "text": "", 
-            "title": "&gt;   Magnesium          Phenols"
-        }, 
-        {
-            "location": "/model_clustering/#min-20824-min-210132", 
-            "text": "", 
-            "title": "&gt; Min.   :-2.0824   Min.   :-2.10132"
-        }, 
-        {
-            "location": "/model_clustering/#1st-qu-08221-1st-qu-088298", 
-            "text": "", 
-            "title": "&gt; 1st Qu.:-0.8221   1st Qu.:-0.88298"
-        }, 
-        {
-            "location": "/model_clustering/#median-01219-median-009569", 
-            "text": "", 
-            "title": "&gt; Median :-0.1219   Median : 0.09569"
-        }, 
-        {
-            "location": "/model_clustering/#mean-00000-mean-000000", 
-            "text": "", 
-            "title": "&gt; Mean   : 0.0000   Mean   : 0.00000"
-        }, 
-        {
-            "location": "/model_clustering/#3rd-qu-05082-3rd-qu-080672", 
-            "text": "", 
-            "title": "&gt; 3rd Qu.: 0.5082   3rd Qu.: 0.80672"
-        }, 
-        {
-            "location": "/model_clustering/#max-43591-max-253237", 
-            "text": "", 
-            "title": "&gt; Max.   : 4.3591   Max.   : 2.53237"
-        }, 
-        {
-            "location": "/model_clustering/#flavanoids-nonflavanoids", 
-            "text": "", 
-            "title": "&gt;   Flavanoids      Nonflavanoids"
-        }, 
-        {
-            "location": "/model_clustering/#min-16912-min-18630", 
-            "text": "", 
-            "title": "&gt; Min.   :-1.6912   Min.   :-1.8630"
-        }, 
-        {
-            "location": "/model_clustering/#1st-qu-08252-1st-qu-07381", 
-            "text": "", 
-            "title": "&gt; 1st Qu.:-0.8252   1st Qu.:-0.7381"
-        }, 
-        {
-            "location": "/model_clustering/#median-01059-median-01756", 
-            "text": "", 
-            "title": "&gt; Median : 0.1059   Median :-0.1756"
-        }, 
-        {
-            "location": "/model_clustering/#mean-00000-mean-00000", 
-            "text": "", 
-            "title": "&gt; Mean   : 0.0000   Mean   : 0.0000"
-        }, 
-        {
-            "location": "/model_clustering/#3rd-qu-08467-3rd-qu-06078", 
-            "text": "", 
-            "title": "&gt; 3rd Qu.: 0.8467   3rd Qu.: 0.6078"
-        }, 
-        {
-            "location": "/model_clustering/#max-30542-max-23956", 
-            "text": "", 
-            "title": "&gt; Max.   : 3.0542   Max.   : 2.3956"
-        }, 
-        {
-            "location": "/model_clustering/#proanthocyanins-color", 
-            "text": "", 
-            "title": "&gt; Proanthocyanins        Color"
-        }, 
-        {
-            "location": "/model_clustering/#min-206321-min-16297", 
-            "text": "", 
-            "title": "&gt; Min.   :-2.06321   Min.   :-1.6297"
-        }, 
-        {
-            "location": "/model_clustering/#1st-qu-059560-1st-qu-07929", 
-            "text": "", 
-            "title": "&gt; 1st Qu.:-0.59560   1st Qu.:-0.7929"
-        }, 
-        {
-            "location": "/model_clustering/#median-006272-median-01588", 
-            "text": "", 
-            "title": "&gt; Median :-0.06272   Median :-0.1588"
-        }, 
-        {
-            "location": "/model_clustering/#mean-000000-mean-00000_1", 
-            "text": "", 
-            "title": "&gt; Mean   : 0.00000   Mean   : 0.0000"
-        }, 
-        {
-            "location": "/model_clustering/#3rd-qu-062741-3rd-qu-04926", 
-            "text": "", 
-            "title": "&gt; 3rd Qu.: 0.62741   3rd Qu.: 0.4926"
-        }, 
-        {
-            "location": "/model_clustering/#max-347527-max-34258", 
-            "text": "", 
-            "title": "&gt; Max.   : 3.47527   Max.   : 3.4258"
-        }, 
-        {
-            "location": "/model_clustering/#hue-dilution", 
-            "text": "", 
-            "title": "&gt;      Hue              Dilution"
-        }, 
-        {
-            "location": "/model_clustering/#min-208884-min-18897", 
-            "text": "", 
-            "title": "&gt; Min.   :-2.08884   Min.   :-1.8897"
-        }, 
-        {
-            "location": "/model_clustering/#1st-qu-076540-1st-qu-09496", 
-            "text": "", 
-            "title": "&gt; 1st Qu.:-0.76540   1st Qu.:-0.9496"
-        }, 
-        {
-            "location": "/model_clustering/#median-003303-median-02371", 
-            "text": "", 
-            "title": "&gt; Median : 0.03303   Median : 0.2371"
-        }, 
-        {
-            "location": "/model_clustering/#mean-000000-mean-00000_2", 
-            "text": "", 
-            "title": "&gt; Mean   : 0.00000   Mean   : 0.0000"
-        }, 
-        {
-            "location": "/model_clustering/#3rd-qu-071116-3rd-qu-07864", 
-            "text": "", 
-            "title": "&gt; 3rd Qu.: 0.71116   3rd Qu.: 0.7864"
-        }, 
-        {
-            "location": "/model_clustering/#max-329241-max-19554", 
-            "text": "", 
-            "title": "&gt; Max.   : 3.29241   Max.   : 1.9554"
-        }, 
-        {
-            "location": "/model_clustering/#proline", 
-            "text": "", 
-            "title": "&gt;    Proline"
-        }, 
-        {
-            "location": "/model_clustering/#min-14890", 
-            "text": "", 
-            "title": "&gt; Min.   :-1.4890"
-        }, 
-        {
-            "location": "/model_clustering/#1st-qu-07824", 
-            "text": "", 
-            "title": "&gt; 1st Qu.:-0.7824"
-        }, 
-        {
-            "location": "/model_clustering/#median-02331", 
-            "text": "", 
-            "title": "&gt; Median :-0.2331"
-        }, 
-        {
-            "location": "/model_clustering/#mean-00000", 
-            "text": "", 
-            "title": "&gt; Mean   : 0.0000"
-        }, 
-        {
-            "location": "/model_clustering/#3rd-qu-07561", 
-            "text": "", 
-            "title": "&gt; 3rd Qu.: 0.7561"
-        }, 
-        {
-            "location": "/model_clustering/#max-29631", 
-            "text": "[/sourcecode]", 
-            "title": "&gt; Max.   : 2.9631"
-        }, 
-        {
-            "location": "/model_clustering/#k-means-clustering-with-3-clusters-of-sizes-51-65-62", 
-            "text": "", 
-            "title": "&gt; K-means clustering with 3 clusters of sizes 51, 65, 62"
-        }, 
-        {
-            "location": "/model_clustering/#_1", 
-            "text": "", 
-            "title": "&gt;"
-        }, 
-        {
-            "location": "/model_clustering/#cluster-means", 
-            "text": "", 
-            "title": "&gt; Cluster means:"
-        }, 
-        {
-            "location": "/model_clustering/#alcohol-malic-ash-alcalinity", 
-            "text": "", 
-            "title": "&gt;      Alcohol      Malic        Ash Alcalinity"
-        }, 
-        {
-            "location": "/model_clustering/#1-01644436-08690954-01863726-05228924", 
-            "text": "", 
-            "title": "&gt; 1  0.1644436  0.8690954  0.1863726  0.5228924"
-        }, 
-        {
-            "location": "/model_clustering/#2-09234669-03929331-04931257-01701220", 
-            "text": "", 
-            "title": "&gt; 2 -0.9234669 -0.3929331 -0.4931257  0.1701220"
-        }, 
-        {
-            "location": "/model_clustering/#3-08328826-03029551-03636801-06084749", 
-            "text": "", 
-            "title": "&gt; 3  0.8328826 -0.3029551  0.3636801 -0.6084749"
-        }, 
-        {
-            "location": "/model_clustering/#magnesium-phenols-flavanoids-nonflavanoids", 
-            "text": "", 
-            "title": "&gt;     Magnesium     Phenols  Flavanoids Nonflavanoids"
-        }, 
-        {
-            "location": "/model_clustering/#1-007526047-097657548-121182921-072402116", 
-            "text": "", 
-            "title": "&gt; 1 -0.07526047 -0.97657548 -1.21182921    0.72402116"
-        }, 
-        {
-            "location": "/model_clustering/#2-049032869-007576891-002075402-003343924", 
-            "text": "", 
-            "title": "&gt; 2 -0.49032869 -0.07576891  0.02075402   -0.03343924"
-        }, 
-        {
-            "location": "/model_clustering/#3-057596208-088274724-097506900-056050853", 
-            "text": "", 
-            "title": "&gt; 3  0.57596208  0.88274724  0.97506900   -0.56050853"
-        }, 
-        {
-            "location": "/model_clustering/#proanthocyanins-color-hue-dilution", 
-            "text": "", 
-            "title": "&gt;   Proanthocyanins      Color        Hue   Dilution"
-        }, 
-        {
-            "location": "/model_clustering/#1-077751312-09388902-11615122-12887761", 
-            "text": "", 
-            "title": "&gt; 1     -0.77751312  0.9388902 -1.1615122 -1.2887761"
-        }, 
-        {
-            "location": "/model_clustering/#2-005810161-08993770-04605046-02700025", 
-            "text": "", 
-            "title": "&gt; 2      0.05810161 -0.8993770  0.4605046  0.2700025"
-        }, 
-        {
-            "location": "/model_clustering/#3-057865427-01705823-04726504-07770551", 
-            "text": "", 
-            "title": "&gt; 3      0.57865427  0.1705823  0.4726504  0.7770551"
-        }, 
-        {
-            "location": "/model_clustering/#proline_1", 
-            "text": "", 
-            "title": "&gt;      Proline"
-        }, 
-        {
-            "location": "/model_clustering/#1-04059428", 
-            "text": "", 
-            "title": "&gt; 1 -0.4059428"
-        }, 
-        {
-            "location": "/model_clustering/#2-07517257", 
-            "text": "", 
-            "title": "&gt; 2 -0.7517257"
-        }, 
-        {
-            "location": "/model_clustering/#3-11220202", 
-            "text": "", 
-            "title": "&gt; 3  1.1220202"
-        }, 
-        {
-            "location": "/model_clustering/#_2", 
-            "text": "", 
-            "title": "&gt;"
-        }, 
-        {
-            "location": "/model_clustering/#clustering-vector", 
-            "text": "", 
-            "title": "&gt; Clustering vector:"
-        }, 
-        {
-            "location": "/model_clustering/#1-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3", 
-            "text": "", 
-            "title": "&gt;   [1] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3"
-        }, 
-        {
-            "location": "/model_clustering/#26-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3", 
-            "text": "", 
-            "title": "&gt;  [26] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3"
-        }, 
-        {
-            "location": "/model_clustering/#51-3-3-3-3-3-3-3-3-3-2-2-1-2-2-2-2-2-2-2-2-2-2-2-3-2", 
-            "text": "", 
-            "title": "&gt;  [51] 3 3 3 3 3 3 3 3 3 2 2 1 2 2 2 2 2 2 2 2 2 2 2 3 2"
-        }, 
-        {
-            "location": "/model_clustering/#76-2-2-2-2-2-2-2-2-1-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2", 
-            "text": "", 
-            "title": "&gt;  [76] 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 3 2 2 2 2"
-        }, 
-        {
-            "location": "/model_clustering/#101-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-1-2-2-3-2-2-2", 
-            "text": "", 
-            "title": "&gt; [101] 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 3 2 2 2"
-        }, 
-        {
-            "location": "/model_clustering/#126-2-2-2-2-2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1", 
-            "text": "", 
-            "title": "&gt; [126] 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
-        }, 
-        {
-            "location": "/model_clustering/#151-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1", 
-            "text": "", 
-            "title": "&gt; [151] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
-        }, 
-        {
-            "location": "/model_clustering/#176-1-1-1", 
-            "text": "", 
-            "title": "&gt; [176] 1 1 1"
-        }, 
-        {
-            "location": "/model_clustering/#_3", 
-            "text": "", 
-            "title": "&gt;"
-        }, 
-        {
-            "location": "/model_clustering/#within-cluster-sum-of-squares-by-cluster", 
-            "text": "", 
-            "title": "&gt; Within cluster sum of squares by cluster:"
-        }, 
-        {
-            "location": "/model_clustering/#1-3263537-5586971-3856983", 
-            "text": "", 
-            "title": "&gt; [1] 326.3537 558.6971 385.6983"
-        }, 
-        {
-            "location": "/model_clustering/#between_ss-total_ss-448", 
-            "text": "", 
-            "title": "&gt;  (between_SS / total_SS =  44.8 %)"
-        }, 
-        {
-            "location": "/model_clustering/#_4", 
-            "text": "", 
-            "title": "&gt;"
-        }, 
-        {
-            "location": "/model_clustering/#available-components", 
-            "text": "", 
-            "title": "&gt; Available components:"
-        }, 
-        {
-            "location": "/model_clustering/#_5", 
-            "text": "", 
-            "title": "&gt;"
-        }, 
-        {
-            "location": "/model_clustering/#1-cluster-centers-totss", 
-            "text": "", 
-            "title": "&gt; [1] &quot;cluster&quot;      &quot;centers&quot;      &quot;totss&quot;"
-        }, 
-        {
-            "location": "/model_clustering/#4-withinss-totwithinss-betweenss", 
-            "text": "", 
-            "title": "&gt; [4] &quot;withinss&quot;     &quot;tot.withinss&quot; &quot;betweenss&quot;"
-        }, 
-        {
-            "location": "/model_clustering/#7-size-iter-ifault", 
-            "text": "[/sourcecode]  The result shows information about cluster means, clustering vector, sum of square by cluster and available components. Let s do some visualizations to see how data set is clustered.  First, I use\u00a0 plotcluster \u00a0function from\u00a0 fpc \u00a0package to draw discriminant projection plot  [sourcecode language=\"r\"]\n library(fpc)\nplotcluster(data.train, fit.km$cluster)\n[/sourcecode]   We can see the data is clustered very well, there are no collapse between clusters. Next, we draw parallel coordinates plot to see how variables contributed in each cluster  [sourcecode language=\"r\"]\n library(MASS)\nparcoord(data.train, fit.km$cluster)\n[/sourcecode]   We can extract some insights from above graph suc as black cluster contains wine with low flavanoids value, low proanthocyanins value, low hue value. Or green cluster contains wine which has dilution value higher than wine in red cluster.", 
-            "title": "&gt; [7] &quot;size&quot;         &quot;iter&quot;         &quot;ifault&quot;"
-        }, 
-        {
-            "location": "/model_clustering/#1-2-3", 
-            "text": "", 
-            "title": "&gt;    1  2  3"
-        }, 
-        {
-            "location": "/model_clustering/#1-0-0-59", 
-            "text": "", 
-            "title": "&gt; 1  0  0 59"
-        }, 
-        {
-            "location": "/model_clustering/#2-3-65-3", 
-            "text": "", 
-            "title": "&gt; 2  3 65  3"
-        }, 
-        {
-            "location": "/model_clustering/#3-48-0-0", 
-            "text": "[/sourcecode]  We can see only 6 sample is missed. Let s use randIndex from flexclust to compare these two parititions - one from data set and one from result of clustering method.  [sourcecode language=\"r\"]\n library(flexclust)\nrandIndex(ct.km)", 
-            "title": "&gt; 3 48  0  0"
-        }, 
-        {
-            "location": "/model_clustering/#ari", 
-            "text": "", 
-            "title": "&gt;      ARI"
-        }, 
-        {
-            "location": "/model_clustering/#0897495", 
-            "text": "[/sourcecode]  It s quite close to 1 so K-Means is good model for clustering\u00a0 wine \u00a0data set.", 
-            "title": "&gt; 0.897495"
-        }, 
-        {
-            "location": "/model_neuralnetwork/", 
-            "text": "Neural Network", 
-            "title": "Neural Network"
-        }, 
-        {
-            "location": "/model_neuralnetwork/#neural-network", 
-            "text": "", 
-            "title": "Neural Network"
         }, 
         {
             "location": "/ensemble/", 
@@ -1082,18 +382,38 @@
         }, 
         {
             "location": "/evaluation/", 
-            "text": "DS: Evaluation\n\n\nBias - Variance", 
+            "text": "Evaluation\n\n\nBias - Variance", 
             "title": "Evaluation"
         }, 
         {
-            "location": "/evaluation/#ds-evaluation", 
+            "location": "/evaluation/#evaluation", 
             "text": "", 
-            "title": "DS: Evaluation"
+            "title": "Evaluation"
         }, 
         {
             "location": "/evaluation/#bias-variance", 
             "text": "", 
             "title": "Bias - Variance"
+        }, 
+        {
+            "location": "/app_reduction/", 
+            "text": "Dimensionality Reduction\n\n\n\n\nDimensionality Reduction Algorithms\n\n\nLike clustering methods, dimensionality reduction seek and exploit the inherent structure in the data, but in this case in an unsupervised manner or order to summarise or describe data using less information.\n\n\nThis can be useful to visualize dimensional data or to simplify data which can then be used in a supervized learning method. Many of these methods can be adapted for use in classification and regression.\n\n\n\n\nPrincipal Component Analysis (PCA)\n\n\nPrincipal Component Regression (PCR)\n\n\nPartial Least Squares Regression (PLSR)\n\n\nSammon Mapping\n\n\nMultidimensional Scaling (MDS)\n\n\nProjection Pursuit\n\n\nLinear Discriminant Analysis (LDA)\n\n\nMixture Discriminant Analysis (MDA)\n\n\nQuadratic Discriminant Analysis (QDA)\n\n\nFlexible Discriminant Analysis (FDA)\n\n\n\n\nt-SNE\n\n\n\n\nt-Distributed Stochastic Neighbor Embedding (t-SNE) \n1\n is a (prize-winning) technique for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets. The technique can be implemented via Barnes-Hut approximations, allowing it to be applied on large real-world datasets. We applied it on data sets with up to 30 million examples. The technique and its variants are introduced in the following papers:\n\n\n\n\nL.J.P. van der Maaten. Accelerating t-SNE using Tree-Based Algorithms. Journal of Machine Learning Research 15(Oct):3221-3245, 2014.  PDF [Supplemental material]\n\n\nL.J.P. van der Maaten and G.E. Hinton. Visualizing Non-Metric Similarities in Multiple Maps. Machine Learning 87(1):33-55, 2012.  PDF\n\n\nL.J.P. van der Maaten. Learning a Parametric Embedding by Preserving Local Structure. In Proceedings of the Twelfth International Conference on Artificial Intelligence \n Statistics (AI-STATS), JMLR W\nCP 5:384-391, 2009.  PDF\n\n\nL.J.P. van der Maaten and G.E. Hinton. Visualizing High-Dimensional Data Using t-SNE. Journal of Machine Learning Research 9(Nov):2579-2605, 2008.  PDF [Supplemental material] [Talk]\n\n\n\n\n\n\n\n\n\n\n\n\nt-SNE", 
+            "title": "Dimensionality Reduction"
+        }, 
+        {
+            "location": "/app_reduction/#dimensionality-reduction", 
+            "text": "", 
+            "title": "Dimensionality Reduction"
+        }, 
+        {
+            "location": "/app_reduction/#dimensionality-reduction-algorithms", 
+            "text": "Like clustering methods, dimensionality reduction seek and exploit the inherent structure in the data, but in this case in an unsupervised manner or order to summarise or describe data using less information.  This can be useful to visualize dimensional data or to simplify data which can then be used in a supervized learning method. Many of these methods can be adapted for use in classification and regression.   Principal Component Analysis (PCA)  Principal Component Regression (PCR)  Partial Least Squares Regression (PLSR)  Sammon Mapping  Multidimensional Scaling (MDS)  Projection Pursuit  Linear Discriminant Analysis (LDA)  Mixture Discriminant Analysis (MDA)  Quadratic Discriminant Analysis (QDA)  Flexible Discriminant Analysis (FDA)", 
+            "title": "Dimensionality Reduction Algorithms"
+        }, 
+        {
+            "location": "/app_reduction/#t-sne", 
+            "text": "t-Distributed Stochastic Neighbor Embedding (t-SNE)  1  is a (prize-winning) technique for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets. The technique can be implemented via Barnes-Hut approximations, allowing it to be applied on large real-world datasets. We applied it on data sets with up to 30 million examples. The technique and its variants are introduced in the following papers:   L.J.P. van der Maaten. Accelerating t-SNE using Tree-Based Algorithms. Journal of Machine Learning Research 15(Oct):3221-3245, 2014.  PDF [Supplemental material]  L.J.P. van der Maaten and G.E. Hinton. Visualizing Non-Metric Similarities in Multiple Maps. Machine Learning 87(1):33-55, 2012.  PDF  L.J.P. van der Maaten. Learning a Parametric Embedding by Preserving Local Structure. In Proceedings of the Twelfth International Conference on Artificial Intelligence   Statistics (AI-STATS), JMLR W CP 5:384-391, 2009.  PDF  L.J.P. van der Maaten and G.E. Hinton. Visualizing High-Dimensional Data Using t-SNE. Journal of Machine Learning Research 9(Nov):2579-2605, 2008.  PDF [Supplemental material] [Talk]       t-SNE", 
+            "title": "t-SNE"
         }, 
         {
             "location": "/app_recommendation/", 
@@ -1466,24 +786,14 @@
             "title": "Computer Vision"
         }, 
         {
-            "location": "/app_reduction/", 
-            "text": "Dimensionality Reduction\n\n\n\n\nDimensionality Reduction Algorithms\n\n\nLike clustering methods, dimensionality reduction seek and exploit the inherent structure in the data, but in this case in an unsupervised manner or order to summarise or describe data using less information.\n\n\nThis can be useful to visualize dimensional data or to simplify data which can then be used in a supervized learning method. Many of these methods can be adapted for use in classification and regression.\n\n\n\n\nPrincipal Component Analysis (PCA)\n\n\nPrincipal Component Regression (PCR)\n\n\nPartial Least Squares Regression (PLSR)\n\n\nSammon Mapping\n\n\nMultidimensional Scaling (MDS)\n\n\nProjection Pursuit\n\n\nLinear Discriminant Analysis (LDA)\n\n\nMixture Discriminant Analysis (MDA)\n\n\nQuadratic Discriminant Analysis (QDA)\n\n\nFlexible Discriminant Analysis (FDA)\n\n\n\n\nt-SNE\n\n\n\n\nt-Distributed Stochastic Neighbor Embedding (t-SNE) \n1\n is a (prize-winning) technique for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets. The technique can be implemented via Barnes-Hut approximations, allowing it to be applied on large real-world datasets. We applied it on data sets with up to 30 million examples. The technique and its variants are introduced in the following papers:\n\n\n\n\nL.J.P. van der Maaten. Accelerating t-SNE using Tree-Based Algorithms. Journal of Machine Learning Research 15(Oct):3221-3245, 2014.  PDF [Supplemental material]\n\n\nL.J.P. van der Maaten and G.E. Hinton. Visualizing Non-Metric Similarities in Multiple Maps. Machine Learning 87(1):33-55, 2012.  PDF\n\n\nL.J.P. van der Maaten. Learning a Parametric Embedding by Preserving Local Structure. In Proceedings of the Twelfth International Conference on Artificial Intelligence \n Statistics (AI-STATS), JMLR W\nCP 5:384-391, 2009.  PDF\n\n\nL.J.P. van der Maaten and G.E. Hinton. Visualizing High-Dimensional Data Using t-SNE. Journal of Machine Learning Research 9(Nov):2579-2605, 2008.  PDF [Supplemental material] [Talk]\n\n\n\n\n\n\n\n\n\n\n\n\nt-SNE", 
-            "title": "Dimensionality Reduction"
+            "location": "/qanda/", 
+            "text": "Data Science: Questions and Answers\n\n\nWhat is Precision and recall? \n1\n\n\n\n\n\nWhat are 'Overfitting' and 'Underfitting'? \n2\n \n\n\n\nWhat are popular algorithms? \n2\n\n\n\n\n\nDecision Trees\n\n\nNeural Networks (back propagation)\n\n\nProbabilistic networks\n\n\nNearest Neighbor\n\n\nSupport vector machines\n\n\n\n\n\nDescribe a \"Rolls Royce\" solution that you could implement in 3 months, 3 weeks and 3 days.\n\n\n\n[!TODO]\n\n\nMachine Learning Problems \n3\n\n\n\n[!TODO]\n\n\nHow would you generate related searches on Bing? \n3\n\n\n\n[!TODO]\n\n\nHow would you approach the Netflix Prize? \n3\n\n\n\n[!TODO]\n\n\nHow would you suggest followers on Twitter? \n3\n\n\n\n[!TODO]", 
+            "title": "Q&A"
         }, 
         {
-            "location": "/app_reduction/#dimensionality-reduction", 
+            "location": "/qanda/#data-science-questions-and-answers", 
             "text": "", 
-            "title": "Dimensionality Reduction"
-        }, 
-        {
-            "location": "/app_reduction/#dimensionality-reduction-algorithms", 
-            "text": "Like clustering methods, dimensionality reduction seek and exploit the inherent structure in the data, but in this case in an unsupervised manner or order to summarise or describe data using less information.  This can be useful to visualize dimensional data or to simplify data which can then be used in a supervized learning method. Many of these methods can be adapted for use in classification and regression.   Principal Component Analysis (PCA)  Principal Component Regression (PCR)  Partial Least Squares Regression (PLSR)  Sammon Mapping  Multidimensional Scaling (MDS)  Projection Pursuit  Linear Discriminant Analysis (LDA)  Mixture Discriminant Analysis (MDA)  Quadratic Discriminant Analysis (QDA)  Flexible Discriminant Analysis (FDA)", 
-            "title": "Dimensionality Reduction Algorithms"
-        }, 
-        {
-            "location": "/app_reduction/#t-sne", 
-            "text": "t-Distributed Stochastic Neighbor Embedding (t-SNE)  1  is a (prize-winning) technique for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets. The technique can be implemented via Barnes-Hut approximations, allowing it to be applied on large real-world datasets. We applied it on data sets with up to 30 million examples. The technique and its variants are introduced in the following papers:   L.J.P. van der Maaten. Accelerating t-SNE using Tree-Based Algorithms. Journal of Machine Learning Research 15(Oct):3221-3245, 2014.  PDF [Supplemental material]  L.J.P. van der Maaten and G.E. Hinton. Visualizing Non-Metric Similarities in Multiple Maps. Machine Learning 87(1):33-55, 2012.  PDF  L.J.P. van der Maaten. Learning a Parametric Embedding by Preserving Local Structure. In Proceedings of the Twelfth International Conference on Artificial Intelligence   Statistics (AI-STATS), JMLR W CP 5:384-391, 2009.  PDF  L.J.P. van der Maaten and G.E. Hinton. Visualizing High-Dimensional Data Using t-SNE. Journal of Machine Learning Research 9(Nov):2579-2605, 2008.  PDF [Supplemental material] [Talk]       t-SNE", 
-            "title": "t-SNE"
+            "title": "Data Science: Questions and Answers"
         }
     ]
 }

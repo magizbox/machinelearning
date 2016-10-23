@@ -9,12 +9,17 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>Regression - DataScience</title>
+	<title>Regression - MachineLearning</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../components/magiz-c-book/src/book.css" rel="stylesheet">
+        <link href="../components/magiz-c-course/src/course.css" rel="stylesheet">
+        <link href="../components/magiz-c-video/src/video.css" rel="stylesheet">
+        <link href="../components/magiz-c-benchmark/src/benchmark.css" rel="stylesheet">
+        <link href="../components/magiz-c-paper/src/paper.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -43,7 +48,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href="..">DataScience</a>
+            <a class="navbar-brand" href="..">MachineLearning</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -59,33 +64,42 @@
                 
                 
                 
-                    <li >
-                        <a href="../process/">Process</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../problem/">Problem Definitation</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../gathering/">Gathering</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../preparation/">Preparation</a>
-                    </li>
-                
-                
-                
                     <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Models <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
                         <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Process</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../process/">Overview</a>
+</li>
+
+        
+            
+<li >
+    <a href="../problem/">Problem Definitation</a>
+</li>
+
+        
+            
+<li >
+    <a href="../gathering/">Gathering</a>
+</li>
+
+        
+            
+<li >
+    <a href="../preparation/">Preparation</a>
+</li>
+
+        
+    </ul>
+  </li>
+
                         
                             
 <li >
@@ -113,58 +127,58 @@
                         
                             
 <li >
-    <a href="../model_neuralnetwork/">Neural Network</a>
-</li>
-
-                        
-                            
-<li >
     <a href="../ensemble/">Ensemble</a>
 </li>
 
                         
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../evaluation/">Evaluation</a>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Application <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
                             
 <li >
-    <a href="../app_recommendation/">Recommendation System</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../app_anomaly/">Anomaly Detection</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../app_nlp/">Natural Language Processing</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../app_vision/">Computer Vision</a>
+    <a href="../evaluation/">Evaluation</a>
 </li>
 
                         
                             
 <li >
     <a href="../app_reduction/">Dimensionality Reduction</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Application</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../app_recommendation/">Recommendation System</a>
+</li>
+
+        
+            
+<li >
+    <a href="../app_anomaly/">Anomaly Detection</a>
+</li>
+
+        
+            
+<li >
+    <a href="../app_nlp/">Natural Language Processing</a>
+</li>
+
+        
+            
+<li >
+    <a href="../app_vision/">Computer Vision</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../qanda/">Q&A</a>
 </li>
 
                         
@@ -214,12 +228,6 @@
             <li><a href="#examples">Examples</a></li>
         
     
-        <li class="main "><a href="#-0671">-&gt; 0.671</a></li>
-        
-    
-        <li class="main "><a href="#0674">0.674</a></li>
-        
-    
         <li class="main "><a href="#logistic-regression">Logistic Regression</a></li>
         
             <li><a href="#1-hyposthesis-representation">1. Hyposthesis Representation</a></li>
@@ -234,17 +242,7 @@
         
             <li><a href="#6-regularization">6. Regularization</a></li>
         
-    
-        <li class="main "><a href="#11807-203">[[11807   203]</a></li>
-        
-    
-        <li class="main "><a href="#1243-311">[ 1243   311]]</a></li>
-        
-    
-        <li class="main "><a href="#its-too-bad">it's too bad</a></li>
-        
-    
-        <li class="main "><a href="#polynormial-regression">Polynormial Regression</a></li>
+            <li><a href="#examples_1">Examples</a></li>
         
     
     </ul>
@@ -267,9 +265,9 @@ Output: <code>Continuous</code></p>
 
 <h3 id="examples">Examples</h3>
 <p><strong>Ex1. Linear Regression with Boston Dataset</strong></p>
-<p>[code language="python" title="script.py"]
-<strong>author</strong> = 'rain'</p>
-<p>from sklearn.datasets import load_boston
+<pre><code class="python">__author__ = 'rain'
+
+from sklearn.datasets import load_boston
 from sklearn.cross_validation import train_test_split
 from sklearn.linear_model import LinearRegression, Ridge
 boston = load_boston()
@@ -280,18 +278,21 @@ X_train, X_test, y_train, y_test =
 print boston['DESCR']
 clf_linear = LinearRegression()
 clf_linear.fit(X_train, y_train)
-linear_score = clf_linear.score(X_test, y_test)</p>
-<h1 id="-0671">-&gt; 0.671</h1>
-<p>print(clf_linear.coef_)
-print(clf_linear.intercept_)</p>
-<p>clf_ridge = Ridge(alpha=1.0)
-clf_ridge.fit(X_train, y_train)</p>
-<h1 id="0674">0.674</h1>
-<p>ridge_score = clf_ridge.score(X_test, y_test)</p>
-<p>print y_test
+linear_score = clf_linear.score(X_test, y_test)
+#-&gt; 0.671
+print(clf_linear.coef_)
+print(clf_linear.intercept_)
+
+clf_ridge = Ridge(alpha=1.0)
+clf_ridge.fit(X_train, y_train)
+# 0.674
+ridge_score = clf_ridge.score(X_test, y_test)
+
+print y_test
 print clf_linear.predict(X_test)
 print clf_ridge.predict(X_test)
-[/code]</p>
+</code></pre>
+
 <p><strong>Ex2. Linear Regression with market data set (coursera)</strong> ([python language="notebook"]<a href="https://github.com/rain1024/machine-learning/blob/master/linear-regression.ipynb">/python</a>)</p>
 <h1 id="logistic-regression">Logistic Regression</h1>
 <p><img alt="" src="http://www.gepsoft.com/tutorials/ImagesLRAP/LogisticRegressionWindowLogisticFitChart6.png" /></p>
@@ -303,50 +304,71 @@ print clf_ridge.predict(X_test)
 </ul>
 
 <h3 id="1-hyposthesis-representation">1. Hyposthesis Representation</h3>
-<p>$latex h_{\theta}(x) = g(\theta^T x)&amp;s=2$  where $latex g(z) = \frac{1}{1 + e^{-z}}&amp;s=2$</p>
-<p>g(z) is sigmoid function or logistic function</p>
-<p>$latex h_{\theta}(x)&amp;s=1$ estimated probability of y equal 1 given x</p>
-<p>In spam detection problem, $latex h_{\theta}(x) = 0.7$ means it's 70% chance this email is spam.</p>
+<p>
+<script type="math/tex; mode=display">h_{\theta}(x) = g(\theta^T x)\ where\ g(z) = \frac{1}{1 + e^{-z}}</script>
+</p>
+<p>
+<script type="math/tex"> g(z) </script> is sigmoid function or logistic function</p>
+<p>
+<script type="math/tex"> h_{\theta}(x) </script> estimated probability of <script type="math/tex"> y = 1</script> given <script type="math/tex"> x </script>
+</p>
+<p>In spam detection problem, <script type="math/tex"> h_{\theta}(x) = 0.7 </script> means it's 70% chance this email is spam.</p>
 <h3 id="2-decision-boundary">2. Decision Boundary</h3>
 <p><a href="https://github.com/rain1024/machine-learning/blob/master/logistic-regression/logistic-regression.ipynb">Logistic Regression</a></p>
 <h3 id="3-cost-function">3. Cost Function</h3>
-<p>$latex cost(h_{\theta}(x), y) = -y log(h_{\theta}(x)) - (1-y) log(1- h_{\theta}(x))&amp;s=1$</p>
+<p>
+<script type="math/tex; mode=display">cost(h_{\theta}(x), y) = -y log(h_{\theta}(x)) - (1-y) log(1- h_{\theta}(x))</script>
+</p>
 <p>Loss Function</p>
-<p>$latex J(\theta) = \frac{1}{m} \sum_{i=1}^{m} cost(h_{\theta}(x^{(i)}), y^{(i)}) \newline =\frac{-1}{m} \sum_{i=1}^{m} y^{(i)} log h_{\theta}(x^{(i)}) + (1-y^{(i)})log(1-h_{\theta}(x^{(i)}))$</p>
+<p>
+<script type="math/tex; mode=display">J(\theta) = \frac{1}{m} \sum_{i=1}^{m} cost(h_{\theta}(x^{(i)}), y^{(i)}) = \frac{-1}{m} \sum_{i=1}^{m} y^{(i)} log h_{\theta}(x^{(i)}) + (1-y^{(i)})log(1-h_{\theta}(x^{(i)}))</script>
+</p>
 <h3 id="4-gradient-descent">4. Gradient Descent</h3>
 <p>Gradient</p>
-<p>$latex \frac{\partial J(\theta)}{\partial \theta_j} = \frac{1}{m} \sum^m_{i=1} (h_\theta (x^{(i)}) - y^{(i)}) x_j^{(i)}&amp;s=1$</p>
+<p>
+<script type="math/tex; mode=display">\frac{\partial J(\theta)}{\partial \theta_j} = \frac{1}{m} \sum^m_{i=1} (h_\theta (x^{(i)}) - y^{(i)}) x_j^{(i)}</script>
+</p>
 <h3 id="5-predict">5. Predict</h3>
-<p>$latex p(\theta, X) = h_\theta(X) \ge 0.5&amp;s=1$</p>
+<p>
+<script type="math/tex; mode=display">p(\theta, X) = h_\theta(X) \ge 0.5</script>
+</p>
 <h3 id="6-regularization">6. Regularization</h3>
 <h4 id="61-feature-mapping">6.1 Feature Mapping</h4>
 <p>Cost Function</p>
-<p>[latex]mapFeature(x) =
+<p>
+<script type="math/tex; mode=display">mapFeature(x) =
 \begin{bmatrix}
-1 \
-x_1 \
-x_2 \
-x_1^2 \
-x_1 x_2 \
-x_2^2 \
-x_1^3 \
-\cdots \
-x_1 x_2^5\
+1 \\
+x_1 \\
+x_2 \\
+x_1^2 \\
+x_1 x_2 \\
+x_2^2 \\
+x_1^3 \\
+\cdots \\
+x_1 x_2^5\\
 x_2^6
 \end{bmatrix}
-[/latex]</p>
+</script>
+</p>
 <h4 id="62-cost-function-and-gradient">6.2 Cost Function and Gradient</h4>
-<p>Cost Function</p>
-<p>[latex]
+<p>Cost Function
+<script type="math/tex; mode=display">
 J(\theta) = \frac{1}{m} \sum^m_{i=1} [-y^{(i)} log(h_\theta(x^{(i)})) - (1 - y^{(i)})log(1 - h_\theta(x^{(i)}))] + \frac{\lambda}{2m} \sum^n_{j=1} \theta^2_j
-[/latex]</p>
+</script>
+</p>
 <p>Gradient</p>
-<p>$latex \frac{\partial J(\theta)}{\partial \theta_j} = \frac{1}{m} \sum^m_{i=1}(h_\theta(x^{(i)}) - y^{(i)})x_j^{(i)}&amp;s=1$ for $latex j = 0&amp;s=1$</p>
-<p>$latex \frac{\partial J(\theta)}{\partial \theta_j} = \left( \frac{1}{m} \sum^m_{i=1}(h_\theta(x^{(i)}) - y^{(i)})x_j^{(i)}&amp;s=1 \right) + \frac{\lambda}{m} \theta_j&amp;s=1$ for $latex j \ge 1&amp;s=1$
-<h3>Code</h3></p>
+<p>
+<script type="math/tex"> \frac{\partial J(\theta)}{\partial \theta_j} = \frac{1}{m} \sum^m_{i=1}(h_\theta(x^{(i)}) - y^{(i)})x_j^{(i)} </script>
+for <script type="math/tex"> j = 0 </script>
+</p>
+<p>
+<script type="math/tex"> \frac{\partial J(\theta)}{\partial \theta_j} = \left( \frac{1}{m} \sum^m_{i=1}(h_\theta(x^{(i)}) - y^{(i)})x_j^{(i)} \right) + \frac{\lambda}{m} \theta_j </script> for <script type="math/tex"> j \ge 1 </script>
+</p>
+<h3>Code</h3>
+
 <p><a href="http://www2.1010data.com/documentationcenter/beta/Tutorials/MachineLearningExamples/BankMarketingDataSet.html">Bank Marketing Data Set</a></p>
-<p>[code language="python"]
-import statsmodels.api as sm
+<pre><code class="python">import statsmodels.api as sm
 import pandas as pd
 from statsmodels.tools.tools import categorical
 from sklearn.preprocessing import LabelEncoder
@@ -354,11 +376,15 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.cross_validation import train_test_split
 from sklearn.metrics import confusion_matrix
 import numpy
-from sklearn.tree import DecisionTreeClassifier</p>
-<p>def get_data():
-    return pd.read_csv(&quot;./bank/bank-full.csv&quot;, header=0, sep=&quot;;&quot;)</p>
-<p>data = get_data()</p>
-<p>data.job = LabelEncoder().fit_transform(data.job)
+from sklearn.tree import DecisionTreeClassifier
+
+
+def get_data():
+    return pd.read_csv(&amp;quot;./bank/bank-full.csv&amp;quot;, header=0, sep=&amp;quot;;&amp;quot;)
+
+data = get_data()
+
+data.job = LabelEncoder().fit_transform(data.job)
 data.marital = LabelEncoder().fit_transform(data.marital)
 data.education = LabelEncoder().fit_transform(data.education)
 data.default = LabelEncoder().fit_transform(data.default)
@@ -366,46 +392,29 @@ data.housing = LabelEncoder().fit_transform(data.housing)
 data.loan = LabelEncoder().fit_transform(data.loan)
 data.month = LabelEncoder().fit_transform(data.month)
 data.contact = LabelEncoder().fit_transform(data.contact)
-data.poutcome = LabelEncoder().fit_transform(data.poutcome)</p>
-<p>X = data.iloc[:, :-1]
-y = data.iloc[:, -1]</p>
-<p>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)</p>
-<p>clf = LogisticRegression()
-clf.fit(X_train, y_train)
-score = clf.score(X_test, y_test)</p>
-<p>print confusion_matrix(y_test, clf.predict(X_test))</p>
-<h1 id="11807-203">[[11807   203]</h1>
-<h1 id="1243-311">[ 1243   311]]</h1>
-<h1 id="its-too-bad">it's too bad</h1>
-<p>[/code]</p>
-<h3>Examples <sup id="fnref-1353-1"><a href="#fn-1353-1" rel="footnote">2</a></sup></h3>
+data.poutcome = LabelEncoder().fit_transform(data.poutcome)
 
+X = data.iloc[:, :-1]
+y = data.iloc[:, -1]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
+
+clf = LogisticRegression()
+clf.fit(X_train, y_train)
+score = clf.score(X_test, y_test)
+
+print confusion_matrix(y_test, clf.predict(X_test))
+# [[11807   203]
+#  [ 1243   311]]
+# it's too bad
+
+</code></pre>
+
+<h3 id="examples_1">Examples</h3>
 <ul>
 <li>Affair Dataset, Logistic Regression with scikit-learn</li>
 </ul>
 
-<div class="footnotes">
-<hr />
-<ol>
-
-<li id="fn-1353-2">
-<a href="http://www.marketingdistillery.com/2014/11/23/linear-regression-vs-logistic-regression-vs-poisson-regression/">Linear Regression vs Logistic Regression vs Poisson Regression</a>&#160;<a href="#fnref-1353-2" rev="footnote">&#8617;</a>
-</li>
-
-<li id="fn-1353-1">
-<a href="http://nbviewer.ipython.org/github/justmarkham/gadsdc1/blob/master/logistic_assignment/kevin_logistic_sklearn.ipynb">Logistic Regression with scikit-learn</a>&#160;<a href="#fnref-1353-1" rev="footnote">&#8617;</a>
-</li>
-
-</ol>
-</div>
-
-<h1 id="polynormial-regression">Polynormial Regression</h1>
-<p>Polynomial Regression</p>
-<p>h theata (x) = theta 0 + theta 1 (size) + theta 2 (size)^ 2 + theta (size)^ 3</p>
-<p>Choice of Feature</p>
-<ul>
-<li>Machine Learning Andrew Ng, Polynomial anf Feature Selection</li>
-</ul>
 <div class="footnote">
 <hr />
 <ol>
@@ -429,6 +438,15 @@ score = clf.score(X_test, y_test)</p>
         <script>var base_url = '..';</script>
         <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
         <script src="../js/base.js"></script>
+        <script src="../components/magiz-c-book/src/gspreadsheet.js"></script>
+        <script src="../components/underscore/underscore.js"></script>
+        <script src="../components/magiz-c-paper/src/paper.js"></script>
+        <script src="../components/magiz-c-course/src/course.js"></script>
+        <script src="../components/magiz-c-benchmark/src/benchmark.js"></script>
+        <script src="../components/magiz-c-benchmark/src/bootstrap-popup.js"></script>
+        <script src="../components/magiz-c-book/src/book.js"></script>
+        <script src="../components/magiz-c-video/src/video.js"></script>
+        <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">

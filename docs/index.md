@@ -1,75 +1,21 @@
-# What is Machine Learning?
+# Machine Learning
 
-Machine learning is a branch of science that deals with programming the systems in such a way that they automatically learn and improve with experience. Here, learning means recognizing and understanding the input data and making wise decisions based on the supplied data.
+> Machine learning is a branch of science that deals with programming the systems in such a way that they automatically learn and improve with experience. Here, learning means recognizing and understanding the input data and making wise decisions based on the supplied data.
 
 # Books
 
-# Courses
+<div class="books" gid="1FUy9-dpAcceOa3u2t8i_OeVCGzwGKRNwfCmhHxHBu2Q"></div>
+<div class="clearfix"></div>
+
+## Courses
+
+<div class="courses" gid="1hw7s0lm0qi7yJV0rOsF0lGL6dOIhNdWpn6QT6kveq94"></div>
+<div class="clearfix"></div>
 
 # Videos
 
-# Challenges
-
-## Kaggle
-
-<strong>The reasons why you should take a competition</strong>
-
-According to <a href="http://www.kdnuggets.com/2015/03/10-steps-success-kaggle-data-science-competitions.html" target="_blank">Yanir Seroussi</a>, if you’re a data scientist (or want to become one), participating in competitions is a great way of honing your skills, building reputation, and potentially winning some cash.
-
-<strong>Introduction to <a href="https://www.kaggle.com/" target="_blank">Kaggle</a></strong>
-
-<p class="intro">Kaggle is the world's largest community of data scientists. They compete with each other to solve complex data science problems, and the top competitors are invited to work on the most interesting and sensitive business problems from some of the world’s biggest companies through Masters competitions.</p>
-
-<p class="intro">Kaggle provides cutting-edge data science results to companies of all sizes. We have a proven track-record of solving real-world problems across a diverse array of industries including life sciences, financial services, energy, information technology, and retail.</p>
-
-<strong>Profiling top Kagglers</strong>
-
-<ul>
-    <li><a href="http://blog.kaggle.com/2015/05/07/profiling-top-kagglers-kazanovacurrently-2-in-the-world/" target="_blank">Profiling Top Kagglers: KazAnova Currently #2 in the World</a></li>
-    <li><a href="http://blog.kaggle.com/2015/06/22/profiling-top-kagglers-owen-zhang-currently-1-in-the-world/" target="_blank">Profiling Top Kagglers: Owen Zhang, Currently #1 in the World</a></li>
-</ul>
-
-<strong>How to compete</strong> <sup id="fnref-15-1"><a href="#fn-15-1" rel="footnote">1</a></sup>
-
-<img class="alignnone" src="https://lh3.googleusercontent.com/rTCsoldaVmbWKP5dOpmQOuDyOcNa2IhE64WIIG1iYm-2=w720-h637-no" alt="" width="720" height="637" />
-
-<ol>
-    <li>Read the manual</li>
-    <li>Understand the performance measure</li>
-    <li>Know your data</li>
-    <li>Understand what you want to achieve before worrying about the how</li>
-    <li>Set up a local validation environment</li>
-    <li>Monitor the forum</li>
-    <li>Do your research</li>
-    <li>Apply the basics rigorously</li>
-    <li>Ensemble all the things</li>
-    <li>Win</li>
-</ol>
-
-<strong>Tools</strong>
-
-<em>Exploring Data</em>
-
-<ul>
-    <li><a href="http://sqlitestudio.pl/" target="_blank">SQLiteStudio</a></li>
-</ul>
-
-<em>IDE</em>
-
-<ul>
-    <li><a href="https://datayo.wordpress.com/2015/06/23/pycharm-python-ide-for-data-scientist/" target="_blank">Pycharm for Python</a></li>
-    <li><a href="https://datayo.wordpress.com/2015/05/09/r-ide/" target="_blank">RStudio for R</a></li>
-</ul>
-
-<em>Machine learning libraries</em>
-
-Python: scikit-learn, XGBoost, Vowpal Wabbit, cuda-convnet2
-
-R <sup id="fnref-15-2"><a href="#fn-15-2" rel="footnote">2</a></sup> : gbm, randomForest, e1071, glmnet, tau, Matrix, SOAR, forEach, doMC, data.table
-
-### Articles
-
-* [What do top Kaggle competitors focus on?](https://www.quora.com/What-do-top-Kaggle-competitors-focus-on)
+<div class="videos" gid="1yJF6Hm5rxycY6egXQHYf_6-pxI8N8IbPx99HZn4n8VM"></div>
+<div class="clearfix"></div>
 
 # Conferences
 

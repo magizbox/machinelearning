@@ -1,25 +1,44 @@
-site_name: DataScience
+site_name: MachineLearning
 pages:
 - "Home": "index.md"
 - "Docs":
-  - "Process": "process.md"
-  - "Problem Definitation": "problem.md"
-  - "Gathering": "gathering.md"
-  - "Preparation": "preparation.md"
-  - "Models":
-    - "Models": "models.md"
-    - "Regression": "model_regression.md"
-    - "Classification": "model_classification.md"
-    - "Clustering": "model_clustering.md"
-    - "Neural Network": "model_neuralnetwork.md"
-    - "Ensemble": "ensemble.md"
+  - "Process":
+    - "Overview": "process.md"
+    - "Problem Definitation": "problem.md"
+    - "Gathering": "gathering.md"
+    - "Preparation": "preparation.md"
+  - "Models": "models.md"
+  - "Regression": "model_regression.md"
+  - "Classification": "model_classification.md"
+  - "Clustering": "model_clustering.md"
+  - "Ensemble": "ensemble.md"
   - "Evaluation": "evaluation.md"
+  - "Dimensionality Reduction": "app_reduction.md"
   - "Application":
     - "Recommendation System": "app_recommendation.md"
     - "Anomaly Detection": "app_anomaly.md"
     - "Natural Language Processing": "app_nlp.md"
     - "Computer Vision": "app_vision.md"
-    - "Dimensionality Reduction": "app_reduction.md"
   - "Q&A": "qanda.md"
+
+extra_css:
+  - components/magiz-c-book/src/book.css
+  - components/magiz-c-course/src/course.css
+  - components/magiz-c-video/src/video.css
+  - components/magiz-c-benchmark/src/benchmark.css
+  - components/magiz-c-paper/src/paper.css
+
+extra_javascript:
+  - components/magiz-c-book/src/gspreadsheet.js
+  - components/underscore/underscore.js
+  - components/magiz-c-paper/src/paper.js
+  - components/magiz-c-course/src/course.js
+  - components/magiz-c-benchmark/src/benchmark.js
+  - components/magiz-c-benchmark/src/bootstrap-popup.js
+  - components/magiz-c-book/src/book.js
+  - components/magiz-c-video/src/video.js
+  - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 markdown_extensions:
     - footnotes
+    - mdx_math

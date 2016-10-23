@@ -1,0 +1,28 @@
+{
+  "name": "magiz-c-benchmark",
+  "authors": [
+    "Vu Anh <brother.rain.1024@gmail.com>"
+  ],
+  "description": "Benchmark Component",
+  "keywords": [
+    "component"
+  ],
+  "license": "MIT",
+  "homepage": "http://magizbox.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "857b782c65",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "857b782c65e71616ec4eb65e8a06131d85785864"
+  },
+  "_source": "https://github.com/magizbox/magiz-c-benchmark.git",
+  "_target": "*",
+  "_originalSource": "magiz-c-benchmark"
+}

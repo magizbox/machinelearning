@@ -1,4 +1,4 @@
-# DS: Evaluation
+# Evaluation
 
 # Bias - Variance
 
