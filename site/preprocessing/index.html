@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>Preparation - MachineLearning</title>
+	<title>Preprocessing - MachineLearning</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
@@ -93,7 +93,13 @@
         
             
 <li class="active">
-    <a href="./">Preparation</a>
+    <a href="./">Preprocessing</a>
+</li>
+
+        
+            
+<li >
+    <a href="../evaluation/">Evaluation</a>
 </li>
 
         
@@ -133,13 +139,13 @@
                         
                             
 <li >
-    <a href="../evaluation/">Evaluation</a>
+    <a href="../app_reduction/">Dimensionality Reduction</a>
 </li>
 
                         
                             
 <li >
-    <a href="../app_reduction/">Dimensionality Reduction</a>
+    <a href="../app_anomaly/">Anomaly Detection</a>
 </li>
 
                         
@@ -151,12 +157,6 @@
             
 <li >
     <a href="../app_recommendation/">Recommendation System</a>
-</li>
-
-        
-            
-<li >
-    <a href="../app_anomaly/">Anomaly Detection</a>
 </li>
 
         
@@ -202,7 +202,7 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../models/">
+                        <a rel="prev" href="../evaluation/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -218,55 +218,52 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#prepartion">Prepartion</a></li>
+        <li class="main active"><a href="#data-preprocessing">Data Preprocessing</a></li>
         
-            <li><a href="#normalization">Normalization</a></li>
+            <li><a href="#missing-data">Missing Data</a></li>
+        
+            <li><a href="#categorical-data">Categorical Data</a></li>
         
             <li><a href="#feature-scaling">Feature Scaling</a></li>
         
-    
-        <li class="main "><a href="#feature-scaling-function-implementation-in-octave">Feature Scaling Function implementation in Octave:</a></li>
-        
-            <li><a href="#sampling">Sampling</a></li>
+            <li><a href="#related-reading">Related Reading</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="prepartion">Prepartion</h1>
-<h2 id="normalization">Normalization</h2>
+<h1 id="data-preprocessing">Data Preprocessing</h1>
+<p>The quality of the data and the amount of useful information it contains affect greatly how well an algorithm can learn. Hence, it is important to preprocess the dataset before using it. The most common preprocessing steps are: removing missing values, converting categorical data into shape suitable for machine learning algorithm and feature scaling.</p>
+<h2 id="missing-data">Missing Data</h2>
+<p>Sometimes the samples in the dataset are missing some values and we want to deal with these missing values before passing it to the machine learning algorithm. There are a number of strategies we can follow</p>
+<ol>
+<li>Remove samples with missing values: This approach is by far the most convenient but we may end up removing too many samples and by that we would be losing valuable information that can help the machine learning algorithm.</li>
+<li>Imputing missing values: Instead of removing the entire sample we use interpolation to estimate the missing values. For example, we could substitute a missing value by the mean of the entire column.</li>
+</ol>
+<h2 id="categorical-data">Categorical Data</h2>
+<p>In general, features can be numerical (e.g. price, length, width, etc…) or categorical (e.g. color, size, etc..). Categorical features are further split into nominal and ordinal features.</p>
+<p>Ordinal features can be sorted and ordered. For example, size (small, medium, large), we can order these sizes large &gt; medium &gt; small. While nominal features do not have an order for example, color, it doesn’t make any sense to say that red is larger than blue.</p>
+<p>Most machine learning algorithm require that you convert categorical features into numerical values. One solution would to assign each value a different number starting from zero.  (e.g.  small à 0 ,medium à 1 ,large à 2)</p>
+<p>This works well for ordinal features but might cause problems with nominal features (e.g. blue à 0, white à 1, yellow à 2) because even though colors are not ordered the learning algorithm will assume that white is larger than blue and yellow is larger than white and this is not correct.</p>
+<p>To get around this problem is to use <strong>one-hot encoding</strong>, the idea is to create a new feature for each unique value of the nominal feature.</p>
+<p><img alt="" src="http://www.codeproject.com/KB/AI/1146582/onehotencoding.PNG" /></p>
+<p>In the above example, we converted the color feature into three new features Red, Green, Blue and we used binary values to indicate the color. For example, a sample with “Red” color is now encoded as (Red=1, Green=0, Blue=0)</p>
 <h2 id="feature-scaling">Feature Scaling</h2>
-<p>&nbsp;</p>
+<p><strong>Why have we do Feature Scaling?</strong></p>
+<p>We have to predict the house prices base on 2 features:</p>
 <ul>
-<li>Why have we do Feature Scaling?</li>
+<li>House sizes (feet<sup>2</sup>)</li>
+<li>Number of bedrooms in the house</li>
 </ul>
-<h2>Idea:</h2>
-
-<blockquote>We have to predict the house prices base on 2 features:
-<ul>
-    <li>House sizes (feet<sup>2</sup>)</li>
-    <li>Number of bedrooms in the house</li>
-</ul>
-And we relized that house sizes are about 1000 times  the number of bedrooms. When features differ by orders of magnitude, first performing feature scaling can make gradient descent converge much more quickly.</blockquote>
-
-<h2>Gradient Descent with &amp; without Feature Scaling:</h2>
-
-<p><a href="http://magizbox.com/wp-content/uploads/2015/12/FeatureScaling.jpg"><img class="aligncenter wp-image-4204 size-large" src="http://magizbox.com/wp-content/uploads/2015/12/FeatureScaling-1024x576.jpg" alt="FeatureScaling" width="960" height="540" /></a>
-<blockquote>The figure is in the Machine Learning course on Cousera</p>
-<p>The left-hand side figure is gradient descent without Feature Scaling and as we seen in this figure, the way of gradient descent to find out the global minimal is way more longer than the right-hand side figure which is gradient descent with Feature scaling</blockquote></p>
-<ul>
-<li>How to perform Feature Scaling?</li>
-</ul>
-<blockquote>
-<ul>
-    <li>Subtract the mean value (the average value) of each feature from the dataset.</li>
-    <li>After subtracting the mean, additionally scale (divide) the feature values by their respective "standard deviations."(<a href="https://en.wikipedia.org/wiki/Standard_deviation">Standard deviations?</a>)</li>
-    <li>Function: <img class="mwe-math-fallback-image-inline tex" src="https://upload.wikimedia.org/math/c/e/1/ce1afba73b1525a488f6751e1d49dafa.png" alt="x' = \frac{x - \bar{x}}{\sigma}" /> Where <img class="mwe-math-fallback-image-inline tex" src="https://upload.wikimedia.org/math/9/d/d/9dd4e461268c8034f5c8564e155c67a6.png" alt="x" /> is the original feature vector, <img class="mwe-math-fallback-image-inline tex" src="https://upload.wikimedia.org/math/8/4/7/84790e2b15a305120bc3fbeb4a4eeb4f.png" alt="\bar{x}" /> is the mean of that feature vector, and <img class="mwe-math-fallback-image-inline tex" src="https://upload.wikimedia.org/math/9/d/4/9d43cb8bbcb702e9d5943de477f099e2.png" alt="\sigma" /> is its standard deviation.</li>
-</ul>
-</blockquote>
-
-<h1 id="feature-scaling-function-implementation-in-octave">Feature Scaling Function implementation in Octave:</h1>
+<p>And we relized that house sizes are about 1000 times  the number of bedrooms. When features differ by orders of magnitude, first performing feature scaling can make gradient descent converge much more quickly.</p>
+<p><strong>Perform Feature Scaling</strong></p>
+<ol>
+<li>Subtract the mean value (the average value) of each feature from the dataset.</li>
+<li>After subtracting the mean, additionally scale (divide) the feature values by their respective "standard deviations."</li>
+<li>Function: <script type="math/tex"> x' = \frac{x - \bar{x}}{\sigma} </script> where <script type="math/tex"> x </script> is the original feature vector, <script type="math/tex"> \bar{x} </script> is the mean of that feature vector, and <script type="math/tex"> \sigma </script> is its standard deviation.</li>
+</ol>
+<p><strong>Feature Scaling Function implementation in Octave</strong></p>
 <pre><code>function [X_norm, mu, sigma] = featureNormalize(X)
 X_norm = X;
 mu = zeros(1, size(X, 2)); % storing the mean value in mu
@@ -284,7 +281,10 @@ X_norm = (X .- mu)./sigma;
 end
 </code></pre>
 
-<h2 id="sampling">Sampling</h2></div>
+<h2 id="related-reading">Related Reading</h2>
+<ul>
+<li><a href="http://www.codeproject.com/Articles/1146582/Introduction-to-Machine-Learning">Introduction to Machine Learning</a></li>
+</ul></div>
             
         </div>
 
