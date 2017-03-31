@@ -1,7 +1,8 @@
-site_name: DataScience
+site_name: MachineLearning
 pages:
 - "Home": "index.md"
 - "Docs":
+  - "Introduction": "introduction.md"
   - "Process": "process.md"
   - "Problem Definitation": "problem.md"
   - "Gathering": "gathering.md"
@@ -23,3 +24,13 @@ pages:
   - "Q&A": "qanda.md"
 markdown_extensions:
     - footnotes
+extra_css:
+  - css/book.css
+  - css/course.css
+  - css/video.css
+extra_javascript:
+  - js/underscore.js
+  - js/gspreadsheet.js
+  - js/book.js
+  - js/course.js
+  - js/video.js
