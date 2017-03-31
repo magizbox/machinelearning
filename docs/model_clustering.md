@@ -12,7 +12,7 @@
 
 <p style="text-align:justify;">The <code>wine</code> data set contains the results of a chemical analysis of wines grown in a specific area of Italy. Three types of wine are represented in the 178 samples, with the results of 13 chemical analyses recorded for each sample. The Type variable has been transformed into a categoric variable.</p>
 
-[sourcecode language="r"]
+```r
  data(wine, package=&quot;rattle&quot;)
 head(wine)
 
@@ -37,13 +37,13 @@ head(wine)
 #&gt; 4     3.45    1480
 #&gt; 5     2.93     735
 #&gt; 6     2.85    1450
-[/sourcecode]
+```
 
 <h3>Explore and Preprocessing Data</h3>
 
 <p style="text-align:justify;">Let&apos;s see structure of wine data set</p>
 
-[sourcecode language="r"]
+```r
  str(wine)
 
 #&gt; &apos;data.frame&apos;:  178 obs. of  14 variables:
@@ -61,17 +61,17 @@ head(wine)
 #&gt; $ Hue            : num  1.04 1.05 1.03 0.86 1.04 1.05 1.02 1.06 1.08 1.01 ...
 #&gt; $ Dilution       : num  3.92 3.4 3.17 3.45 2.93 2.85 3.58 3.58 2.85 3.55 ...
 #&gt; $ Proline        : int  1065 1050 1185 1480 735 1450 1290 1295 1045 1045 ...
-[/sourcecode]
+```
 
 <p style="text-align:justify;">Wine data set contains 1 categorical variables (label) and 13 numerical variables. But these numerical variables is not scaled, I use <code>scale</code> function for scaling and centering data and then assign it as training data.</p>
 
-[sourcecode language="r"]
+```r
  data.train &lt;- scale(wine[-1])
-[/sourcecode]
+```
 
 <p style="text-align:justify;">Data is already centered and scaled.</p>
 
-[sourcecode language="r"]
+```r
  summary(data.train)
 #&gt;   Alcohol             Malic
 #&gt; Min.   :-2.42739   Min.   :-1.4290
@@ -121,14 +121,14 @@ head(wine)
 #&gt; Median :-0.2331
 #&gt; Mean   : 0.0000
 #&gt; 3rd Qu.: 0.7561
-#&gt; Max.   : 2.9631
-[/sourcecode]
+# &gt; Max.   : 2.963
+```
 
 <h3>Model Fitting</h3>
 
 <p style="text-align:justify;">Now the fun part begins. I use <code>NbClust</code> function to determine what is the best number of clusteres <code>k</code> for K-Means</p>
 
-[sourcecode language="r"]
+```r
  nc &lt;- NbClust(data.train,
               min.nc=2, max.nc=15,
               method=&quot;kmeans&quot;)
@@ -136,13 +136,13 @@ barplot(table(nc$Best.n[1,]),
         xlab=&quot;Numer of Clusters&quot;,
         ylab=&quot;Number of Criteria&quot;,
         main=&quot;Number of Clusters Chosen by 26 Criteria&quot;)
-[/sourcecode]
+```
 
 <p style="text-align:justify;"><img src="http://i.imgur.com/PZpK0fQ.png" alt="" /></p>
 
 <p style="text-align:justify;">According to the graph, we can find the best number of clusters is 3. Beside <code>NbClust</code> function which provides 30 indices for determing the number of clusters and proposes the best clustering scheme, we can draw the sum of square error (SSE) scree plot and look for a bend or elbow in this graph to determine appropriate k</p>
 
-[sourcecode language="r"]
+```r
  wss &lt;- 0
 for (i in 1:15){
   wss[i] &lt;-
@@ -153,7 +153,7 @@ plot(1:15,
   type=&quot;b&quot;,
   xlab=&quot;Number of Clusters&quot;,
   ylab=&quot;Within groups sum of squares&quot;)
-[/sourcecode]
+```
 
 <p style="text-align:justify;"><img src="http://storage1.static.itmages.com/i/15/0507/h_1430988994_4723808_8afc9f6f9a.png" alt="" /></p>
 
@@ -163,13 +163,13 @@ plot(1:15,
 
 <p style="text-align:justify;">We now fit <code>wine</code> data to K-Means with k = 3</p>
 
-[sourcecode language="r"]
+```r
  fit.km &lt;- kmeans(data.train, 3)
-[/sourcecode]
+```
 
 <p style="text-align:justify;">Then interpret the result</p>
 
-[sourcecode language="r"]
+```r
  fit.km
 
 #&gt; K-means clustering with 3 clusters of sizes 51, 65, 62
@@ -210,26 +210,26 @@ plot(1:15,
 #&gt;
 #&gt; [1] &quot;cluster&quot;      &quot;centers&quot;      &quot;totss&quot;
 #&gt; [4] &quot;withinss&quot;     &quot;tot.withinss&quot; &quot;betweenss&quot;
-#&gt; [7] &quot;size&quot;         &quot;iter&quot;         &quot;ifault&quot;
-[/sourcecode]
+# &gt; [7] &quot;size&quot;         &quot;iter&quot;         &quot;ifault&quot
+```
 
 <p style="text-align:justify;">The result shows information about cluster means, clustering vector, sum of square by cluster and available components. Let&apos;s do some visualizations to see how data set is clustered.</p>
 
 <p style="text-align:justify;">First, I use <code>plotcluster</code> function from <code>fpc</code> package to draw discriminant projection plot</p>
 
-[sourcecode language="r"]
+```r
  library(fpc)
 plotcluster(data.train, fit.km$cluster)
-[/sourcecode]
+```
 
 <p style="text-align:justify;"><img src="http://i.imgur.com/XNRnMDz.png" alt="" /></p>
 
 <p style="text-align:justify;">We can see the data is clustered very well, there are no collapse between clusters. Next, we draw parallel coordinates plot to see how variables contributed in each cluster</p>
 
-[sourcecode language="r"]
+```r
  library(MASS)
 parcoord(data.train, fit.km$cluster)
-[/sourcecode]
+```
 
 <p style="text-align:justify;"><img src="http://i.imgur.com/Ir0gn7r.png" alt="" /></p>
 
@@ -239,23 +239,23 @@ parcoord(data.train, fit.km$cluster)
 
 <p style="text-align:justify;">Because the original data set <code>wine</code> also has 3 classes, it is reasonable if we compare these classes with 3 clusters fited by K-Means</p>
 
-[sourcecode language="r"]
+```r
  confuseTable.km &lt;- table(wine$Type, fit.km$cluster)
 confuseTable.km
 #&gt;    1  2  3
 #&gt; 1  0  0 59
 #&gt; 2  3 65  3
-#&gt; 3 48  0  0
-[/sourcecode]
+# &gt; 3 48  0  
+```
 
 <p style="text-align:justify;">We can see only 6 sample is missed. Let&apos;s use randIndex from flexclust to compare these two parititions - one from data set and one from result of clustering method.</p>
 
-[sourcecode language="r"]
+```r
  library(flexclust)
 randIndex(ct.km)
 #&gt;      ARI
 #&gt; 0.897495
-[/sourcecode]
+```
 
 <p style="text-align:justify;">It&apos;s quite close to 1 so K-Means is good model for clustering <code>wine</code> data set.</p>
 

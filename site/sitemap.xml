@@ -3,40 +3,8 @@
 
     
     <url>
-     <loc>None/</loc>
-     <lastmod>2016-08-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/process/</loc>
-     <lastmod>2016-08-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/problem/</loc>
-     <lastmod>2016-08-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/gathering/</loc>
-     <lastmod>2016-08-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/preparation/</loc>
-     <lastmod>2016-08-15</lastmod>
+     <loc>/</loc>
+     <lastmod>2017-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -44,80 +12,68 @@
     
         
     <url>
-     <loc>None/models/</loc>
-     <lastmod>2016-08-15</lastmod>
+     <loc></loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/model_regression/</loc>
-     <lastmod>2016-08-15</lastmod>
+     <loc>/models/</loc>
+     <lastmod>2017-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/model_classification/</loc>
-     <lastmod>2016-08-15</lastmod>
+     <loc>/learn/</loc>
+     <lastmod>2017-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/model_clustering/</loc>
-     <lastmod>2016-08-15</lastmod>
+     <loc>/model_regression/</loc>
+     <lastmod>2017-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/model_neuralnetwork/</loc>
-     <lastmod>2016-08-15</lastmod>
+     <loc>/model_classification/</loc>
+     <lastmod>2017-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/ensemble/</loc>
-     <lastmod>2016-08-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-    <url>
-     <loc>None/evaluation/</loc>
-     <lastmod>2016-08-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-        
-    <url>
-     <loc>None/app_recommendation/</loc>
-     <lastmod>2016-08-15</lastmod>
+     <loc>/model_clustering/</loc>
+     <lastmod>2017-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/app_anomaly/</loc>
-     <lastmod>2016-08-15</lastmod>
+     <loc>/ensemble/</loc>
+     <lastmod>2017-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/app_nlp/</loc>
-     <lastmod>2016-08-15</lastmod>
+     <loc>/app_reduction/</loc>
+     <lastmod>2017-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/app_vision/</loc>
-     <lastmod>2016-08-15</lastmod>
+     <loc>/app_anomaly/</loc>
+     <lastmod>2017-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/app_reduction/</loc>
-     <lastmod>2016-08-15</lastmod>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/qanda/</loc>
+     <lastmod>2017-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

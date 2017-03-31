@@ -1,36 +1,46 @@
-site_name: MachineLearning
+site_name: Machine Learning
 pages:
-- "Home": "index.md"
-- "Docs":
-  - "Introduction": "introduction.md"
-  - "Process": "process.md"
-  - "Problem Definitation": "problem.md"
-  - "Gathering": "gathering.md"
-  - "Preparation": "preparation.md"
-  - "Models":
-    - "Models": "models.md"
-    - "Regression": "model_regression.md"
-    - "Classification": "model_classification.md"
-    - "Clustering": "model_clustering.md"
-    - "Neural Network": "model_neuralnetwork.md"
-    - "Ensemble": "ensemble.md"
-  - "Evaluation": "evaluation.md"
+- "<span class='fa fa-home'></span> Home": "index.md"
+- "<span class='fa fa-book'></span> Learn":
+  - "Machine Learning Process":
+    - "Overview": "process.md"
+    - "Problem Definition": "problem.md"
+    - "Gathering": "gathering.md"
+    - "Preprocessing": "preprocessing.md"
+    - "Model Building": "model_building.md"
+    - "Evaluation": "evaluation.md"
+  - "Machine Learning Problems": "models.md"
+  - "How to learn a ML algorithm?": "learn.md"
+  - "Regression": "model_regression.md"
+  - "Classification": "model_classification.md"
+  - "Clustering": "model_clustering.md"
+  - "Ensemble": "ensemble.md"
+  - "Dimensionality Reduction": "app_reduction.md"
+  - "Anomaly Detection": "app_anomaly.md"
   - "Application":
     - "Recommendation System": "app_recommendation.md"
-    - "Anomaly Detection": "app_anomaly.md"
     - "Natural Language Processing": "app_nlp.md"
     - "Computer Vision": "app_vision.md"
-    - "Dimensionality Reduction": "app_reduction.md"
   - "Q&A": "qanda.md"
+
+extra_css:
+  - components/magiz-c-book/src/book.css
+  - components/magiz-c-course/src/course.css
+  - components/magiz-c-video/src/video.css
+  - components/magiz-c-benchmark/src/benchmark.css
+  - components/magiz-c-paper/src/paper.css
+
+extra_javascript:
+  - components/magiz-c-book/src/gspreadsheet.js
+  - components/underscore/underscore.js
+  - components/magiz-c-paper/src/paper.js
+  - components/magiz-c-course/src/course.js
+  - components/magiz-c-benchmark/src/benchmark.js
+  - components/magiz-c-benchmark/src/bootstrap-popup.js
+  - components/magiz-c-book/src/book.js
+  - components/magiz-c-video/src/video.js
+  - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 markdown_extensions:
     - footnotes
-extra_css:
-  - css/book.css
-  - css/course.css
-  - css/video.css
-extra_javascript:
-  - js/underscore.js
-  - js/gspreadsheet.js
-  - js/book.js
-  - js/course.js
-  - js/video.js
+    - mdx_math

@@ -60,7 +60,7 @@ Multiclass classification should not be confused with multi-label classification
 
 sklearn plot confusion matrix with labels [^3]
 
-[code lang="python"]
+```python
 import matplotlib.pyplot as plt
 def plot_confusion_matrix(cm, title='Confusion matrix', cmap=plt.cm.Blues, labels=None):
     fig = plt.figure()
@@ -74,7 +74,7 @@ def plot_confusion_matrix(cm, title='Confusion matrix', cmap=plt.cm.Blues, label
     plt.xlabel('Predicted')
     plt.ylabel('True')
     plt.show()
-[/code]
+```
 
 ![](http://i.stack.imgur.com/7wlOk.png)
 

@@ -1,8 +1,7 @@
-# DS: Process
+# Machine Learning Process
 
-<blockquote>The good life is a process, not a state of being. It is a direction not a destination.
+> The good life is a process, not a state of being. It is a direction not a destination.
 <p style="text-align:right;"><a title="view author" href="http://www.brainyquote.com/quotes/authors/c/carl_rogers.html">Carl Rogers</a></p>
-</blockquote>
 
 <img class="aligncenter" src="http://docs.oracle.com/cd/B28359_01/datamine.111/b28129/img/dm_process.gif" alt="" width="351" height="216" />
 

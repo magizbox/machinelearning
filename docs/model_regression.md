@@ -21,7 +21,7 @@ Output: <code>Continuous</code>
 
 **Ex1. Linear Regression with Boston Dataset**
 
-[code language="python" title="script.py"]
+```python
 __author__ = 'rain'
 
 from sklearn.datasets import load_boston
@@ -48,7 +48,7 @@ ridge_score = clf_ridge.score(X_test, y_test)
 print y_test
 print clf_linear.predict(X_test)
 print clf_ridge.predict(X_test)
-[/code]
+```
 
 **Ex2. Linear Regression with market data set (coursera)** ([python language="notebook"][/python](https://github.com/rain1024/machine-learning/blob/master/linear-regression.ipynb))
 
@@ -67,13 +67,13 @@ print clf_ridge.predict(X_test)
 
 ### 1. Hyposthesis Representation
 
-$latex h_{\theta}(x) = g(\theta^T x)&s=2$  where $latex g(z) = \frac{1}{1 + e^{-z}}&s=2$
+$$h_{\theta}(x) = g(\theta^T x)\ where\ g(z) = \frac{1}{1 + e^{-z}}$$
 
-g(z) is sigmoid function or logistic function
+\( g(z) \) is sigmoid function or logistic function
 
-$latex h_{\theta}(x)&s=1$ estimated probability of y equal 1 given x
+\( h_{\theta}(x) \) estimated probability of \( y = 1\) given \( x \)
 
-In spam detection problem, $latex h_{\theta}(x) = 0.7$ means it's 70% chance this email is spam.
+In spam detection problem, \( h_{\theta}(x) = 0.7 \) means it's 70% chance this email is spam.
 
 ### 2. Decision Boundary
 
@@ -81,22 +81,22 @@ In spam detection problem, $latex h_{\theta}(x) = 0.7$ means it's 70% chance thi
 
 ### 3. Cost Function
 
-$latex cost(h_{\theta}(x), y) = -y log(h_{\theta}(x)) - (1-y) log(1- h_{\theta}(x))&s=1$
+$$cost(h_{\theta}(x), y) = -y log(h_{\theta}(x)) - (1-y) log(1- h_{\theta}(x))$$
 
 Loss Function
 
-$latex J(\theta) = \frac{1}{m} \sum_{i=1}^{m} cost(h_{\theta}(x^{(i)}), y^{(i)}) \newline =\frac{-1}{m} \sum_{i=1}^{m} y^{(i)} log h_{\theta}(x^{(i)}) + (1-y^{(i)})log(1-h_{\theta}(x^{(i)}))$
+$$J(\theta) = \frac{1}{m} \sum_{i=1}^{m} cost(h_{\theta}(x^{(i)}), y^{(i)}) = \frac{-1}{m} \sum_{i=1}^{m} y^{(i)} log h_{\theta}(x^{(i)}) + (1-y^{(i)})log(1-h_{\theta}(x^{(i)}))$$
 
 
 ### 4. Gradient Descent
 
 Gradient
 
-$latex \frac{\partial J(\theta)}{\partial \theta_j} = \frac{1}{m} \sum^m_{i=1} (h_\theta (x^{(i)}) - y^{(i)}) x_j^{(i)}&s=1$
+$$\frac{\partial J(\theta)}{\partial \theta_j} = \frac{1}{m} \sum^m_{i=1} (h_\theta (x^{(i)}) - y^{(i)}) x_j^{(i)}$$
 
 ### 5. Predict
 
-$latex p(\theta, X) = h_\theta(X) \ge 0.5&s=1$
+$$p(\theta, X) = h_\theta(X) \ge 0.5$$
 
 ### 6. Regularization
 
@@ -104,7 +104,7 @@ $latex p(\theta, X) = h_\theta(X) \ge 0.5&s=1$
 
 Cost Function
 
-[latex]mapFeature(x) =
+$$mapFeature(x) =
 \begin{bmatrix}
 1 \\
 x_1 \\
@@ -117,26 +117,27 @@ x_1^3 \\
 x_1 x_2^5\\
 x_2^6
 \end{bmatrix}
-[/latex]
+$$
 
 #### 6.2 Cost Function and Gradient
 
 Cost Function
-
-[latex]
+$$
 J(\theta) = \frac{1}{m} \sum^m_{i=1} [-y^{(i)} log(h_\theta(x^{(i)})) - (1 - y^{(i)})log(1 - h_\theta(x^{(i)}))] + \frac{\lambda}{2m} \sum^n_{j=1} \theta^2_j
-[/latex]
+$$
 
 Gradient
 
-$latex \frac{\partial J(\theta)}{\partial \theta_j} = \frac{1}{m} \sum^m_{i=1}(h_\theta(x^{(i)}) - y^{(i)})x_j^{(i)}&s=1$ for $latex j = 0&s=1$
+\( \frac{\partial J(\theta)}{\partial \theta_j} = \frac{1}{m} \sum^m_{i=1}(h_\theta(x^{(i)}) - y^{(i)})x_j^{(i)} \)
+for \( j = 0 \)
 
-$latex \frac{\partial J(\theta)}{\partial \theta_j} = \left( \frac{1}{m} \sum^m_{i=1}(h_\theta(x^{(i)}) - y^{(i)})x_j^{(i)}&s=1 \right) + \frac{\lambda}{m} \theta_j&s=1$ for $latex j \ge 1&s=1$
+\( \frac{\partial J(\theta)}{\partial \theta_j} = \left( \frac{1}{m} \sum^m_{i=1}(h_\theta(x^{(i)}) - y^{(i)})x_j^{(i)} \right) + \frac{\lambda}{m} \theta_j \) for \( j \ge 1 \)
+
 <h3>Code</h3>
 
 <a href="http://www2.1010data.com/documentationcenter/beta/Tutorials/MachineLearningExamples/BankMarketingDataSet.html">Bank Marketing Data Set</a>
 
-[code language="python"]
+```python
 import statsmodels.api as sm
 import pandas as pd
 from statsmodels.tools.tools import categorical
@@ -177,36 +178,11 @@ print confusion_matrix(y_test, clf.predict(X_test))
 #  [ 1243   311]]
 # it's too bad
 
-[/code]
+```
 
-<h3>Examples <sup id="fnref-1353-1"><a href="#fn-1353-1" rel="footnote">2</a></sup></h3>
+### Examples
 
 <ul>
 <li>Affair Dataset, Logistic Regression with scikit-learn</li>
 </ul>
-
-<div class="footnotes">
-<hr />
-<ol>
-
-<li id="fn-1353-2">
-<a href="http://www.marketingdistillery.com/2014/11/23/linear-regression-vs-logistic-regression-vs-poisson-regression/">Linear Regression vs Logistic Regression vs Poisson Regression</a>&#160;<a href="#fnref-1353-2" rev="footnote">&#8617;</a>
-</li>
-
-<li id="fn-1353-1">
-<a href="http://nbviewer.ipython.org/github/justmarkham/gadsdc1/blob/master/logistic_assignment/kevin_logistic_sklearn.ipynb">Logistic Regression with scikit-learn</a>&#160;<a href="#fnref-1353-1" rev="footnote">&#8617;</a>
-</li>
-
-</ol>
-</div>
-
-# Polynormial Regression
-
-Polynomial Regression
-
-h theata (x) = theta 0 + theta 1 (size) + theta 2 (size)^ 2 + theta (size)^ 3
-
-Choice of Feature
-
-* Machine Learning Andrew Ng, Polynomial anf Feature Selection
 

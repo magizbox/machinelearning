@@ -4,25 +4,29 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <meta name="description" content="None">
         
         
         <link rel="shortcut icon" href="./img/favicon.ico">
-
-	<title>DataScience</title>
-
+        <title>Machine Learning</title>
         <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="./css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="./css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/highlight.css">
-
+        <link href="./components/magiz-c-book/src/book.css" rel="stylesheet">
+        <link href="./components/magiz-c-course/src/course.css" rel="stylesheet">
+        <link href="./components/magiz-c-video/src/video.css" rel="stylesheet">
+        <link href="./components/magiz-c-benchmark/src/benchmark.css" rel="stylesheet">
+        <link href="./components/magiz-c-paper/src/paper.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
-
-        
+	
+	<script src="./js/jquery-1.10.2.min.js"></script>
+        <script src="./js/bootstrap-3.0.3.min.js"></script>
+        <script src="./js/highlight.pack.js"></script> 
     </head>
 
     <body class="homepage">
@@ -32,7 +36,6 @@
 
         <!-- Collapsed navigation -->
         <div class="navbar-header">
-            
             <!-- Expander button -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -40,140 +43,106 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            
-
-            <!-- Main title -->
-            <a class="navbar-brand" href=".">DataScience</a>
+            <a class="navbar-brand" href=".">Machine Learning</a>
         </div>
 
         <!-- Expanded navigation -->
         <div class="navbar-collapse collapse">
-            
                 <!-- Main navigation -->
                 <ul class="nav navbar-nav">
-                
-                
                     <li class="active">
-                        <a href=".">Home</a>
+                        <a href="."><span class='fa fa-home'></span> Home</a>
                     </li>
-                
-                
-                
-                    <li >
-                        <a href="process/">Process</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="problem/">Problem Definitation</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="gathering/">Gathering</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="preparation/">Preparation</a>
-                    </li>
-                
-                
-                
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Models <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class='fa fa-book'></span> Learn <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                        
+                            
+  <li class="dropdown-submenu">
+    <a href="#">Machine Learning Process</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="process/">Overview</a>
+</li>
+            
+<li >
+    <a href="problem/">Problem Definition</a>
+</li>
+            
+<li >
+    <a href="gathering/">Gathering</a>
+</li>
+            
+<li >
+    <a href="preprocessing/">Preprocessing</a>
+</li>
+            
+<li >
+    <a href="model_building/">Model Building</a>
+</li>
+            
+<li >
+    <a href="evaluation/">Evaluation</a>
+</li>
+    </ul>
+  </li>
                             
 <li >
-    <a href="models/">Models</a>
+    <a href="models/">Machine Learning Problems</a>
 </li>
-
-                        
+                            
+<li >
+    <a href="learn/">How to learn a ML algorithm?</a>
+</li>
                             
 <li >
     <a href="model_regression/">Regression</a>
 </li>
-
-                        
                             
 <li >
     <a href="model_classification/">Classification</a>
 </li>
-
-                        
                             
 <li >
     <a href="model_clustering/">Clustering</a>
 </li>
-
-                        
-                            
-<li >
-    <a href="model_neuralnetwork/">Neural Network</a>
-</li>
-
-                        
                             
 <li >
     <a href="ensemble/">Ensemble</a>
 </li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="evaluation/">Evaluation</a>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Application <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="app_recommendation/">Recommendation System</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="app_anomaly/">Anomaly Detection</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="app_nlp/">Natural Language Processing</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="app_vision/">Computer Vision</a>
-</li>
-
-                        
                             
 <li >
     <a href="app_reduction/">Dimensionality Reduction</a>
 </li>
-
-                        
+                            
+<li >
+    <a href="app_anomaly/">Anomaly Detection</a>
+</li>
+                            
+  <li class="dropdown-submenu">
+    <a href="#">Application</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="app_recommendation/">Recommendation System</a>
+</li>
+            
+<li >
+    <a href="app_nlp/">Natural Language Processing</a>
+</li>
+            
+<li >
+    <a href="app_vision/">Computer Vision</a>
+</li>
+    </ul>
+  </li>
+                            
+<li >
+    <a href="qanda/">Q&A</a>
+</li>
                         </ul>
                     </li>
-                
-                
                 </ul>
-            
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
@@ -181,7 +150,6 @@
                         <i class="fa fa-search"></i> Search
                     </a>
                 </li>
-                
                     <li class="disabled">
                         <a rel="next" >
                             <i class="fa fa-arrow-left"></i> Previous
@@ -192,184 +160,47 @@
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
-                
-                
             </ul>
         </div>
     </div>
 </div>
 
         <div class="container">
-            
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-    
-        <li class="main active"><a href="#ds-101">DS: 101</a></li>
-        
-    
-        <li class="main "><a href="#data-science-questions-and-answers">Data Science: Questions and Answers</a></li>
-        
-    
-        <li class="main "><a href="#ds-python-data-mining-folder-structure">DS: Python Data Mining Folder Structure</a></li>
-        
-    
-        <li class="main "><a href="#competition">Competition</a></li>
-        
-    
-        <li class="main "><a href="#kaggle">Kaggle</a></li>
-        
-            <li><a href="#articles">Articles</a></li>
-        
-    
-        <li class="main "><a href="#tools">Tools</a></li>
-        
-    
-        <li class="main "><a href="#third-party-apis">Third Party APIs</a></li>
-        
-    
-        <li class="main "><a href="#conferences-journals-groups-social-networks-and-people">Conferences, Journals, Groups, Social Networks and People</a></li>
-        
-    
-        <li class="main "><a href="#ds-cultures">DS: Cultures</a></li>
-        
-    
-        <li class="main "><a href="#ds-courses">DS: Courses</a></li>
-        
-    
+        <li class="main active"><a href="#machine-learning">Machine Learning</a></li>
+        <li class="main "><a href="#books">Books</a></li>
+        <li class="main "><a href="#courses">Courses</a></li>
+        <li class="main "><a href="#videos">Videos</a></li>
+        <li class="main "><a href="#conferences">Conferences</a></li>
+        <li class="main "><a href="#journals">Journals</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<p><img alt="" src="http://www.nerdgraph.com/wp-content/uploads/How-to-become-a-data-scientist-620x2837.jpg" /></p>
-<h1 id="ds-101">DS: 101</h1>
-<h1 id="data-science-questions-and-answers">Data Science: Questions and Answers</h1>
-<h4>What is Precision and recall? <sup id="fnref-922-1"><a href="#fn-922-1" rel="footnote">1</a></sup></h4>
+<h1 id="machine-learning">Machine Learning</h1>
+<blockquote>
+<p>Machine learning is a branch of science that deals with programming the systems in such a way that they automatically learn and improve with experience. Here, learning means recognizing and understanding the input data and making wise decisions based on the supplied data.</p>
+</blockquote>
+<p>We can think of machine learning as approach to automate tasks like predictions or modelling. For example, consider an email spam filter system, instead of having programmers manually looking at the emails and coming up with spam rules. We can use a machine learning algorithm and feed it input data (emails) and it will automatically discover rules that are powerful enough to distinguish spam emails.</p>
+<p>Machine learning is used in many application nowadays like spam detection in emails or movie recommendation systems that tells you movies that you might like based on your viewing history. The nice and powerful thing about machine learning is: It learns when it gets more data and hence it gets more and more powerful the more data we give them.</p>
+<h1 id="books">Books</h1>
+<div class="books" gid="1FUy9-dpAcceOa3u2t8i_OeVCGzwGKRNwfCmhHxHBu2Q"></div>
 
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Precisionrecall.svg/350px-Precisionrecall.svg.png" alt="" /></p>
-<h4>What are 'Overfitting' and 'Underfitting'? <sup id="fnref-922-2"><a href="#fn-922-2" rel="footnote">2</a></sup> <img class="alignnone" src="http://pingax.com/wp-content/uploads/2014/05/underfitting-overfitting.png" alt="" width="555" height="140" /></h4>
+<div class="clearfix"></div>
 
-<h4>What are popular algorithms? <sup id="fnref2:922-2"><a href="#fn-922-2" rel="footnote">2</a></sup></h4>
+<h1 id="courses">Courses</h1>
+<div class="courses" gid="1hw7s0lm0qi7yJV0rOsF0lGL6dOIhNdWpn6QT6kveq94"></div>
 
-<ul>
-<li>Decision Trees</li>
-<li>Neural Networks (back propagation)</li>
-<li>Probabilistic networks</li>
-<li>Nearest Neighbor</li>
-<li>Support vector machines</li>
-</ul>
+<div class="clearfix"></div>
 
-<h4>Describe a "Rolls Royce" solution that you could implement in 3 months, 3 weeks and 3 days.</h4>
+<h1 id="videos">Videos</h1>
+<div class="videos" gid="1yJF6Hm5rxycY6egXQHYf_6-pxI8N8IbPx99HZn4n8VM"></div>
 
-<p>[!TODO]</p>
-<h2>Machine Learning Problems <sup id="fnref-922-3"><a href="#fn-922-3" rel="footnote">3</a></sup></h2>
+<div class="clearfix"></div>
 
-<p>[!TODO]</p>
-<h4>How would you generate related searches on Bing? <sup id="fnref2:922-3"><a href="#fn-922-3" rel="footnote">3</a></sup></h4>
-
-<p>[!TODO]</p>
-<h4>How would you approach the Netflix Prize? <sup id="fnref3:922-3"><a href="#fn-922-3" rel="footnote">3</a></sup></h4>
-
-<p>[!TODO]</p>
-<h4>How would you suggest followers on Twitter? <sup id="fnref4:922-3"><a href="#fn-922-3" rel="footnote">3</a></sup></h4>
-
-<p>[!TODO]</p>
-<div class="footnotes">
-<hr />
-<ol>
-
-<li id="fn-922-1">
-<a href="https://en.wikipedia.org/wiki/Precision_and_recall" target="_blank">https://en.wikipedia.org/wiki/Precision_and_recall</a>&#160;<a href="#fnref-922-1" rev="footnote">&#8617;</a>
-</li>
-
-<li id="fn-922-2">
-<a href="http://career.guru99.com/top-50-interview-questions-on-machine-learning/" target="_blank">http://career.guru99.com/top-50-interview-questions-on-machine-learning/</a>&#160;<a href="#fnref-922-2" rev="footnote">&#8617;</a> <a href="922-2" rev="footnote">&#8617;</a>
-</li>
-
-<li id="fn-922-3">
-<a href="http://www.quora.com/What-are-the-best-interview-questions-to-evaluate-a-machine-learning-researcher" target="_blank">http://www.quora.com/What-are-the-best-interview-questions-to-evaluate-a-machine-learning-researcher</a>&#160;<a href="#fnref-922-3" rev="footnote">&#8617;</a> <a href="922-3" rev="footnote">&#8617;</a> <a href="922-3" rev="footnote">&#8617;</a> <a href="922-3" rev="footnote">&#8617;</a>
-</li>
-
-</ol>
-</div>
-
-<h1 id="ds-python-data-mining-folder-structure">DS: Python Data Mining Folder Structure</h1>
-<pre><code>code/
-├── data/
-└── script.py
-</code></pre>
-
-<h1 id="competition">Competition</h1>
-<h1 id="kaggle">Kaggle</h1>
-<p><strong>The reasons why you should take a competition</strong></p>
-<p>According to <a href="http://www.kdnuggets.com/2015/03/10-steps-success-kaggle-data-science-competitions.html" target="_blank">Yanir Seroussi</a>, if you’re a data scientist (or want to become one), participating in competitions is a great way of honing your skills, building reputation, and potentially winning some cash.</p>
-<p><strong>Introduction to <a href="https://www.kaggle.com/" target="_blank">Kaggle</a></strong></p>
-<p class="intro">Kaggle is the world's largest community of data scientists. They compete with each other to solve complex data science problems, and the top competitors are invited to work on the most interesting and sensitive business problems from some of the world’s biggest companies through Masters competitions.</p>
-
-<p class="intro">Kaggle provides cutting-edge data science results to companies of all sizes. We have a proven track-record of solving real-world problems across a diverse array of industries including life sciences, financial services, energy, information technology, and retail.</p>
-
-<p><strong>Profiling top Kagglers</strong></p>
-<ul>
-    <li><a href="http://blog.kaggle.com/2015/05/07/profiling-top-kagglers-kazanovacurrently-2-in-the-world/" target="_blank">Profiling Top Kagglers: KazAnova Currently #2 in the World</a></li>
-    <li><a href="http://blog.kaggle.com/2015/06/22/profiling-top-kagglers-owen-zhang-currently-1-in-the-world/" target="_blank">Profiling Top Kagglers: Owen Zhang, Currently #1 in the World</a></li>
-</ul>
-
-<p><strong>How to compete</strong> <sup id="fnref-15-1"><a href="#fn-15-1" rel="footnote">1</a></sup></p>
-<p><img class="alignnone" src="https://lh3.googleusercontent.com/rTCsoldaVmbWKP5dOpmQOuDyOcNa2IhE64WIIG1iYm-2=w720-h637-no" alt="" width="720" height="637" /></p>
-<ol>
-    <li>Read the manual</li>
-    <li>Understand the performance measure</li>
-    <li>Know your data</li>
-    <li>Understand what you want to achieve before worrying about the how</li>
-    <li>Set up a local validation environment</li>
-    <li>Monitor the forum</li>
-    <li>Do your research</li>
-    <li>Apply the basics rigorously</li>
-    <li>Ensemble all the things</li>
-    <li>Win</li>
-</ol>
-
-<p><strong>Tools</strong></p>
-<p><em>Exploring Data</em></p>
-<ul>
-    <li><a href="http://sqlitestudio.pl/" target="_blank">SQLiteStudio</a></li>
-</ul>
-
-<p><em>IDE</em></p>
-<ul>
-    <li><a href="https://datayo.wordpress.com/2015/06/23/pycharm-python-ide-for-data-scientist/" target="_blank">Pycharm for Python</a></li>
-    <li><a href="https://datayo.wordpress.com/2015/05/09/r-ide/" target="_blank">RStudio for R</a></li>
-</ul>
-
-<p><em>Machine learning libraries</em></p>
-<p>Python: scikit-learn, XGBoost, Vowpal Wabbit, cuda-convnet2</p>
-<p>R <sup id="fnref-15-2"><a href="#fn-15-2" rel="footnote">2</a></sup> : gbm, randomForest, e1071, glmnet, tau, Matrix, SOAR, forEach, doMC, data.table</p>
-<h3 id="articles">Articles</h3>
-<ul>
-<li><a href="https://www.quora.com/What-do-top-Kaggle-competitors-focus-on">What do top Kaggle competitors focus on?</a></li>
-</ul>
-<div class="footnotes">
-<hr />
-<ol>
-
-<li id="fn-15-1">
-Yanir Seroussi, 2015. <em>10 Steps to Success in Kaggle Data Science Competitions</em>. [ONLINE] Available at: <a href="http://www.kdnuggets.com/2015/03/10-steps-success-kaggle-data-science-competitions.html" target="_blank">http://www.kdnuggets.com/2015/03/10-steps-success-kaggle-data-science-competitions.html</a>. [Accessed 10 March 2015].&#160;<a href="#fnref-15-1" rev="footnote">&#8617;</a>
-</li>
-
-<li id="fn-15-2">
-DataRobot, 2015. <em>10 R Packages to Win Kaggle Competitions</em>. [ONLINE] Available at <a href="http://www.slideshare.net/DataRobot/final-10-r-xc-36610234" target="_blank">http://www.slideshare.net/DataRobot/final-10-r-xc-36610234</a> [Accessed 03 July 2014].&#160;<a href="#fnref-15-2" rev="footnote">&#8617;</a>
-</li>
-
-</ol>
-</div>
-
-<h1 id="tools">Tools</h1>
-<h1 id="third-party-apis">Third Party APIs</h1>
-<p>Original post: <a href="http://www.kdnuggets.com/2015/11/machine-learning-apis-data-science.html/2">http://www.kdnuggets.com/2015/11/machine-learning-apis-data-science.html/2</a></p>
-<p>Keep update your knowledge with many conferences, groups and social networks about machine learning and data mining</p>
-<h1 id="conferences-journals-groups-social-networks-and-people">Conferences, Journals, Groups, Social Networks and People</h1>
-<p><h3>Conferences</h3></p>
+<h1 id="conferences">Conferences</h1>
 <p><a href="http://icml.cc/" target="_blank">ICML - Internal Conference on Machine Learning</a></p>
-<p><img alt="" src="http://hci-kdd.org/wordpress/wp-content/uploads/2014/11/International-Conference-Machine-Learning-2016.jpg" /></p>
 <p>The International Conference on Machine Learning (ICML) is the leading international academic conference in machine learning, attracting annually about 500 participants from all over the world. It is supported by the International Machine Learning Society (IMLS). The conference attracts leading innovations in the field of machine learning.</p>
 <p><a href="https://nips.cc/" target="_blank">NIPS - Annual Conference on Neural Information Processing </a></p>
 <p>The Conference and Workshop on Neural Information Processing Systems (NIPS) is a machine learning and computational neuroscience conference held every December. The conference is a single track meeting that includes invited talks as well as oral and poster presentations of refereed papers, followed by parallel-track workshops that up to 2013 were held at ski resorts. According to Microsoft Academic Search, NIPS is the top conference on machine learning.</p>
@@ -387,90 +218,57 @@ Interdisciplinary education among KDD researchers, practitioners, and users
 KDD activities include the annual Conference on Knowledge Discovery and Data Mining and the SIGKDD Explorations Newsletter.</li>
 </ul>
 
-<h3>Journals</h3>
-
+<h1 id="journals">Journals</h1>
 <p><a href="http://jmlr.csail.mit.edu/" target="_blank">JMLR - Journal of Machine Learning Research</a></p>
 <p>The Journal of Machine Learning Research (JMLR) provides an international forum for the electronic and paper publication of high-quality scholarly articles in all areas of machine learning. All published papers are freely available online.</p>
 <p><a href="http://www.jair.org/" target="_blank">JAIR - Journal of Artificial Intelligence Research</a></p>
-<p>JAIR(ISSN 1076 - 9757) covers all areas of artificial intelligence (AI), publishing refereed research articles, survey articles, and technical notes. Established in 1993 as one of the first electronic scientific journals, JAIR is indexed by INSPEC, Science Citation Index, and MathSciNet. JAIR reviews papers within approximately three months of submission and publishes accepted articles on the internet immediately upon receiving the final versions. JAIR articles are published for free distribution on the internet by the AI Access Foundation, and for purchase in bound volumes by AAAI Press.</p>
-<h3>Groups and Social Networks</h3>
-
-<p>You can join many peer groups - see <a href="http://www.kdnuggets.com/2013/04/top-30-linkedin-groups-analytics-big-data-data-mining-data-science.html" target="_blank">Top 30 LinkedIn Groups for Analytics, Big Data, Data Mining, and Data Science</a>.</p>
-<p><a href="http://www.analyticbridge.com/" target="_blank">AnalyticBridge </a>is an active community for Analytics and Data Science.</p>
-<p>You can attend some of the many <a href="http://www.kdnuggets.com/meetings/index.html" target="_blank">Meetings and Conferences on Analytics, Big Data, Data Mining, Data Science, &amp; Knowledge Discovery</a>.</p>
-<h3>People</h3>
-
-<p><a href="https://scholar.google.com/citations?hl=en&amp;user=Q_kKkIUAAAAJ&amp;view_op=list_works" target="_blank">Jure Leskovec</a>: <small>#SocialNetworkAnalysis</small></p>
-<p><a href="https://scholar.google.com/citations?hl=en&amp;user=JgDKULMAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank">Andrew Ng</a>: <small>#DeepLearning</small></p>
-<p><a href="https://scholar.google.com/citations?user=8OYE6iEAAAAJ" target="_blank">David Blei</a>: <small>#TopicModel</small></p>
-<p><a href="http://people.csail.mit.edu/matei/" target="_blank">Matei Zaharia</a>: <small>#apachespark , #2013, </small>creator of apache spark, (interview <a href="http://www.kdnuggets.com/2015/05/interview-matei-zaharia-creator-apache-spark.html" target="_blank">#1</a>)</p>
-<h4>References</h4>
-
-<ul>
-    <li>quora.com, <a href="http://www.quora.com/What-are-the-best-conferences-and-journals-about-machine-learning" target="_blank">What are the best conferences and journals about machine learning?</a></li>
-    <li>kdnuggets.com, <a href="http://www.kdnuggets.com/2013/10/7-steps-learning-data-mining-data-science.html" target="_blank">7 Steps for Learning Data Mining and Data Science</a></li>
-    <li>kdnuggets.com, <a href="http://www.kdnuggets.com/2013/10/7-steps-learning-data-mining-data-science.html" target="_blank">7 Steps for Learning Data Mining and Data Science</a></li>
-</ul>
-
-<h1 id="ds-cultures">DS: Cultures</h1>
-<blockquote>
-<p>What are machine learning cultures? Who are invent and follow what culture?</p>
-</blockquote>
-<p>Inspired from two interesting papers,</p>
-<ul>
-<li><a href="http://projecteuclid.org/download/pdf_1/euclid.ss/1009213726">Leo Breiman, 2001, <em>Statistical Modeling: The Two Cultures (with comments and a rejoinder by the author)</em></a></li>
-<li><a href="https://www.cs.jhu.edu/~jason/tutorials/ml-simplex.html">Jason Eisner, 2015, <em>The Three Cultures of Machine Learning</em></a></li>
-</ul>
-<p>Frequentist</p>
-<p>Bayesian</p>
-<p>Algorithmic Modeling, Deep Learning</p>
-<h1 id="ds-courses">DS: Courses</h1>
-<p><a href="http://magizbox.com/pages/ds-course/">Data Science Courses</a></p></div>
-            
+<p>JAIR(ISSN 1076 - 9757) covers all areas of artificial intelligence (AI), publishing refereed research articles, survey articles, and technical notes. Established in 1993 as one of the first electronic scientific journals, JAIR is indexed by INSPEC, Science Citation Index, and MathSciNet. JAIR reviews papers within approximately three months of submission and publishes accepted articles on the internet immediately upon receiving the final versions. JAIR articles are published for free distribution on the internet by the AI Access Foundation, and for purchase in bound volumes by AAAI Press.</p></div>
         </div>
 
         <footer class="col-md-12">
             <hr>
-            
             <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-
-        <script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
         <script>var base_url = '.';</script>
         <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
         <script src="./js/base.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+        <script src="./components/magiz-c-book/src/gspreadsheet.js"></script>
+        <script src="./components/underscore/underscore.js"></script>
+        <script src="./components/magiz-c-paper/src/paper.js"></script>
+        <script src="./components/magiz-c-course/src/course.js"></script>
+        <script src="./components/magiz-c-benchmark/src/benchmark.js"></script>
+        <script src="./components/magiz-c-benchmark/src/bootstrap-popup.js"></script>
+        <script src="./components/magiz-c-book/src/book.js"></script>
+        <script src="./components/magiz-c-video/src/video.js"></script>
+        <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
                     </div>
-                    <div class="modal-body">
-                        <p>
-                            From here you can search these documents. Enter
-                            your search terms below.
-                        </p>
-                        <form role="form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
-                            </div>
-                        </form>
-                        <div id="mkdocs-search-results"></div>
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
             </div>
         </div>
+    </div>
+</div>
 
     </body>
 </html>
 
 <!--
-MkDocs version : 0.15.3
-Build Date UTC : 2016-08-15 08:16:46.960000
+MkDocs version : 0.16.1
+Build Date UTC : 2017-03-31 04:23:16
 -->
