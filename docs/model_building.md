@@ -15,7 +15,7 @@
 
 ### Create Model
 
-First thing first, start with simple and fast model first, then you known how difficult the problem is. One import things is create a well pipeline for your experiments, it is very helpful for you to turning features, model selection and write reports.
+First thing first, start with simple and fast model first, then you known how difficult the problem is. One import thing is create a well pipeline for your experiments, it is very helpful for you to turning features, model selection, save your experiment and write reports.
 
 #### Feature Selections
 
