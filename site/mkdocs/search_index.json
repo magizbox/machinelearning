@@ -102,7 +102,7 @@
         }, 
         {
             "location": "/model_building/", 
-            "text": "Model Building\n\n\nIn this phase, you select and apply various modeling techniques and calibrate the parameters to optimal values. If the algorithm requires data transformations, you will need to step back to the previous phase to implement them\n\n\n\n\nCreate Model\n\n\nTest Model\n\n\nEvaluate \n Interpret Model\n\n\n\n\nSome important questions\n\n\n\n\nIs at least one of predictors useful in predicting the response? (F-statistics)\n\n\nDo all the predictors help to explain Y, or is only a subset of the predictors useful? (all subsets or best subsets)\n\n\nHow well does the model fit the data?\n\n\nGiven a set of predictor values, what response value should we predict, and how accurate is our prediction?\n\n\n\n\nCreate Model\n\n\nFirst thing first, start with simple and fast model first, then you known how difficult the problem is. One import thing is create a well pipeline for your experiments, it is very helpful for you to turning features, model selection, save your experiment and write reports.\n\n\nFeature Selections\n\n\n\n\n\nAfter train model, some model will give active features (such as CRF), it is clue for you to feature selection. If amount active features is too small compared to amount features, it is the problem. In this case the better way to enhance is try reduce amount of features and see how well this set fit data. Keep in mind the more number of features is, the complex model is, and it will make your model over fitting.\n\n\n\n\n\n\nStoring the model\nNumber of active features: 5566 (35383)\nNumber of active attributes: 4343 (20722)\n\n\n\n\nexample after training crf model with python-crfsuite\n\n\n\n\n\n\n\n\nTest Model\n\n\nThis phase determines how well the model fit data. See \nEvaluation\n for details.", 
+            "text": "Model Building\n\n\nIn this phase, you select and apply various modeling techniques and calibrate the parameters to optimal values. If the algorithm requires data transformations, you will need to step back to the previous phase to implement them\n\n\n\n\nCreate Model\n\n\nTest Model\n\n\nEvaluate \n Interpret Model\n\n\n\n\nSome important questions\n\n\n\n\nIs at least one of predictors useful in predicting the response? (F-statistics)\n\n\nDo all the predictors help to explain Y, or is only a subset of the predictors useful? (all subsets or best subsets)\n\n\nHow well does the model fit the data?\n\n\nGiven a set of predictor values, what response value should we predict, and how accurate is our prediction?\n\n\n\n\nCreate Model\n\n\nFirst thing first, start with simple and fast model, then you known how difficult the problem is.\n\n\nOne import thing is create a well pipeline for your experiments, it is very helpful in turning features, model selection, save your experiment and write reports.\n\n\nFeature Selections\n\n\n\n\n\nAfter train model, some model will give active features (such as CRF), it is clue for you to feature selection. If amount active features is too small compared to amount features, it is the problem. In this case the better way to enhance is try reduce amount of features and see how well this set fit data. Keep in mind the more number of features is, the complex model is, and it will make your model over fitting.\n\n\n\n\n\n\nStoring the model\nNumber of active features: 5566 (35383)\nNumber of active attributes: 4343 (20722)\n\n\n\n\nexample after training crf model with python-crfsuite\n\n\n\n\n\n\n\n\nTest Model\n\n\nThis phase determines how well the model fit data. See \nEvaluation\n for details.\n\n\nWhat to do next\n\n\nIn an interview Andrew Ng said about building machine learning model\n\n\n\n\n\"I often make an analogy to building a rocket ship. A rocket ship is a giant engine together with a ton of fuel. Both need to be really big. If you have a lot of fuel and a tiny engine, you won\u2019t get off the ground. If you have a huge engine and a tiny amount of fuel, you can lift up, but you probably won\u2019t make it to orbit. So you need a big engine and a lot of fuel.\n\n\nThe reason that machine learning is really taking off now is that we finally have the tools to build the big rocket engine \u2014 that is giant computers, that\u2019s our rocket engine. And the fuel is the data. We finally are getting the data that we need.\"\n\n\n\n\nWe need both big rocket engine and data to make our model works.\n\n\nRelated Reading\n\n\n\n\nInside The Mind That Built Google Brain: On Life, Creativity, And Failure, \nhuffingtonpost.com", 
             "title": "Model Building"
         }, 
         {
@@ -112,7 +112,7 @@
         }, 
         {
             "location": "/model_building/#create-model", 
-            "text": "First thing first, start with simple and fast model first, then you known how difficult the problem is. One import thing is create a well pipeline for your experiments, it is very helpful for you to turning features, model selection, save your experiment and write reports.", 
+            "text": "First thing first, start with simple and fast model, then you known how difficult the problem is.  One import thing is create a well pipeline for your experiments, it is very helpful in turning features, model selection, save your experiment and write reports.", 
             "title": "Create Model"
         }, 
         {
@@ -124,6 +124,16 @@
             "location": "/model_building/#test-model", 
             "text": "This phase determines how well the model fit data. See  Evaluation  for details.", 
             "title": "Test Model"
+        }, 
+        {
+            "location": "/model_building/#what-to-do-next", 
+            "text": "In an interview Andrew Ng said about building machine learning model   \"I often make an analogy to building a rocket ship. A rocket ship is a giant engine together with a ton of fuel. Both need to be really big. If you have a lot of fuel and a tiny engine, you won\u2019t get off the ground. If you have a huge engine and a tiny amount of fuel, you can lift up, but you probably won\u2019t make it to orbit. So you need a big engine and a lot of fuel.  The reason that machine learning is really taking off now is that we finally have the tools to build the big rocket engine \u2014 that is giant computers, that\u2019s our rocket engine. And the fuel is the data. We finally are getting the data that we need.\"   We need both big rocket engine and data to make our model works.", 
+            "title": "What to do next"
+        }, 
+        {
+            "location": "/model_building/#related-reading", 
+            "text": "Inside The Mind That Built Google Brain: On Life, Creativity, And Failure,  huffingtonpost.com", 
+            "title": "Related Reading"
         }, 
         {
             "location": "/evaluation/", 
